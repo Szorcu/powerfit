@@ -6,7 +6,7 @@ export const HeroSection = () => {
         loop
         muted
         playsInline
-        className="absolute inset-0 w-full h-full object-cover scale-x-[-1]"
+        className="absolute inset-0 h-full w-full scale-x-[-1] object-cover"
       >
         <source src="/hero-bg.mp4" type="video/mp4" />
       </video>

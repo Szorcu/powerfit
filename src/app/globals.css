@@ -161,3 +161,9 @@
     overflow-wrap: break-word;
   }
 }
+
+@layer utilities {
+  .container {
+    padding-inline: 1.5rem;
+  }
+}

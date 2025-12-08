@@ -1,16 +1,48 @@
+"use client";
+
+import { useEffect, useState } from "react";
 import { Button } from "@/components/atoms/Button";
 import Image from "next/image";
 import Link from "next/link";
+import { cn } from "@/lib/utils";
+import { Menu } from "lucide-react";
 
 export const Navbar = () => {
+  const [isStick, setIsStick] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setIsStick(window.scrollY > 10);
+    };
+
+    window.addEventListener("scroll", handleScroll, { passive: true });
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
   return (
-    <nav className="fixed flex justify-center w-full py-12 px-5 z-50 text-white">
-      <div className="container flex justify-between items-center">
+    <nav
+      className={cn(
+        "fixed top-0 z-50 flex w-full justify-center border-b text-white transition-[padding,background-color,backdrop-filter,border-color,box-shadow] duration-300 ease-in-out",
+        isStick
+          ? "border-white/10 bg-[#222222]/50 py-3 shadow-md backdrop-blur-md xl:py-6"
+          : "border-transparent bg-transparent py-6 xl:py-12",
+      )}
+    >
+      <div className="container flex items-center justify-between">
         <Link href="/">
-          <Image src="/logo.svg" alt="Powerfit Logo" width={226} height={50} />
+          <Image
+            className="h-10 w-auto xl:h-[50px]"
+            src="/logo.svg"
+            alt="Powerfit Logo"
+            width={170}
+            height={40}
+          />
         </Link>
 
-        <ul className="flex gap-12 text-sm">
+        <ul className="hidden xl:flex xl:gap-12 xl:text-sm">
           <li>
             <Link href="o-nas">o nas</Link>
           </li>
@@ -31,7 +63,9 @@ export const Navbar = () => {
           </li>
         </ul>
 
-        <Button>Kontakt</Button>
+        <Button className="hidden xl:block">Kontakt</Button>
+
+        <Menu className="block xl:hidden" size={24} />
       </div>
     </nav>
   );

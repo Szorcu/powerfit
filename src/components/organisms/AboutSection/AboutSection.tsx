@@ -4,9 +4,9 @@ export const AboutSection = () => {
   return (
     <section
       id="about"
-      className="w-full flex justify-center bg-[#222222] text-white"
+      className="flex w-full justify-center bg-[#222222] text-white"
     >
-      <div className="container grid gap-20 py-20 lg:grid-cols-[2fr_3fr] lg:gap-40">
+      <div className="container grid gap-20 py-20 xl:grid-cols-[2fr_3fr] xl:gap-40">
         <div className="flex flex-col gap-8">
           <h2 className="">O siłowni PowerFit</h2>
 
@@ -33,7 +33,7 @@ export const AboutSection = () => {
             loop
             muted
             playsInline
-            className="object-cover rounded-2xl"
+            className="rounded-2xl object-cover"
           >
             <source src="/about.mp4" type="video/mp4" />
           </video>
