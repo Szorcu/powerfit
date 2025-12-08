@@ -15,6 +15,8 @@ export const Navbar = () => {
       setIsStick(window.scrollY > 10);
     };
 
+    handleScroll();
+
     window.addEventListener("scroll", handleScroll, { passive: true });
 
     return () => {
@@ -27,7 +29,7 @@ export const Navbar = () => {
       className={cn(
         "fixed top-0 z-50 flex w-full justify-center border-b text-white transition-[padding,background-color,backdrop-filter,border-color,box-shadow] duration-300 ease-in-out",
         isStick
-          ? "border-white/10 bg-[#222222]/50 py-3 shadow-md backdrop-blur-md xl:py-6"
+          ? "border-white/10 bg-[#222222]/50 py-3 shadow-md backdrop-blur-md xl:py-4"
           : "border-transparent bg-transparent py-6 xl:py-12",
       )}
     >
