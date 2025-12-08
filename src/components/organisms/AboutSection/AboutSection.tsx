@@ -2,10 +2,7 @@ import { Button } from "@/components/atoms/Button";
 
 export const AboutSection = () => {
   return (
-    <section
-      id="about"
-      className="flex w-full justify-center bg-[#222222] text-white"
-    >
+    <section className="flex w-full justify-center bg-[#222222] text-white">
       <div className="container grid gap-20 py-7 sm:py-20 xl:grid-cols-[2fr_3fr] xl:gap-40">
         <div className="flex flex-col gap-8">
           <h2>O siłowni PowerFit</h2>
