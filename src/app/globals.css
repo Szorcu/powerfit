@@ -154,11 +154,17 @@
   h6 {
     font-family: var(--font-zalando);
     font-weight: 600;
-    font-size: 2.25rem;
-    line-height: 100%;
 
     text-wrap: balance;
     overflow-wrap: break-word;
+  }
+
+  h1 {
+    @apply text-3xl lg:text-6xl;
+  }
+
+  h2 {
+    @apply text-2xl lg:text-3xl;
   }
 }
 
