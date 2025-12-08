@@ -5,7 +5,7 @@ import localFont from "next/font/local";
 import clsx from "clsx";
 
 export const metadata: Metadata = {
-  title: "Power Fit - siłownia i klub fitness Białystok",
+  title: "Power Fit | Siłownia i klub fitness Białystok",
   description:
     "Poznaj Power Fit – nową siłownię z pozytywnym klimatem i trenerami, którzy rozumieją, że forma to proces, nie wyścig.",
 };
