@@ -167,7 +167,7 @@
   }
 
   .container {
-    padding-inline: 1.5rem;
+    @apply px-6;
   }
 
   .link {
