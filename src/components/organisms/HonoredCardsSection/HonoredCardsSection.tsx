@@ -23,7 +23,7 @@ export const HonoredCardsSection = () => {
 
           <Button className="w-fit">Kup karnet</Button>
 
-          <div className="mt-12 xl:absolute xl:-right-32 xl:bottom-0 2xl:-right-40">
+          <div className="mt-12 xl:absolute xl:-right-32 xl:bottom-0 2xl:-right-36">
             <div className="relative z-10">
               <Image
                 className="h-auto max-w-1/2 sm:max-w-none"

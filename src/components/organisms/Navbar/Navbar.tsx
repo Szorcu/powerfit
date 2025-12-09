@@ -29,7 +29,7 @@ export const Navbar = () => {
       className={cn(
         "fixed top-0 z-50 flex w-full justify-center border-b text-white transition-[padding,background-color,backdrop-filter,border-color,box-shadow] duration-300 ease-in-out",
         isStick
-          ? "border-white/10 bg-[#222222]/50 py-3 shadow-md backdrop-blur-md xl:py-4"
+          ? "border-white/20 bg-[#222222]/50 py-3 shadow-md backdrop-blur-md xl:py-4"
           : "border-transparent bg-transparent py-6 xl:py-12",
       )}
     >
@@ -38,7 +38,7 @@ export const Navbar = () => {
           <Image
             className="h-10 w-auto xl:h-[50px]"
             src="/logo-full.svg"
-            alt="Powerfit Logo"
+            alt="Power Fit logo"
             width={170}
             height={40}
           />
