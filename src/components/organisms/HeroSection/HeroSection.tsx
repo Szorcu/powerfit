@@ -17,7 +17,7 @@ export const HeroSection = () => {
         <div className="mx-auto flex max-w-xl flex-col items-center gap-6 lg:ml-4 lg:max-w-2xl lg:items-end">
           <h1 className="text-center lg:text-right">
             Kup teraz <br /> swój pierwszy karnet{" "}
-            <span className="text-primary">za 69,99 zł</span>
+            <span className="text-primary">za 89 zł</span>
           </h1>
 
           <Button className="w-fit">Kup karnet</Button>

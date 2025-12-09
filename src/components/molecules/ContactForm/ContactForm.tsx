@@ -18,8 +18,8 @@ export const ContactForm = () => {
     const form = event.currentTarget;
     const formData = new FormData(form);
 
-    formData.append("access_key", "d6eb4d15-e321-402b-ae3a-9a030f494152");
-    formData.append("from_name", "Power Fit Website");
+    formData.append("access_key", "074070ab-db3f-42f5-ae7a-985e979328de");
+    formData.append("from_name", "powerfitbialystok.pl");
     formData.append("subject", "Nowa wiadomość z formularza kontaktowego");
 
     try {

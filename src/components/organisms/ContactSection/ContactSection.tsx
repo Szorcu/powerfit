@@ -24,7 +24,7 @@ export const ContactSection = () => {
           </div>
           <div className="flex flex-col gap-1">
             <h3 className="text-primary mb-1">Godziny otwarcia</h3>
-            <p>pon-pt: 6:00-24:00</p>
+            <p>pon-pt: 7:00-22:00</p>
             <p>sob-niedz: 8:00-20:00</p>
           </div>
         </aside>
