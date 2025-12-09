@@ -76,7 +76,9 @@ export const Navbar = () => {
           </li>
         </ul>
 
-        <Button className="hidden xl:block">Kontakt</Button>
+        <Button className="hidden xl:block" asChild>
+          <Link href="#kontakt">Kontakt</Link>
+        </Button>
 
         <Menu className="block xl:hidden" size={24} />
       </div>

@@ -55,7 +55,11 @@ export default function RootLayout({
   return (
     <html
       lang="pl"
-      className={clsx(zalandoFont.variable, poppinsFont.variable)}
+      className={clsx(
+        zalandoFont.variable,
+        poppinsFont.variable,
+        "scroll-smooth",
+      )}
     >
       <body className="antialiased">
         <main>

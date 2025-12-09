@@ -20,7 +20,15 @@ export const HeroSection = () => {
             <span className="text-primary">za 89 zł</span>
           </h1>
 
-          <Button className="w-fit">Kup karnet</Button>
+          <Button className="w-fit" asChild>
+            <a
+              href="https://powerfit-bialystok.cms.efitness.com.pl/kup-karnet"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Kup karnet
+            </a>
+          </Button>
         </div>
       </div>
 

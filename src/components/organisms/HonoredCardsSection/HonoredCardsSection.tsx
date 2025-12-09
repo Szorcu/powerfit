@@ -21,7 +21,15 @@ export const HonoredCardsSection = () => {
             połączenie korzyści i elastyczności!
           </p>
 
-          <Button className="w-fit">Kup karnet</Button>
+          <Button className="w-fit" asChild>
+            <a
+              href="https://powerfit-bialystok.cms.efitness.com.pl/kup-karnet"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Kup karnet
+            </a>
+          </Button>
 
           <div className="mt-12 xl:absolute xl:-right-32 xl:bottom-0 2xl:-right-36">
             <div className="relative z-10">

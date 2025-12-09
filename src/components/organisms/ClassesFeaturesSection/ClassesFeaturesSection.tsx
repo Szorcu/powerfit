@@ -69,7 +69,15 @@ export const ClassesFeaturesSection = () => {
             ))}
           </div>
 
-          <Button>Zapisz się na zajęcia</Button>
+          <Button asChild>
+            <a
+              href="https://powerfit-bialystok.cms.efitness.com.pl/kalendarz-zajec"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Zapisz się na zajęcia
+            </a>
+          </Button>
         </div>
       </div>
     </section>

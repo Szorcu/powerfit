@@ -3,7 +3,10 @@ import Image from "next/image";
 
 export const ContactSection = () => {
   return (
-    <section className="z-10 mb-16 flex w-full justify-center text-white lg:mb-52">
+    <section
+      id="kontakt"
+      className="z-10 mb-16 flex w-full scroll-mt-24 justify-center text-white lg:mb-52"
+    >
       <div className="container grid gap-16 lg:grid-cols-[3fr_2fr] 2xl:gap-52">
         <div className="flex flex-col gap-12 py-4 xl:gap-16">
           <h2>Zadaj nam pytanie</h2>
