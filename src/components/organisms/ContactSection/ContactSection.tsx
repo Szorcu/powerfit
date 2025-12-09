@@ -1,7 +1,4 @@
-import { Button } from "@/components/atoms/Button";
-import { Input } from "@/components/atoms/Input";
-import { Label } from "@/components/atoms/Label";
-import { Textarea } from "@/components/atoms/Textarea/Textarea";
+import { ContactForm } from "@/components/molecules/ContactForm";
 import Image from "next/image";
 
 export const ContactSection = () => {
@@ -10,51 +7,7 @@ export const ContactSection = () => {
       <div className="container grid grid-cols-[3fr_2fr] gap-52">
         <div className="flex flex-col gap-16 py-4">
           <h2>Zadaj nam pytanie</h2>
-
-          <form className="flex flex-col gap-12" action="">
-            <div>
-              <Label className="mb-8" htmlFor="name">
-                Imię
-              </Label>
-              <Input
-                id="name"
-                name="name"
-                placeholder="Jan Kowalski"
-                required
-              />
-            </div>
-
-            <div>
-              <Label className="mb-8" htmlFor="email">
-                E-mail
-              </Label>
-              <Input
-                id="email"
-                name="email"
-                type="email"
-                placeholder="twoj@email.com"
-                required
-              />
-            </div>
-
-            <div>
-              <Label className="mb-8" htmlFor="message">
-                Treść wiadomości
-              </Label>
-              <Textarea
-                className="resize-none"
-                id="message"
-                name="message"
-                rows={4}
-                placeholder="Wpisz tutaj swoją wiadomość..."
-                required
-              />
-            </div>
-
-            <Button className="w-fit" type="submit">
-              Wyślij wiadomość
-            </Button>
-          </form>
+          <ContactForm />
         </div>
 
         <aside className="flex flex-col gap-16 rounded-lg border border-white/20 p-12">

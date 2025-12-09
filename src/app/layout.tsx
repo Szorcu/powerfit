@@ -6,6 +6,7 @@ import clsx from "clsx";
 import { Footer } from "@/components/organisms/Footer";
 import { ContactSection } from "@/components/organisms/ContactSection";
 import Image from "next/image";
+import { Toaster } from "@/components/atoms/Sonner";
 
 export const metadata: Metadata = {
   title: "Power Fit | Siłownia i klub fitness Białystok",
@@ -56,22 +57,26 @@ export default function RootLayout({
       className={clsx(zalandoFont.variable, poppinsFont.variable)}
     >
       <body className="antialiased">
-        <Navbar />
+        <main>
+          <Navbar />
 
-        {children}
+          {children}
 
-        <div className="relative py-20">
-          <Image
-            className="z-[-2] object-cover"
-            src="/footer-bg.jpg"
-            alt=""
-            fill
-          />
-          <div className="absolute inset-0 z-[-1] bg-[linear-gradient(181.56deg,rgba(30,30,30,0.8)_1.32%,#1E1E1E_88.65%)]" />
+          <div className="relative py-20">
+            <Image
+              className="z-[-2] object-cover"
+              src="/footer-bg.jpg"
+              alt=""
+              fill
+            />
+            <div className="absolute inset-0 z-[-1] bg-[linear-gradient(181.56deg,rgba(30,30,30,0.8)_1.32%,#1E1E1E_88.65%)]" />
 
-          <ContactSection />
-          <Footer />
-        </div>
+            <ContactSection />
+            <Footer />
+          </div>
+        </main>
+
+        <Toaster />
       </body>
     </html>
   );
