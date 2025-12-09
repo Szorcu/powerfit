@@ -52,14 +52,14 @@ export const ContactForm = () => {
   return (
     <form className="flex flex-col gap-12" onSubmit={handleSubmit}>
       <div>
-        <Label className="mb-8" htmlFor="name">
+        <Label className="mb-4 xl:mb-8" htmlFor="name">
           Imię
         </Label>
         <Input id="name" name="name" placeholder="Jan Kowalski" required />
       </div>
 
       <div>
-        <Label className="mb-8" htmlFor="email">
+        <Label className="mb-4 xl:mb-8" htmlFor="email">
           E-mail
         </Label>
         <Input
@@ -72,7 +72,7 @@ export const ContactForm = () => {
       </div>
 
       <div>
-        <Label className="mb-8" htmlFor="message">
+        <Label className="mb-4 xl:mb-8" htmlFor="message">
           Treść wiadomości
         </Label>
         <Textarea

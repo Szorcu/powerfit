@@ -62,14 +62,16 @@ export default function RootLayout({
 
           {children}
 
-          <div className="relative py-20">
-            <Image
-              className="z-[-2] object-cover"
-              src="/footer-bg.jpg"
-              alt=""
-              fill
-            />
-            <div className="absolute inset-0 z-[-1] bg-[linear-gradient(181.56deg,rgba(30,30,30,0.8)_1.32%,#1E1E1E_88.65%)]" />
+          <div className="relative z-0 bg-[#1E1E1E] py-7 sm:py-20">
+            <div className="full absolute inset-0 z-[-1] h-1/3 sm:h-1/2 lg:h-full">
+              <Image
+                className="object-cover"
+                src="/footer-bg.jpg"
+                alt=""
+                fill
+              />
+              <div className="absolute inset-0 bg-[linear-gradient(181.56deg,rgba(30,30,30,0.8)_1.32%,#1E1E1E_88.65%)]" />
+            </div>
 
             <ContactSection />
             <Footer />

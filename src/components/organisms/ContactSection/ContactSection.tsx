@@ -3,14 +3,14 @@ import Image from "next/image";
 
 export const ContactSection = () => {
   return (
-    <section className="mb-52 flex w-full justify-center text-white">
-      <div className="container grid grid-cols-[3fr_2fr] gap-52">
-        <div className="flex flex-col gap-16 py-4">
+    <section className="z-10 mb-16 flex w-full justify-center text-white lg:mb-52">
+      <div className="container grid gap-16 lg:grid-cols-[3fr_2fr] 2xl:gap-52">
+        <div className="flex flex-col gap-12 py-4 xl:gap-16">
           <h2>Zadaj nam pytanie</h2>
           <ContactForm />
         </div>
 
-        <aside className="flex flex-col gap-16 rounded-lg border border-white/20 p-12">
+        <aside className="flex h-fit flex-col gap-6 rounded-lg border border-white/20 p-4 xl:gap-16 xl:p-12">
           <div className="flex flex-col gap-2">
             <h3 className="text-primary">Lokalizacja</h3>
             <p>ul. Harcerska 7, 15-345 Białystok</p>

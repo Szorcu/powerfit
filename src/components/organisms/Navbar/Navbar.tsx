@@ -46,22 +46,34 @@ export const Navbar = () => {
 
         <ul className="hidden xl:flex xl:gap-12 xl:text-sm">
           <li>
-            <Link href="o-nas">o nas</Link>
+            <Link className="link" href="o-nas">
+              o nas
+            </Link>
           </li>
           <li>
-            <Link href="grafik">grafik zajęć</Link>
+            <Link className="link" href="grafik">
+              grafik zajęć
+            </Link>
           </li>
           <li>
-            <Link href="zajecia-i-uslugi">opis zajęć i usług</Link>
+            <Link className="link" href="zajecia-i-uslugi">
+              opis zajęć i usług
+            </Link>
           </li>
           <li>
-            <Link href="cennik">cennik</Link>
+            <Link className="link" href="cennik">
+              cennik
+            </Link>
           </li>
           <li>
-            <Link href="trenerzy">trenerzy</Link>
+            <Link className="link" href="trenerzy">
+              trenerzy
+            </Link>
           </li>
           <li>
-            <Link href="galeria">galeria</Link>
+            <Link className="link" href="galeria">
+              galeria
+            </Link>
           </li>
         </ul>
 
