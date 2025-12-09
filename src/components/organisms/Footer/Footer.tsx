@@ -76,7 +76,11 @@ export const Footer = () => {
                 </svg>
               </a>
 
-              <a href="#" target="_blank" rel="noopener">
+              <a
+                href="https://www.tiktok.com/@powerfitbialystok"
+                target="_blank"
+                rel="noopener"
+              >
                 <svg
                   width="22"
                   height="21"
