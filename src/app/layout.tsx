@@ -7,6 +7,7 @@ import { Footer } from "@/components/organisms/Footer";
 import { ContactSection } from "@/components/organisms/ContactSection";
 import Image from "next/image";
 import { Toaster } from "@/components/atoms/Sonner";
+import { TestimonialsSection } from "@/components/organisms/TestimonialsSection";
 
 export const metadata: Metadata = {
   title: "Power Fit | Siłownia i klub fitness Białystok",
@@ -62,6 +63,7 @@ export default function RootLayout({
 
           {children}
 
+          <TestimonialsSection />
           <div className="relative z-0 bg-[#1E1E1E] py-7 sm:py-20">
             <div className="full absolute inset-0 z-[-1] h-1/3 sm:h-1/2 lg:h-full">
               <Image
