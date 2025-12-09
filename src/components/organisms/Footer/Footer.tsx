@@ -107,28 +107,31 @@ export const Footer = () => {
                 </Link>
               </li>
               <li>
-                <Link className="link" href="cennik">
-                  cennik
-                </Link>
-              </li>
-              <li>
-                <Link className="link" href="grafik">
-                  grafik zajęć
-                </Link>
-              </li>
-              <li>
                 <Link className="link" href="o-nas">
                   o nas
                 </Link>
               </li>
               <li>
-                <Link className="link" href="trenerzy">
-                  trenerzy
-                </Link>
+                <a
+                  className="link"
+                  href="https://powerfit-bialystok.cms.efitness.com.pl/kalendarz-zajec"
+                >
+                  grafik zajęć
+                </a>
               </li>
               <li>
                 <Link className="link" href="galeria">
-                  galeria
+                  oferta
+                </Link>
+              </li>
+              <li>
+                <Link className="link" href="cennik">
+                  cennik
+                </Link>
+              </li>
+              <li>
+                <Link className="link" href="trenerzy">
+                  trenerzy
                 </Link>
               </li>
             </ul>

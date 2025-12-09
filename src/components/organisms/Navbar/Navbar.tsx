@@ -51,13 +51,17 @@ export const Navbar = () => {
             </Link>
           </li>
           <li>
-            <Link className="link" href="grafik">
+            <a
+              className="link"
+              href="https://powerfit-bialystok.cms.efitness.com.pl/kalendarz-zajec"
+              rel="noopener"
+            >
               grafik zajęć
-            </Link>
+            </a>
           </li>
           <li>
             <Link className="link" href="zajecia-i-uslugi">
-              opis zajęć i usług
+              oferta
             </Link>
           </li>
           <li>
@@ -68,11 +72,6 @@ export const Navbar = () => {
           <li>
             <Link className="link" href="trenerzy">
               trenerzy
-            </Link>
-          </li>
-          <li>
-            <Link className="link" href="galeria">
-              galeria
             </Link>
           </li>
         </ul>
