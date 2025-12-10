@@ -1,41 +1,19 @@
 import {
   Carousel,
+  CarouselButtons,
   CarouselContent,
   CarouselItem,
-  CarouselNext,
-  CarouselPrevious,
 } from "@/components/atoms/Carousel";
 import { Noise } from "@/components/atoms/Noise";
 import { StarsRating } from "@/components/atoms/StarsRating";
-
-const TESTIMONIALS = [
-  {
-    headline:
-      "Nie tylko dobry sprzęt, ale też świetna atmosfera i pozytywni ludzie",
-    text: "Świetne miejsce do treningu! Siłownia Power Fit to nie tylko dobrze wyposażony sprzęt, ale przede wszystkim super atmosfera. Klienci są mili, uprzejmi i pomocni - naprawdę czuć pozytywną energię. To jedno z tych miejsc, gdzie chce się wracać.",
-  },
-  {
-    headline:
-      "Siłownia, która regularnie się rozwija i słucha potrzeb swoich klientów",
-    text: "Jestem stałym bywalcem i z każdym kolejnym miesiącem widać pozytywne zmiany. Nowy sprzęt i lepsze zagospodarowanie przestrzeni wpływają na wygodę treningów. Zdecydowanie dobry kierunek rozwoju.",
-  },
-  {
-    headline:
-      "Duża i przestronna siłownia z różnorodnymi zajęciami i parkingiem",
-    text: "Siłownia jest przestronna i oferuje różnorodne zajęcia, dzięki czemu każdy znajdzie coś dla siebie. Dużym plusem jest parking, co wśród siłowni wciąż jest raczej wyjątkiem niż regułą. Polecam przyjść i wypróbować!",
-  },
-  {
-    headline: "Bardzo dobre miejsce do pracy nad sylwetką i formą",
-    text: "Power Fit to dobre miejsce do pracy nad sylwetką. Do dyspozycji jest duża ilość sprzętu do treningu siłowego oraz cardio, a także szeroka oferta zajęć fitness. Zdecydowanie polecam.",
-  },
-];
+import { TESTIMONIALS } from "./TestimonialsSection.consts";
 
 export const TestimonialsSection = () => {
   return (
     <section className="bg-secondary relative flex w-full justify-center text-white">
       <Noise />
 
-      <div className="z-1 container gap-20 py-7 sm:py-20 xl:max-w-7xl">
+      <div className="z-1 container py-7 sm:py-20 xl:max-w-7xl">
         <Carousel className="flex flex-col gap-6">
           <svg
             width="61"
@@ -65,10 +43,7 @@ export const TestimonialsSection = () => {
           </CarouselContent>
 
           <div className="flex justify-between">
-            <div className="flex gap-6">
-              <CarouselPrevious />
-              <CarouselNext />
-            </div>
+            <CarouselButtons />
 
             <svg
               className="rotate-180"

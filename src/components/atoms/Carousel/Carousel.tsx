@@ -260,6 +260,15 @@ function CarouselNext({
   );
 }
 
+function CarouselButtons() {
+  return (
+    <div className="flex gap-3">
+      <CarouselPrevious />
+      <CarouselNext />
+    </div>
+  );
+}
+
 export {
   type CarouselApi,
   Carousel,
@@ -267,4 +276,5 @@ export {
   CarouselItem,
   CarouselPrevious,
   CarouselNext,
+  CarouselButtons,
 };

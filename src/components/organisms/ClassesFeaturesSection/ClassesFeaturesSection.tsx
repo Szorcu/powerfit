@@ -39,7 +39,7 @@ export const ClassesFeaturesSection = () => {
           dopasowane do Twoich potrzeb.
         </p>
 
-        <div className="mt-8 flex flex-col items-center gap-8">
+        <div className="mt-8 flex flex-col items-center gap-8 xl:mt-12 xl:gap-12">
           <div className="grid w-full grid-cols-1 gap-6 sm:grid-cols-2 xl:grid-cols-4">
             {FEATURES.map((feature) => (
               <Card
