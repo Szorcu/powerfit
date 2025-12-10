@@ -44,7 +44,7 @@ export const ClassesFeaturesSection = () => {
             {FEATURES.map((feature) => (
               <Card
                 key={feature.title}
-                className="group border-border/50 shadow-card hover:border-primary/50 relative border transition-all duration-500"
+                className="group border-border/50 hover:bg-primary/5 hover:border-primary/50 relative border shadow-none transition-all duration-500"
               >
                 <CardHeader>
                   <div className="bg-primary/10 group-hover:bg-primary/20 flex h-14 w-14 items-center justify-center rounded-xl transition-all duration-300 group-hover:scale-110">
@@ -63,8 +63,6 @@ export const ClassesFeaturesSection = () => {
                     {feature.description}
                   </p>
                 </CardContent>
-
-                <div className="bg-primary/5 pointer-events-none absolute inset-0 rounded-2xl opacity-0 transition-opacity duration-500 group-hover:opacity-100" />
               </Card>
             ))}
           </div>

@@ -54,7 +54,8 @@ export const Navbar = () => {
             <a
               className="link"
               href="https://powerfit-bialystok.cms.efitness.com.pl/kalendarz-zajec"
-              rel="noopener"
+              target="_blank"
+              rel="noopener noreferrer"
             >
               grafik zajęć
             </a>

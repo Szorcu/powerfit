@@ -18,7 +18,7 @@ export const Footer = () => {
             <a
               href="tel:+48690818690"
               target="_blank"
-              rel="noopener"
+              rel="noopener noreferrer"
               className="text-primary font-zalando text-2xl font-semibold lg:text-3xl"
             >
               +48 690 818 690
@@ -28,7 +28,7 @@ export const Footer = () => {
               className="text-2xl"
               href="mailto:recepcja.powerfit@wp.pl"
               target="_blank"
-              rel="noopener"
+              rel="noopener noreferrer"
             >
               recepcja.powerfit@wp.pl
             </a>
@@ -37,7 +37,7 @@ export const Footer = () => {
               <a
                 href="https://www.facebook.com/Power-Fit-61576368675964/"
                 target="_blank"
-                rel="noopener"
+                rel="noopener noreferrer"
               >
                 <svg
                   width="27"
@@ -56,7 +56,7 @@ export const Footer = () => {
               <a
                 href="https://www.instagram.com/powerfit_bialystok/"
                 target="_blank"
-                rel="noopener"
+                rel="noopener noreferrer"
               >
                 <svg
                   width="24"
@@ -79,7 +79,7 @@ export const Footer = () => {
               <a
                 href="https://www.tiktok.com/@powerfitbialystok"
                 target="_blank"
-                rel="noopener"
+                rel="noopener noreferrer"
               >
                 <svg
                   width="22"
@@ -115,6 +115,8 @@ export const Footer = () => {
                 <a
                   className="link"
                   href="https://powerfit-bialystok.cms.efitness.com.pl/kalendarz-zajec"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
                   grafik zajęć
                 </a>
