@@ -8,105 +8,83 @@ import {
 import { Noise } from "@/components/atoms/Noise";
 import { StarsRating } from "@/components/atoms/StarsRating";
 
+const TESTIMONIALS = [
+  {
+    headline:
+      "Nie tylko dobry sprzęt, ale też świetna atmosfera i pozytywni ludzie",
+    text: "Świetne miejsce do treningu! Siłownia Power Fit to nie tylko dobrze wyposażony sprzęt, ale przede wszystkim super atmosfera. Klienci są mili, uprzejmi i pomocni - naprawdę czuć pozytywną energię. To jedno z tych miejsc, gdzie chce się wracać.",
+  },
+  {
+    headline:
+      "Siłownia, która regularnie się rozwija i słucha potrzeb swoich klientów",
+    text: "Jestem stałym bywalcem i z każdym kolejnym miesiącem widać pozytywne zmiany. Nowy sprzęt i lepsze zagospodarowanie przestrzeni wpływają na wygodę treningów. Zdecydowanie dobry kierunek rozwoju.",
+  },
+  {
+    headline:
+      "Duża i przestronna siłownia z różnorodnymi zajęciami i parkingiem",
+    text: "Siłownia jest przestronna i oferuje różnorodne zajęcia, dzięki czemu każdy znajdzie coś dla siebie. Dużym plusem jest parking, co wśród siłowni wciąż jest raczej wyjątkiem niż regułą. Polecam przyjść i wypróbować!",
+  },
+  {
+    headline: "Bardzo dobre miejsce do pracy nad sylwetką i formą",
+    text: "Power Fit to dobre miejsce do pracy nad sylwetką. Do dyspozycji jest duża ilość sprzętu do treningu siłowego oraz cardio, a także szeroka oferta zajęć fitness. Zdecydowanie polecam.",
+  },
+];
+
 export const TestimonialsSection = () => {
   return (
-    <section className="bg-secondary relative flex h-96 w-full justify-center text-white">
+    <section className="bg-secondary relative flex w-full justify-center text-white">
       <Noise />
 
-      <div className="z-1 container gap-20 py-7 sm:py-20">
-        <Carousel>
+      <div className="z-1 container gap-20 py-7 sm:py-20 xl:max-w-7xl">
+        <Carousel className="flex flex-col gap-6">
+          <svg
+            width="61"
+            height="46"
+            viewBox="0 0 61 46"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M61 0L48.0557 28.0842L46.9231 20.4983C49.4041 20.4983 51.6154 21.0901 53.557 22.2737C55.4987 23.4573 57.0628 25.0175 58.2493 26.9544C59.4359 28.7836 60.0292 30.8819 60.0292 33.2491C60.0292 35.6164 59.4359 37.7684 58.2493 39.7053C57.0628 41.6421 55.4987 43.2023 53.557 44.386C51.6154 45.462 49.4041 46 46.9231 46C44.55 46 42.3386 45.462 40.2891 44.386C38.3475 43.2023 36.7834 41.5883 35.5968 39.5439C34.4103 37.4994 33.817 35.2398 33.817 32.7649C33.817 30.2901 34.3024 27.7076 35.2732 25.0175C36.3519 22.3275 38.2396 18.8304 40.9363 14.5263L49.6737 0H61ZM27.183 0L14.2387 28.0842L13.1061 20.4983C15.5871 20.4983 17.7984 21.0901 19.7401 22.2737C21.6817 23.4573 23.2458 25.0175 24.4324 26.9544C25.6189 28.7836 26.2122 30.8819 26.2122 33.2491C26.2122 35.6164 25.6189 37.7684 24.4324 39.7053C23.2458 41.6421 21.6817 43.2023 19.7401 44.386C17.7984 45.462 15.5871 46 13.1061 46C10.733 46 8.52166 45.462 6.47215 44.386C4.5305 43.2023 2.9664 41.5883 1.77984 39.5439C0.59328 37.4994 0 35.2398 0 32.7649C0 30.2901 0.485411 27.7076 1.45623 25.0175C2.53492 22.3275 4.42264 18.8304 7.11936 14.5263L15.8568 0H27.183Z"
+              fill="white"
+              fillOpacity="0.6"
+            />
+          </svg>
+
           <CarouselContent>
-            <CarouselItem>
-              <svg
-                width="61"
-                height="46"
-                viewBox="0 0 61 46"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M61 0L48.0557 28.0842L46.9231 20.4983C49.4041 20.4983 51.6154 21.0901 53.557 22.2737C55.4987 23.4573 57.0628 25.0175 58.2493 26.9544C59.4359 28.7836 60.0292 30.8819 60.0292 33.2491C60.0292 35.6164 59.4359 37.7684 58.2493 39.7053C57.0628 41.6421 55.4987 43.2023 53.557 44.386C51.6154 45.462 49.4041 46 46.9231 46C44.55 46 42.3386 45.462 40.2891 44.386C38.3475 43.2023 36.7834 41.5883 35.5968 39.5439C34.4103 37.4994 33.817 35.2398 33.817 32.7649C33.817 30.2901 34.3024 27.7076 35.2732 25.0175C36.3519 22.3275 38.2396 18.8304 40.9363 14.5263L49.6737 0H61ZM27.183 0L14.2387 28.0842L13.1061 20.4983C15.5871 20.4983 17.7984 21.0901 19.7401 22.2737C21.6817 23.4573 23.2458 25.0175 24.4324 26.9544C25.6189 28.7836 26.2122 30.8819 26.2122 33.2491C26.2122 35.6164 25.6189 37.7684 24.4324 39.7053C23.2458 41.6421 21.6817 43.2023 19.7401 44.386C17.7984 45.462 15.5871 46 13.1061 46C10.733 46 8.52166 45.462 6.47215 44.386C4.5305 43.2023 2.9664 41.5883 1.77984 39.5439C0.59328 37.4994 0 35.2398 0 32.7649C0 30.2901 0.485411 27.7076 1.45623 25.0175C2.53492 22.3275 4.42264 18.8304 7.11936 14.5263L15.8568 0H27.183Z"
-                  fill="white"
-                  fillOpacity="0.6"
-                />
-              </svg>
+            {TESTIMONIALS.map((item, index) => (
+              <CarouselItem key={index} className="flex flex-col gap-4">
+                <StarsRating />
 
-              <StarsRating />
-
-              <p className="font-zalando text-2xl font-semibold lg:text-3xl">
-                PowerFit to świetnie wyposażona siłownia z nowoczesnym sprzętem
-                i dużą przestrzenią do ćwiczeń.
-              </p>
-              <p>
-                Bardzo podoba mi się czystość - zarówno na sali, jak i w
-                szatniach zawsze jest porządek. Obsługa jest pomocna i życzliwa,
-                a trenerzy profesjonalni i potrafią dobrze doradzić. Plusem jest
-                też szeroka oferta zajęć grupowych, które pozwalają urozmaicić
-                trening.
-              </p>
-
-              <svg
-                className="rotate-180"
-                width="61"
-                height="46"
-                viewBox="0 0 61 46"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M61 0L48.0557 28.0842L46.9231 20.4983C49.4041 20.4983 51.6154 21.0901 53.557 22.2737C55.4987 23.4573 57.0628 25.0175 58.2493 26.9544C59.4359 28.7836 60.0292 30.8819 60.0292 33.2491C60.0292 35.6164 59.4359 37.7684 58.2493 39.7053C57.0628 41.6421 55.4987 43.2023 53.557 44.386C51.6154 45.462 49.4041 46 46.9231 46C44.55 46 42.3386 45.462 40.2891 44.386C38.3475 43.2023 36.7834 41.5883 35.5968 39.5439C34.4103 37.4994 33.817 35.2398 33.817 32.7649C33.817 30.2901 34.3024 27.7076 35.2732 25.0175C36.3519 22.3275 38.2396 18.8304 40.9363 14.5263L49.6737 0H61ZM27.183 0L14.2387 28.0842L13.1061 20.4983C15.5871 20.4983 17.7984 21.0901 19.7401 22.2737C21.6817 23.4573 23.2458 25.0175 24.4324 26.9544C25.6189 28.7836 26.2122 30.8819 26.2122 33.2491C26.2122 35.6164 25.6189 37.7684 24.4324 39.7053C23.2458 41.6421 21.6817 43.2023 19.7401 44.386C17.7984 45.462 15.5871 46 13.1061 46C10.733 46 8.52166 45.462 6.47215 44.386C4.5305 43.2023 2.9664 41.5883 1.77984 39.5439C0.59328 37.4994 0 35.2398 0 32.7649C0 30.2901 0.485411 27.7076 1.45623 25.0175C2.53492 22.3275 4.42264 18.8304 7.11936 14.5263L15.8568 0H27.183Z"
-                  fill="white"
-                  fillOpacity="0.6"
-                />
-              </svg>
-            </CarouselItem>
-            <CarouselItem>
-              <svg
-                width="61"
-                height="46"
-                viewBox="0 0 61 46"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M61 0L48.0557 28.0842L46.9231 20.4983C49.4041 20.4983 51.6154 21.0901 53.557 22.2737C55.4987 23.4573 57.0628 25.0175 58.2493 26.9544C59.4359 28.7836 60.0292 30.8819 60.0292 33.2491C60.0292 35.6164 59.4359 37.7684 58.2493 39.7053C57.0628 41.6421 55.4987 43.2023 53.557 44.386C51.6154 45.462 49.4041 46 46.9231 46C44.55 46 42.3386 45.462 40.2891 44.386C38.3475 43.2023 36.7834 41.5883 35.5968 39.5439C34.4103 37.4994 33.817 35.2398 33.817 32.7649C33.817 30.2901 34.3024 27.7076 35.2732 25.0175C36.3519 22.3275 38.2396 18.8304 40.9363 14.5263L49.6737 0H61ZM27.183 0L14.2387 28.0842L13.1061 20.4983C15.5871 20.4983 17.7984 21.0901 19.7401 22.2737C21.6817 23.4573 23.2458 25.0175 24.4324 26.9544C25.6189 28.7836 26.2122 30.8819 26.2122 33.2491C26.2122 35.6164 25.6189 37.7684 24.4324 39.7053C23.2458 41.6421 21.6817 43.2023 19.7401 44.386C17.7984 45.462 15.5871 46 13.1061 46C10.733 46 8.52166 45.462 6.47215 44.386C4.5305 43.2023 2.9664 41.5883 1.77984 39.5439C0.59328 37.4994 0 35.2398 0 32.7649C0 30.2901 0.485411 27.7076 1.45623 25.0175C2.53492 22.3275 4.42264 18.8304 7.11936 14.5263L15.8568 0H27.183Z"
-                  fill="white"
-                  fillOpacity="0.6"
-                />
-              </svg>
-
-              <StarsRating />
-
-              <p className="font-zalando text-2xl font-semibold lg:text-3xl">
-                PowerFit to świetnie wyposażona siłownia z nowoczesnym sprzętem
-                i dużą przestrzenią do ćwiczeń.
-              </p>
-              <p>
-                Bardzo podoba mi się czystość - zarówno na sali, jak i w
-                szatniach zawsze jest porządek. Obsługa jest pomocna i życzliwa,
-                a trenerzy profesjonalni i potrafią dobrze doradzić. Plusem jest
-                też szeroka oferta zajęć grupowych, które pozwalają urozmaicić
-                trening.
-              </p>
-
-              <svg
-                className="rotate-180"
-                width="61"
-                height="46"
-                viewBox="0 0 61 46"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M61 0L48.0557 28.0842L46.9231 20.4983C49.4041 20.4983 51.6154 21.0901 53.557 22.2737C55.4987 23.4573 57.0628 25.0175 58.2493 26.9544C59.4359 28.7836 60.0292 30.8819 60.0292 33.2491C60.0292 35.6164 59.4359 37.7684 58.2493 39.7053C57.0628 41.6421 55.4987 43.2023 53.557 44.386C51.6154 45.462 49.4041 46 46.9231 46C44.55 46 42.3386 45.462 40.2891 44.386C38.3475 43.2023 36.7834 41.5883 35.5968 39.5439C34.4103 37.4994 33.817 35.2398 33.817 32.7649C33.817 30.2901 34.3024 27.7076 35.2732 25.0175C36.3519 22.3275 38.2396 18.8304 40.9363 14.5263L49.6737 0H61ZM27.183 0L14.2387 28.0842L13.1061 20.4983C15.5871 20.4983 17.7984 21.0901 19.7401 22.2737C21.6817 23.4573 23.2458 25.0175 24.4324 26.9544C25.6189 28.7836 26.2122 30.8819 26.2122 33.2491C26.2122 35.6164 25.6189 37.7684 24.4324 39.7053C23.2458 41.6421 21.6817 43.2023 19.7401 44.386C17.7984 45.462 15.5871 46 13.1061 46C10.733 46 8.52166 45.462 6.47215 44.386C4.5305 43.2023 2.9664 41.5883 1.77984 39.5439C0.59328 37.4994 0 35.2398 0 32.7649C0 30.2901 0.485411 27.7076 1.45623 25.0175C2.53492 22.3275 4.42264 18.8304 7.11936 14.5263L15.8568 0H27.183Z"
-                  fill="white"
-                  fillOpacity="0.6"
-                />
-              </svg>
-            </CarouselItem>
+                <p className="font-zalando text-2xl font-semibold lg:text-3xl">
+                  {item.headline}
+                </p>
+                <p>{item.text}</p>
+              </CarouselItem>
+            ))}
           </CarouselContent>
-          <CarouselPrevious />
-          <CarouselNext />
+
+          <div className="flex justify-between">
+            <div className="flex gap-6">
+              <CarouselPrevious />
+              <CarouselNext />
+            </div>
+
+            <svg
+              className="rotate-180"
+              width="61"
+              height="46"
+              viewBox="0 0 61 46"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M61 0L48.0557 28.0842L46.9231 20.4983C49.4041 20.4983 51.6154 21.0901 53.557 22.2737C55.4987 23.4573 57.0628 25.0175 58.2493 26.9544C59.4359 28.7836 60.0292 30.8819 60.0292 33.2491C60.0292 35.6164 59.4359 37.7684 58.2493 39.7053C57.0628 41.6421 55.4987 43.2023 53.557 44.386C51.6154 45.462 49.4041 46 46.9231 46C44.55 46 42.3386 45.462 40.2891 44.386C38.3475 43.2023 36.7834 41.5883 35.5968 39.5439C34.4103 37.4994 33.817 35.2398 33.817 32.7649C33.817 30.2901 34.3024 27.7076 35.2732 25.0175C36.3519 22.3275 38.2396 18.8304 40.9363 14.5263L49.6737 0H61ZM27.183 0L14.2387 28.0842L13.1061 20.4983C15.5871 20.4983 17.7984 21.0901 19.7401 22.2737C21.6817 23.4573 23.2458 25.0175 24.4324 26.9544C25.6189 28.7836 26.2122 30.8819 26.2122 33.2491C26.2122 35.6164 25.6189 37.7684 24.4324 39.7053C23.2458 41.6421 21.6817 43.2023 19.7401 44.386C17.7984 45.462 15.5871 46 13.1061 46C10.733 46 8.52166 45.462 6.47215 44.386C4.5305 43.2023 2.9664 41.5883 1.77984 39.5439C0.59328 37.4994 0 35.2398 0 32.7649C0 30.2901 0.485411 27.7076 1.45623 25.0175C2.53492 22.3275 4.42264 18.8304 7.11936 14.5263L15.8568 0H27.183Z"
+                fill="white"
+                fillOpacity="0.6"
+              />
+            </svg>
+          </div>
         </Carousel>
       </div>
     </section>

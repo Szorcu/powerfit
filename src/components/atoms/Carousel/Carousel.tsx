@@ -4,19 +4,17 @@ import * as React from "react";
 import useEmblaCarousel, {
   type UseEmblaCarouselType,
 } from "embla-carousel-react";
-import { ArrowLeft, ArrowRight } from "lucide-react";
 
 import { cn } from "@/lib/utils";
 import { Button } from "@/components/atoms/Button";
+import Autoplay from "embla-carousel-autoplay";
 
 type CarouselApi = UseEmblaCarouselType[1];
 type UseCarouselParameters = Parameters<typeof useEmblaCarousel>;
 type CarouselOptions = UseCarouselParameters[0];
-type CarouselPlugin = UseCarouselParameters[1];
 
 type CarouselProps = {
   opts?: CarouselOptions;
-  plugins?: CarouselPlugin;
   orientation?: "horizontal" | "vertical";
   setApi?: (api: CarouselApi) => void;
 };
@@ -46,17 +44,21 @@ function Carousel({
   orientation = "horizontal",
   opts,
   setApi,
-  plugins,
-  className,
   children,
   ...props
 }: React.ComponentProps<"div"> & CarouselProps) {
+  const autoplay = React.useRef(
+    Autoplay({
+      stopOnInteraction: false,
+    }),
+  );
   const [carouselRef, api] = useEmblaCarousel(
     {
+      loop: true,
       ...opts,
       axis: orientation === "horizontal" ? "x" : "y",
     },
-    plugins,
+    [autoplay.current],
   );
   const [canScrollPrev, setCanScrollPrev] = React.useState(false);
   const [canScrollNext, setCanScrollNext] = React.useState(false);
@@ -69,10 +71,12 @@ function Carousel({
 
   const scrollPrev = React.useCallback(() => {
     api?.scrollPrev();
+    autoplay.current.reset();
   }, [api]);
 
   const scrollNext = React.useCallback(() => {
     api?.scrollNext();
+    autoplay.current.reset();
   }, [api]);
 
   const handleKeyDown = React.useCallback(
@@ -120,7 +124,6 @@ function Carousel({
     >
       <div
         onKeyDownCapture={handleKeyDown}
-        className={cn("relative", className)}
         role="region"
         aria-roledescription="carousel"
         data-slot="carousel"
@@ -177,25 +180,38 @@ function CarouselPrevious({
   size = "icon",
   ...props
 }: React.ComponentProps<typeof Button>) {
-  const { orientation, scrollPrev, canScrollPrev } = useCarousel();
+  const { scrollPrev, canScrollPrev } = useCarousel();
 
   return (
     <Button
       data-slot="carousel-previous"
       variant={variant}
       size={size}
-      className={cn(
-        "absolute size-8 rounded-full",
-        orientation === "horizontal"
-          ? "top-1/2 -left-12 -translate-y-1/2"
-          : "-top-12 left-1/2 -translate-x-1/2 rotate-90",
-        className,
-      )}
+      className={cn("size-12 rounded-full", className)}
       disabled={!canScrollPrev}
       onClick={scrollPrev}
       {...props}
     >
-      <ArrowLeft />
+      <svg
+        className="size-6"
+        viewBox="0 0 27 27"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M9.83979 5.79416L10.6051 6.55948L4.04525 13.1193L10.6051 19.6792L9.83979 20.4445L2.51461 13.1193L9.83979 5.79416Z"
+          fill="currentColor"
+        />
+        <path
+          d="M23.5062 13.6662L3.82659 13.6662L3.82659 12.5729L23.5062 12.5729L23.5062 13.6662Z"
+          fill="currentColor"
+        />
+        <path
+          d="M3.27996 12.5729L4.37327 12.5729C4.70126 12.5729 4.91992 12.7915 4.91992 13.1195C4.91992 13.4475 4.70126 13.6662 4.37327 13.6662L3.27996 13.6662C2.95196 13.6662 2.7333 13.4475 2.7333 13.1195C2.7333 12.7915 2.95196 12.5729 3.27996 12.5729Z"
+          fill="currentColor"
+        />
+      </svg>
+
       <span className="sr-only">Previous slide</span>
     </Button>
   );
@@ -207,25 +223,38 @@ function CarouselNext({
   size = "icon",
   ...props
 }: React.ComponentProps<typeof Button>) {
-  const { orientation, scrollNext, canScrollNext } = useCarousel();
+  const { scrollNext, canScrollNext } = useCarousel();
 
   return (
     <Button
       data-slot="carousel-next"
       variant={variant}
       size={size}
-      className={cn(
-        "absolute size-8 rounded-full",
-        orientation === "horizontal"
-          ? "top-1/2 -right-12 -translate-y-1/2"
-          : "-bottom-12 left-1/2 -translate-x-1/2 rotate-90",
-        className,
-      )}
+      className={cn("size-12 rounded-full", className)}
       disabled={!canScrollNext}
       onClick={scrollNext}
       {...props}
     >
-      <ArrowRight />
+      <svg
+        className="size-6 rotate-180"
+        viewBox="0 0 27 27"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M9.83979 5.79416L10.6051 6.55948L4.04525 13.1193L10.6051 19.6792L9.83979 20.4445L2.51461 13.1193L9.83979 5.79416Z"
+          fill="currentColor"
+        />
+        <path
+          d="M23.5062 13.6662L3.82659 13.6662L3.82659 12.5729L23.5062 12.5729L23.5062 13.6662Z"
+          fill="currentColor"
+        />
+        <path
+          d="M3.27996 12.5729L4.37327 12.5729C4.70126 12.5729 4.91992 12.7915 4.91992 13.1195C4.91992 13.4475 4.70126 13.6662 4.37327 13.6662L3.27996 13.6662C2.95196 13.6662 2.7333 13.4475 2.7333 13.1195C2.7333 12.7915 2.95196 12.5729 3.27996 12.5729Z"
+          fill="currentColor"
+        />
+      </svg>
+
       <span className="sr-only">Next slide</span>
     </Button>
   );
