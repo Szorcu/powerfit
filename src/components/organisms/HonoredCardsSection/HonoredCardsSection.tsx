@@ -35,14 +35,14 @@ export const HonoredCardsSection = () => {
             <div className="relative z-10">
               <Image
                 className="h-auto max-w-1/2 sm:max-w-none"
-                src="/girl.png"
+                src="girl.png"
                 alt=""
                 width={250}
                 height={300}
               />
               <Image
                 className="absolute -top-10 left-8 z-[-1] max-w-5/6 xl:-right-[110%] xl:max-w-none"
-                src="/logo-mark-1.svg"
+                src="logo-mark-1.svg"
                 alt=""
                 width={504}
                 height={375}

@@ -19,7 +19,7 @@ export const ContactSection = () => {
             <p>ul. Harcerska 7, 15-345 Białystok</p>
             <Image
               className="mt-2 w-full rounded-sm"
-              src="/location.png"
+              src="location.png"
               alt="Zdjęcie budynku Power Fit"
               width={300}
               height={200}

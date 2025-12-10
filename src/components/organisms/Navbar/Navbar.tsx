@@ -37,7 +37,7 @@ export const Navbar = () => {
         <Link href="/">
           <Image
             className="h-10 w-auto xl:h-[50px]"
-            src="/logo-full.svg"
+            src="logo-full.svg"
             alt="Power Fit logo"
             width={170}
             height={40}

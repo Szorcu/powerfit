@@ -10,7 +10,7 @@ export const HeroSection = () => {
         playsInline
         className="absolute inset-0 h-full w-full scale-x-[-1] object-cover object-[40%_90%] sm:object-bottom"
       >
-        <source src="/hero-bg.mp4" type="video/mp4" />
+        <source src="hero-bg.mp4" type="video/mp4" />
       </video>
 
       <div className="absolute top-1/3 left-1/2 z-10 container m-auto -translate-x-1/2 text-white">

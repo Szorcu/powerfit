@@ -34,7 +34,7 @@ export const AboutSection = () => {
             playsInline
             className="rounded-2xl object-cover"
           >
-            <source src="/about.mp4" type="video/mp4" />
+            <source src="about.mp4" type="video/mp4" />
           </video>
         </div>
       </div>

@@ -8,7 +8,7 @@ export const Footer = () => {
         <div className="flex flex-col gap-4 sm:gap-6 lg:flex-row lg:items-start lg:gap-16 xl:gap-24 2xl:gap-44">
           <Image
             className="w-full max-w-56 shrink-0 2xl:max-w-72"
-            src="/logo-full.svg"
+            src="logo-full.svg"
             alt="Power Fit logo"
             width={170}
             height={40}
