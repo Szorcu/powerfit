@@ -172,6 +172,6 @@
 
   .link {
     @apply relative inline-block hover:after:scale-x-100;
-    @apply after:absolute after:-bottom-1 after:left-0 after:h-px after:w-full after:origin-left after:scale-x-0 after:bg-white after:transition-transform after:duration-300 after:content-[''];
+    @apply after:absolute after:-bottom-1 after:left-0 after:h-px after:w-full after:origin-left after:scale-x-0 after:bg-current after:transition-transform after:duration-300 after:content-[''];
   }
 }

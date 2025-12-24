@@ -6,6 +6,12 @@ import Image from "next/image";
 import Link from "next/link";
 import { cn } from "@/lib/utils";
 import { Menu } from "lucide-react";
+import {
+  Sheet,
+  SheetClose,
+  SheetContent,
+  SheetTrigger,
+} from "@/components/atoms/Sheet";
 
 export const Navbar = () => {
   const [isStick, setIsStick] = useState(false);
@@ -66,9 +72,14 @@ export const Navbar = () => {
             </Link>
           </li>
           <li>
-            <Link className="link" href="cennik">
+            <a
+              className="link"
+              href="https://powerfit-bialystok.cms.efitness.com.pl/kup-karnet"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               cennik
-            </Link>
+            </a>
           </li>
           <li>
             <Link className="link" href="trenerzy">
@@ -81,7 +92,75 @@ export const Navbar = () => {
           <Link href="#kontakt">Kontakt</Link>
         </Button>
 
-        <Menu className="block xl:hidden" size={24} />
+        <div className="xl:hidden">
+          <Sheet>
+            <SheetTrigger asChild>
+              <Button variant="ghost" size="icon" aria-label="Otwórz menu">
+                <Menu className="size-6" />
+              </Button>
+            </SheetTrigger>
+
+            <SheetContent
+              className="text-foreground flex w-full max-w-sm flex-col justify-between gap-8 px-8 py-10"
+              onOpenAutoFocus={(event) => event.preventDefault()}
+              onCloseAutoFocus={(event) => event.preventDefault()}
+            >
+              <ul className="flex flex-col gap-12 text-sm">
+                <li>
+                  <SheetClose asChild>
+                    <Link className="link" href="o-nas">
+                      o nas
+                    </Link>
+                  </SheetClose>
+                </li>
+                <li>
+                  <SheetClose asChild>
+                    <a
+                      className="link"
+                      href="https://powerfit-bialystok.cms.efitness.com.pl/kalendarz-zajec"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      grafik zajęć
+                    </a>
+                  </SheetClose>
+                </li>
+                <li>
+                  <SheetClose asChild>
+                    <Link className="link" href="zajecia-i-uslugi">
+                      oferta
+                    </Link>
+                  </SheetClose>
+                </li>
+                <li>
+                  <SheetClose asChild>
+                    <a
+                      className="link"
+                      href="https://powerfit-bialystok.cms.efitness.com.pl/kup-karnet"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      cennik
+                    </a>
+                  </SheetClose>
+                </li>
+                <li>
+                  <SheetClose asChild>
+                    <Link className="link" href="trenerzy">
+                      trenerzy
+                    </Link>
+                  </SheetClose>
+                </li>
+              </ul>
+
+              <SheetClose asChild>
+                <Button asChild>
+                  <Link href="#kontakt">Kontakt</Link>
+                </Button>
+              </SheetClose>
+            </SheetContent>
+          </Sheet>
+        </div>
       </div>
     </nav>
   );

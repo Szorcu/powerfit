@@ -127,9 +127,14 @@ export const Footer = () => {
                 </Link>
               </li>
               <li>
-                <Link className="link" href="cennik">
+                <a
+                  className="link"
+                  href="https://powerfit-bialystok.cms.efitness.com.pl/kup-karnet"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   cennik
-                </Link>
+                </a>
               </li>
               <li>
                 <Link className="link" href="trenerzy">
