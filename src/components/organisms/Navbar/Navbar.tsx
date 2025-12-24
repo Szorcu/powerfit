@@ -67,7 +67,7 @@ export const Navbar = () => {
             </a>
           </li>
           <li>
-            <Link className="link" href="zajecia-i-uslugi">
+            <Link className="link" href="oferta">
               oferta
             </Link>
           </li>
@@ -127,7 +127,7 @@ export const Navbar = () => {
                 </li>
                 <li>
                   <SheetClose asChild>
-                    <Link className="link" href="zajecia-i-uslugi">
+                    <Link className="link" href="oferta">
                       oferta
                     </Link>
                   </SheetClose>

@@ -7,6 +7,7 @@ import {
   CarouselContent,
   CarouselItem,
 } from "@/components/atoms/Carousel";
+import Link from "next/link";
 
 export const OfferColumn = ({ title }: OfferColumnProps) => {
   return (
@@ -23,7 +24,9 @@ export const OfferColumn = ({ title }: OfferColumnProps) => {
         </CarouselContent>
 
         <div className="flex flex-col-reverse items-center gap-8 sm:flex-row sm:justify-between">
-          <Button className="w-fit">Zobacz wszystkie</Button>
+          <Button className="w-fit" asChild>
+            <Link href="oferta">Zobacz wszystkie</Link>
+          </Button>
           <CarouselButtons />
         </div>
       </Carousel>
