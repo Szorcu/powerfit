@@ -22,8 +22,8 @@ export const OfferColumn = ({ title }: OfferColumnProps) => {
           </CarouselItem>
         </CarouselContent>
 
-        <div className="flex justify-between">
-          <Button>Zobacz wszystkie</Button>
+        <div className="flex flex-col-reverse items-center gap-8 sm:flex-row sm:justify-between">
+          <Button className="w-fit">Zobacz wszystkie</Button>
           <CarouselButtons />
         </div>
       </Carousel>
