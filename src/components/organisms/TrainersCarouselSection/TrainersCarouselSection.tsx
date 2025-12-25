@@ -15,10 +15,13 @@ export const TrainersCarouselSection = () => {
       <div className="container py-7 sm:py-20">
         <h2 className="mb-16">Nasi trenerzy, nasz zespół</h2>
 
-        <Carousel className="flex flex-col gap-8">
+        <Carousel opts={{ align: "start" }} className="flex flex-col gap-8">
           <CarouselContent>
             {TRAINERS.map((item, index) => (
-              <CarouselItem key={index} className="h-full lg:basis-1/4">
+              <CarouselItem
+                key={index}
+                className="md:basis-1/2 lg:basis-1/3 xl:basis-1/4"
+              >
                 <TrainerCard
                   name={item.name}
                   description={item.description}

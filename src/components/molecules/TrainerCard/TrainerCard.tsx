@@ -6,7 +6,7 @@ export const TrainerCard = ({
   classes,
 }: TrainerCardProps) => {
   return (
-    <article className="h-96 w-96 rounded-lg bg-black/20 p-8">
+    <article className="h-96 rounded-lg bg-black/20 p-8">
       <p>{name}</p>
       <p>{description}</p>
 
