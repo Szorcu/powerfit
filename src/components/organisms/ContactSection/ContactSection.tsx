@@ -16,7 +16,14 @@ export const ContactSection = () => {
         <aside className="flex h-fit flex-col gap-6 rounded-lg border border-white/20 p-4 xl:gap-16 xl:p-12">
           <div className="flex flex-col gap-2">
             <h3 className="text-primary">Lokalizacja</h3>
-            <p>ul. Harcerska 7, 15-345 Białystok</p>
+            <a
+              className="underline"
+              href="https://maps.app.goo.gl/FyHnJgsh8uAtyM1f7"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              ul. Harcerska 7, 15-345 Białystok
+            </a>
             <Image
               className="mt-2 w-full rounded-sm"
               src="location.png"

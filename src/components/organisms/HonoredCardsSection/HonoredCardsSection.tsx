@@ -4,7 +4,7 @@ import Image from "next/image";
 export const HonoredCardsSection = () => {
   return (
     <section className="flex w-full justify-center">
-      <div className="container flex flex-col gap-8 py-7 sm:py-20">
+      <div className="container flex flex-col gap-8 py-7 sm:py-20 xl:pt-40">
         <h3 className="max-w-xl xl:ml-12 2xl:ml-20">
           Akceptujemy popularne karty sportowe -{" "}
           <br className="hidden sm:block" />
