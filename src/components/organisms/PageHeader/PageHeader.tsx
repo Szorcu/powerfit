@@ -16,7 +16,7 @@ export const PageHeader = ({
   bgImageSrc,
 }: PageHeaderProps) => {
   return (
-    <section className="relative h-[40svh]">
+    <section className="relative h-[40svh] min-h-96">
       <div className="absolute right-0 h-full w-[60%]">
         <Image
           className="object-cover object-top"
