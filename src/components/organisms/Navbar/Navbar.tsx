@@ -31,7 +31,7 @@ export const Navbar = () => {
   }, []);
 
   return (
-    <nav
+    <header
       className={cn(
         "fixed top-0 z-50 flex w-full justify-center border-b text-white transition-[padding,background-color,backdrop-filter,border-color,box-shadow] duration-300 ease-in-out",
         isStick
@@ -50,43 +50,45 @@ export const Navbar = () => {
           />
         </Link>
 
-        <ul className="hidden xl:flex xl:gap-12 xl:text-sm">
-          <li>
-            <Link className="link" href="o-nas">
-              o nas
-            </Link>
-          </li>
-          <li>
-            <a
-              className="link"
-              href="https://powerfit-bialystok.cms.efitness.com.pl/kalendarz-zajec"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              grafik zajęć
-            </a>
-          </li>
-          <li>
-            <Link className="link" href="oferta">
-              oferta
-            </Link>
-          </li>
-          <li>
-            <a
-              className="link"
-              href="https://powerfit-bialystok.cms.efitness.com.pl/kup-karnet"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              cennik
-            </a>
-          </li>
-          <li>
-            <Link className="link" href="trenerzy">
-              trenerzy
-            </Link>
-          </li>
-        </ul>
+        <nav aria-label="Primary navigation">
+          <ul className="hidden xl:flex xl:gap-12 xl:text-sm">
+            <li>
+              <Link className="link" href="o-nas">
+                o nas
+              </Link>
+            </li>
+            <li>
+              <a
+                className="link"
+                href="https://powerfit-bialystok.cms.efitness.com.pl/kalendarz-zajec"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                grafik zajęć
+              </a>
+            </li>
+            <li>
+              <Link className="link" href="oferta">
+                oferta
+              </Link>
+            </li>
+            <li>
+              <a
+                className="link"
+                href="https://powerfit-bialystok.cms.efitness.com.pl/kup-karnet"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                cennik
+              </a>
+            </li>
+            <li>
+              <Link className="link" href="trenerzy">
+                trenerzy
+              </Link>
+            </li>
+          </ul>
+        </nav>
 
         <Button className="hidden xl:block" asChild>
           <Link href="#kontakt">Kontakt</Link>
@@ -105,53 +107,55 @@ export const Navbar = () => {
               onOpenAutoFocus={(event) => event.preventDefault()}
               onCloseAutoFocus={(event) => event.preventDefault()}
             >
-              <ul className="flex flex-col gap-12 text-sm">
-                <li>
-                  <SheetClose asChild>
-                    <Link className="link" href="o-nas">
-                      o nas
-                    </Link>
-                  </SheetClose>
-                </li>
-                <li>
-                  <SheetClose asChild>
-                    <a
-                      className="link"
-                      href="https://powerfit-bialystok.cms.efitness.com.pl/kalendarz-zajec"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      grafik zajęć
-                    </a>
-                  </SheetClose>
-                </li>
-                <li>
-                  <SheetClose asChild>
-                    <Link className="link" href="oferta">
-                      oferta
-                    </Link>
-                  </SheetClose>
-                </li>
-                <li>
-                  <SheetClose asChild>
-                    <a
-                      className="link"
-                      href="https://powerfit-bialystok.cms.efitness.com.pl/kup-karnet"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      cennik
-                    </a>
-                  </SheetClose>
-                </li>
-                <li>
-                  <SheetClose asChild>
-                    <Link className="link" href="trenerzy">
-                      trenerzy
-                    </Link>
-                  </SheetClose>
-                </li>
-              </ul>
+              <nav>
+                <ul className="flex flex-col gap-12 text-sm">
+                  <li>
+                    <SheetClose asChild>
+                      <Link className="link" href="o-nas">
+                        o nas
+                      </Link>
+                    </SheetClose>
+                  </li>
+                  <li>
+                    <SheetClose asChild>
+                      <a
+                        className="link"
+                        href="https://powerfit-bialystok.cms.efitness.com.pl/kalendarz-zajec"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        grafik zajęć
+                      </a>
+                    </SheetClose>
+                  </li>
+                  <li>
+                    <SheetClose asChild>
+                      <Link className="link" href="oferta">
+                        oferta
+                      </Link>
+                    </SheetClose>
+                  </li>
+                  <li>
+                    <SheetClose asChild>
+                      <a
+                        className="link"
+                        href="https://powerfit-bialystok.cms.efitness.com.pl/kup-karnet"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        cennik
+                      </a>
+                    </SheetClose>
+                  </li>
+                  <li>
+                    <SheetClose asChild>
+                      <Link className="link" href="trenerzy">
+                        trenerzy
+                      </Link>
+                    </SheetClose>
+                  </li>
+                </ul>
+              </nav>
 
               <SheetClose asChild>
                 <Button asChild>
@@ -162,6 +166,6 @@ export const Navbar = () => {
           </Sheet>
         </div>
       </div>
-    </nav>
+    </header>
   );
 };

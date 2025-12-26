@@ -18,7 +18,7 @@ export const metadata: Metadata = {
 const zalandoFont = localFont({
   src: [
     {
-      path: "./fonts/zalando-sans-expanded-regular.woff2",
+      path: "./fonts/zalando-sans-expanded-400.woff2",
       weight: "400",
       style: "normal",
     },
@@ -34,8 +34,13 @@ const zalandoFont = localFont({
 const poppinsFont = localFont({
   src: [
     {
-      path: "./fonts/poppins-regular.woff2",
+      path: "./fonts/poppins-400.woff2",
       weight: "400",
+      style: "normal",
+    },
+    {
+      path: "./fonts/poppins-600.woff2",
+      weight: "600",
       style: "normal",
     },
     {

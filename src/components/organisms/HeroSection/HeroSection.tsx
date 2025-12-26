@@ -2,7 +2,7 @@ import { Button } from "@/components/atoms/Button";
 
 export const HeroSection = () => {
   return (
-    <section className="relative h-[70svh] w-full overflow-hidden bg-stone-800 lg:h-[85svh]">
+    <section className="relative h-[70svh] w-full overflow-hidden lg:h-[85svh]">
       <video
         autoPlay
         loop
