@@ -1,5 +1,10 @@
+"use client";
+
 import Image from "next/image";
 import { TrainerCardProps } from "./TrainerCard.types";
+import { useMediaQuery } from "@/hooks/useMediaQuery";
+import { useState } from "react";
+import clsx from "clsx";
 
 export const TrainerCard = ({
   name,
@@ -7,23 +12,57 @@ export const TrainerCard = ({
   classes,
   img,
 }: TrainerCardProps) => {
+  const isTouchLike = useMediaQuery("(hover: none) and (pointer: coarse)");
+
+  const [showOverlay, setShowOverlay] = useState(false);
+
   return (
-    <details className="group relative aspect-3/4 overflow-hidden rounded-lg">
-      <summary className="list-none [&::-webkit-details-marker]:hidden">
-        <Image src={img} alt={name} fill className="object-cover" />
+    <article
+      className={clsx("group relative aspect-3/4 overflow-hidden rounded-lg", {
+        "cursor-pointer": isTouchLike,
+      })}
+      itemScope
+      itemType="https://schema.org/Person"
+      onClick={() => isTouchLike && setShowOverlay((prev) => !prev)}
+      onMouseEnter={() => !isTouchLike && setShowOverlay(true)}
+      onMouseLeave={() => !isTouchLike && setShowOverlay(false)}
+    >
+      <div className="absolute inset-0">
+        <Image
+          className="object-cover"
+          src={img}
+          alt={name}
+          fill
+          itemProp="image"
+        />
+        <div className="absolute inset-0 bg-linear-to-t from-black/60 via-black/20 to-transparent" />
+      </div>
 
-        <div className="bg-secondary absolute inset-0 flex flex-col justify-between p-6 text-sm text-white opacity-0 transition-opacity duration-300 group-open:opacity-100 group-hover:opacity-100">
-          <div>
-            <h3 className="text-xl">{name}</h3>
-            <p className="mt-2 leading-relaxed">{description}</p>
-          </div>
-
-          <footer>
-            <p className="font-semibold">Zajęcia:</p>
-            <p>{classes.join(", ")}</p>
-          </footer>
+      <div
+        className={clsx(
+          "bg-secondary absolute inset-0 flex flex-col justify-between p-6 text-sm text-white opacity-0 transition-opacity duration-300",
+          {
+            "opacity-100": showOverlay,
+          },
+        )}
+      >
+        <div className="flex min-h-0 flex-col">
+          <h3 className="text-xl" itemProp="name">
+            {name}
+          </h3>
+          <p
+            className="mt-2 flex-1 overflow-y-auto leading-relaxed"
+            itemProp="description"
+          >
+            {description}
+          </p>
         </div>
-      </summary>
-    </details>
+
+        <div className="mt-4 shrink-0 border-t border-white/20 pt-4">
+          <p className="font-semibold">Zajęcia:</p>
+          <p itemProp="knowsAbout">{classes.join(", ")}</p>
+        </div>
+      </div>
+    </article>
   );
 };

@@ -14,7 +14,7 @@ export const OfferColumn = ({ title }: OfferColumnProps) => {
     <div className="flex flex-col gap-8">
       <h3 className="text-xl">{title}</h3>
 
-      <Carousel className="flex flex-col gap-8">
+      <Carousel className="flex flex-col gap-4">
         <CarouselContent>
           <CarouselItem>
             <Card className="border-border/20 bg-transparent text-inherit shadow-none">
@@ -23,7 +23,7 @@ export const OfferColumn = ({ title }: OfferColumnProps) => {
           </CarouselItem>
         </CarouselContent>
 
-        <div className="flex flex-col-reverse items-center gap-8 sm:flex-row sm:justify-between">
+        <div className="flex flex-col-reverse items-center gap-4 sm:flex-row sm:justify-between">
           <Button className="w-fit" asChild>
             <Link href="oferta">Zobacz wszystkie</Link>
           </Button>
