@@ -5,7 +5,7 @@ import { TRAINERS } from "@/consts/trainers";
 const TrainersPage = () => {
   return (
     <>
-      <PageHeader title="Trenerzy" crumbLabel="Trenerzy" />
+      <PageHeader title="Nasz zespół" crumbLabel="Trenerzy" />
       <section className="flex w-full justify-center">
         <div className="container py-7 sm:py-20">
           <ul className="grid gap-6 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
