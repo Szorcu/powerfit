@@ -34,7 +34,12 @@ const TermsAndConditionsPage = async () => {
             pomiędzy treścią regulaminu opublikowaną na stronie internetowej a
             treścią regulaminu udostępnioną w formacie PDF, pierwszeństwo oraz
             moc wiążącą posiada regulamin w formacie PDF.{" "}
-            <a href="regulamin.pdf" className="underline">
+            <a
+              className="underline"
+              href="regulamin.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               Pobierz regulamin.
             </a>
           </p>
