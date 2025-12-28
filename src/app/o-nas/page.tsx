@@ -4,11 +4,11 @@ import { PageHeader } from "@/components/organisms/PageHeader";
 import { TrainersCarouselSection } from "@/components/organisms/TrainersCarouselSection";
 import { WhyUsSection } from "@/components/organisms/WhyUsSection";
 
-const TrainersPage = () => {
+const AboutUsPage = () => {
   return (
     <>
       <PageHeader
-        title="O firmie"
+        title="Poznaj Power Fit"
         crumbLabel="O nas"
         bgImageSrc="page-header-2.jpg"
       />
@@ -21,4 +21,4 @@ const TrainersPage = () => {
   );
 };
 
-export default TrainersPage;
+export default AboutUsPage;
