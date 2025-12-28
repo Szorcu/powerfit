@@ -1,4 +1,4 @@
-import { AboutSection } from "@/components/organisms/AboutSection";
+import { AboutPreviewSection } from "@/components/organisms/AboutPreviewSection";
 import { ClassesFeaturesSection } from "@/components/organisms/ClassesFeaturesSection";
 import { HeroSection } from "@/components/organisms/HeroSection";
 import { HonoredCardsSection } from "@/components/organisms/HonoredCardsSection";
@@ -10,7 +10,7 @@ const HomePage = () => {
   return (
     <>
       <HeroSection />
-      <AboutSection />
+      <AboutPreviewSection />
       <ClassesFeaturesSection />
       <HonoredCardsSection />
       <OurOfferSection />
