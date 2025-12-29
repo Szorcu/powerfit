@@ -1,5 +1,7 @@
 import { Noise } from "@/components/atoms/Noise";
 import { OfferColumn } from "@/components/molecules/OfferColumn/OfferColumn";
+import { CLASSES } from "@/consts/classes";
+import { SERVICES } from "@/consts/services";
 
 export const OurOfferSection = () => {
   return (
@@ -7,13 +9,21 @@ export const OurOfferSection = () => {
       <Noise />
 
       <div className="z-1 container py-12 sm:py-20">
-        <h2 className="text-primary mb-12 lg:mb-20">
+        <p className="text-primary font-zalando mb-12 text-2xl font-semibold lg:mb-20 lg:text-3xl">
           Nie odkładaj formy na jutro - wejdź do gry już dziś!
-        </h2>
+        </p>
 
         <div className="grid gap-16 lg:grid-cols-2 lg:gap-32">
-          <OfferColumn title="Najpopularniejsze zajęcia" />
-          <OfferColumn title="Dodatkowe usługi" />
+          <OfferColumn
+            title="Najpopularniejsze zajęcia"
+            items={CLASSES}
+            redirectTo="oferta#zajecia"
+          />
+          <OfferColumn
+            title="Dodatkowe usługi"
+            items={SERVICES}
+            redirectTo="oferta#uslugi"
+          />
         </div>
       </div>
     </section>

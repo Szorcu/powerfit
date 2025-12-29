@@ -42,7 +42,7 @@ export const PageHeader = ({
           </BreadcrumbList>
         </Breadcrumb>
 
-        <h1 className="font-normal">{title}</h1>
+        <h1 className="font-normal lg:text-5xl">{title}</h1>
       </div>
     </section>
   );

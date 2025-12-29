@@ -22,6 +22,7 @@ type CarouselOptions = UseCarouselParameters[0];
 
 type CarouselProps = {
   opts?: CarouselOptions;
+  delay?: number;
   orientation?: "horizontal" | "vertical";
   setApi?: (api: CarouselApi) => void;
 };
@@ -50,6 +51,7 @@ function useCarousel() {
 function Carousel({
   orientation = "horizontal",
   opts,
+  delay,
   setApi,
   children,
   ...props
@@ -57,6 +59,7 @@ function Carousel({
   const autoplay = useRef(
     Autoplay({
       stopOnInteraction: false,
+      delay: delay ?? 3000,
     }),
   );
   const [carouselRef, api] = useEmblaCarousel(

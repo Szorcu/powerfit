@@ -1,5 +1,4 @@
-import { Card, CardContent } from "@/components/atoms/Card";
-import { OfferColumnProps } from "./OfferColumn.types";
+import Link from "next/link";
 import { Button } from "@/components/atoms/Button";
 import {
   Carousel,
@@ -7,25 +6,33 @@ import {
   CarouselContent,
   CarouselItem,
 } from "@/components/atoms/Carousel";
-import Link from "next/link";
+import { OfferCard } from "../OfferCard";
+import { OfferColumnProps } from "./OfferColumn.types";
 
-export const OfferColumn = ({ title }: OfferColumnProps) => {
+export const OfferColumn = ({ title, items, redirectTo }: OfferColumnProps) => {
   return (
-    <div className="flex flex-col gap-8">
-      <h3 className="text-xl">{title}</h3>
+    <div className="flex max-w-xl flex-col gap-8">
+      <h2 className="text-xl">{title}</h2>
 
-      <Carousel className="flex flex-col gap-4">
+      <Carousel className="flex flex-col gap-4" delay={7000}>
         <CarouselContent>
-          <CarouselItem>
-            <Card className="border-border/20 bg-transparent text-inherit shadow-none">
-              <CardContent>TBD</CardContent>
-            </Card>
-          </CarouselItem>
+          {items.map((item, index) => (
+            <CarouselItem key={index}>
+              <OfferCard
+                img={item.img}
+                title={item.title}
+                description={item.description}
+                duration={item.duration}
+                intensity={"intensity" in item ? item.intensity : undefined}
+                withHover={false}
+              />
+            </CarouselItem>
+          ))}
         </CarouselContent>
 
         <div className="flex flex-col-reverse items-center gap-4 sm:flex-row sm:justify-between">
           <Button className="w-fit" asChild>
-            <Link href="oferta">Zobacz wszystkie</Link>
+            <Link href={redirectTo}>Zobacz wszystkie</Link>
           </Button>
           <CarouselButtons />
         </div>
