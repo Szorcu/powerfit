@@ -7,7 +7,7 @@ export const WhyUsSection = () => {
       <Noise />
 
       <div className="z-1 container py-7 sm:py-20">
-        <h2 className="mb-9 text-white">Dlaczego my?</h2>
+        <h2 className="mb-8 text-white">Dlaczego my?</h2>
 
         <ul className="grid grid-cols-[repeat(auto-fit,minmax(256px,1fr))] gap-6">
           {WHY_US_POINTS.map(({ title, Icon }, index) => (
