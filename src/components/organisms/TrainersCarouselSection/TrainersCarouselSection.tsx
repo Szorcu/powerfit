@@ -17,6 +17,7 @@ export const TrainersCarouselSection = () => {
 
         <Carousel
           opts={{ align: "start" }}
+          delay={5000}
           className="flex flex-col gap-4 sm:gap-8"
         >
           <CarouselContent>
