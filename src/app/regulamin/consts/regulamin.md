@@ -1,10 +1,10 @@
-## 1. POSTANOWIENIA OGÓLNE
+## 1. Postanowienia ogólne
 
 1. **1.1.** Niniejszy regulamin określa zasady korzystania z siłowni Power Fit zlokalizowanej przy ul. Harcerskiej 7, 15-345 Białystok.
 2. **1.2.** Każdy użytkownik siłowni zobowiązany jest do przestrzegania regulaminu oraz stosowania się do poleceń personelu.
 3. **1.3.** Wejście na teren siłowni oznacza akceptację wszystkich punktów niniejszego regulaminu.
 
-## 2. PRZETWARZANIE DANYCH OSOBOWYCH
+## 2. Przetwarzanie danych osobowych
 
 1. **2.1.** Administratorem danych osobowych użytkowników jest Power Fit sp. z o.o. z siedzibą w Białymstoku przy ul. Harcerskiej 7.
 2. **2.2.** Dane osobowe są przetwarzane w celu realizacji umowy członkowskiej, obsługi karnetów, zapewnienia bezpieczeństwa na terenie obiektu, organizacji zajęć, a także w celach marketingowych – na podstawie zgody użytkownika.
@@ -13,7 +13,7 @@
 5. **2.5.** Podanie danych osobowych jest dobrowolne, lecz niezbędne do korzystania z usług siłowni.
 6. **2.6.** Szczegółowe informacje dotyczące przetwarzania danych osobowych dostępne są w Polityce Prywatności systemu eFitness.
 
-## 3. ZASADY KORZYSTANIA Z OBIEKTU
+## 3. Zasady korzystania z obiektu
 
 1. **3.1.** Siłownia dostępna jest dla osób pełnoletnich. Osoby w wieku 16–17 lat mogą korzystać z obiektu wyłącznie za pisemną zgodą rodzica lub opiekuna prawnego, przy czym odpowiedzialność za bezpieczeństwo nieletniego ponosi rodzic lub opiekun, który wyraził zgodę (dostępna w recepcji). **Osoby w wieku 13–15 lat mogą przebywać na terenie klubu wyłącznie pod stałą opieką rodzica, który podpisał zgodę (dostępną w recepcji Power Fit). Dzieci poniżej 13. roku życia nie mogą korzystać z siłowni Power Fit.**
 2. **3.2.** Dzieci i osoby towarzyszące użytkownikom mogą przebywać wyłącznie w strefie recepcji i nie mają wstępu do pomieszczeń treningowych. Siłownia nie ponosi odpowiedzialności za ich bezpieczeństwo.
@@ -25,7 +25,7 @@
 8. **3.8.** Zabrania się używania urządzeń elektronicznych w sposób zakłócający pracę siłowni lub komfort innych użytkowników. Słuchawki należy używać w sposób nie przeszkadzający otoczeniu.
 9. **3.9.** Wchodząc na teren siłowni, użytkownik wyraża zgodę na rejestrację obrazu za pomocą systemu monitoringu oraz na wykonanie zdjęcia w celu identyfikacji klubowicza w systemie eFitness, które będzie wykorzystywane wyłącznie przez siłownię Power Fit.
 
-## 4. BEZPIECZEŃSTWO
+## 4. Bezpieczeństwo
 
 1. **4.1.** Każdy użytkownik korzysta z urządzeń na własną odpowiedzialność.
 2. **4.2.** Przed rozpoczęciem treningów osoby z istniejącymi problemami zdrowotnymi lub wątpliwościami co do swojego stanu zdrowia powinny skonsultować się z lekarzem w celu uzyskania zgody na podejmowanie aktywności fizycznej. Siłownia nie ponosi odpowiedzialności za wszelkie urazy, kontuzje, pogorszenie stanu zdrowia ani inne zdarzenia będące skutkiem korzystania z urządzeń i uczestnictwa w treningach.
@@ -34,7 +34,7 @@
 5. **4.5.** Dla bezpieczeństwa i komfortu innych użytkowników zabrania się rzucania sprzętem, krzyczenia oraz wszelkich przejawów agresywnego lub nieodpowiedniego zachowania.
 6. **4.6.** W strefie siłowni zlokalizowanej w piwnicy może przebywać jednocześnie maksymalnie 10 osób.
 
-## 5. KARNETY, OPŁATY, REZYGNACJA Z UMOWY I CZŁONKOSTWO
+## 5. Karnety, opłaty, rezygnacja z umowy i członkostwo
 
 1. **5.1.** Wstęp na siłownię możliwy jest po okazaniu karty członkowskiej z ważnym karnetem lub opłaceniu wejścia jednorazowego.
 2. **5.2.** Cena wyrobienia karty członkowskiej wynosi 39 złotych w przypadku karnetów wykupionych na siłowni Power Fit , 29 zł w przypadku karnetów typu BENEFIT, czyt. Multisport, Medicover, Fit Sport, Fit Profit, PZU.
@@ -50,14 +50,14 @@
    - każde kolejne zawieszenie karnetu o minimalnym okresie trwania jest każdorazowo płatne w wysokości 20 zł
    - W przypadku niezdolności do ćwiczeń potwierdzonej zaświadczeniem lekarskim,istnieje możliwość bezpłatnego zawieszenia karnetu na okres wskazany w tej dokumentacji.
 
-## 6. ZAJĘCIA GRUPOWE I TRENINGI PERSONALNE
+## 6. Zajęcia grupowe i treningi personalne
 
 1. **6.1.** Zajęcia grupowe odbywają się zgodnie z harmonogramem dostępnym w recepcji i online.
 2. **6.2.** Na zajęcia obowiązuje wcześniejsza rezerwacja. Brak obecności bez wcześniejszego odwołania może skutkować zablokowaniem możliwości zapisów. W przypadku dwóch nieobecności w ciągu tygodnia bez uprzedniego odwołania, użytkownik otrzymuje tygodniową blokadę zapisu na zajęcia.
 3. **6.3.** Treningi personalne stanowią dodatkowo płatną usługę, której cena oraz termin realizacji ustalane są indywidualnie pomiędzy klientem a trenerem prowadzącym. Siłownia nie ponosi odpowiedzialności za szczegółowe ustalenia dokonane pomiędzy stronami.
 4. **6.4.** Siłownia zastrzega sobie prawo do odwołania zajęć z przyczyn organizacyjnych.
 
-## 7. PORZĄDEK I ZACHOWANIE, ZASADY KORZYSTANIA Z WYPOSAŻENIA SIŁOWNI POWER FIT
+## 7. Porządek i zachowanie, zasady korzystania z wyposażenia siłowni Power Fit
 
 1. **7.1.** Należy zachować czystość i porządek w całym obiekcie, w tym w szatniach i łazienkach.
 2. **7.2.** Zabrania się wynoszenia sprzętu i wyposażenia siłowni poza jej teren. Naruszenie tego zakazu może skutkować konsekwencjami, w tym nałożeniem kary lub cofnięciem karnetu członkowskiego.
@@ -67,7 +67,7 @@
 6. **7.6.** Rzeczy osobiste nie mogą być pozostawiane na podłodze ani w innych miejscach ogólnodostępnych, z wyjątkiem szafek i wyznaczonych miejsc do przechowywania. W razie naruszenia siłownia może je usunąć bez możliwości roszczeń.
 7. **7.7.** Użytkownicy są zobowiązani do dbania o całe wyposażenie siłowni, w tym lustra, sprzęt do treningów (np. hantle, sztangi, maszyny), maty, akcesoria treningowe, stacje do ćwiczeń funkcjonalnych oraz pozostałe elementy wyposażenia, a także o ściany i inne elementy wnętrza obiektu. Użytkownik ponosi pełną odpowiedzialność za wszelkie szkody wyrządzone na terenie siłowni, w tym w wyniku niewłaściwego użycia sprzętu lub wyposażenia. Wszelkie szkody będą skutkowały obowiązkiem naprawy lub pokrycia kosztów wymiany przez sprawcę. W przypadku rażącego zniszczenia sprzętu lub wyposażenia siłowni, użytkownik może zostać natychmiast wyproszony z obiektu, a siłownia zastrzega sobie prawo do obciążenia sprawcy kosztami naprawy lub wymiany uszkodzonych elementów.
 
-## 8. POSTANOWIENIA KOŃCOWE
+## 8. Postanowienia końcowe
 
 1. **8.1.** Siłownia Power Fit zastrzega sobie prawo do wprowadzania zmian w regulaminie.
 2. **8.2.** W przypadku notorycznego lub rażącego naruszania postanowień niniejszego regulaminu, siłownia zastrzega sobie prawo do natychmiastowego wyproszenia użytkownika z obiektu oraz jednostronnego rozwiązania umowy/karnetu członkowskiego bez prawa do zwrotu kosztów i bez możliwości ponownego zawarcia umowy. Decyzja w tym zakresie należy wyłącznie do zarządu siłowni i jest ostateczna, nie podlega procedurze odwoławczej.
