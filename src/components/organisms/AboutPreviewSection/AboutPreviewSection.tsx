@@ -1,4 +1,5 @@
 import { Button } from "@/components/atoms/Button";
+import Link from "next/link";
 
 export const AboutPreviewSection = () => {
   return (
@@ -23,7 +24,9 @@ export const AboutPreviewSection = () => {
             dziś!
           </p>
 
-          <Button className="w-fit">Czytaj więcej</Button>
+          <Button asChild className="w-fit">
+            <Link href="o-nas">Czytaj więcej</Link>
+          </Button>
         </div>
 
         <div className="relative">
