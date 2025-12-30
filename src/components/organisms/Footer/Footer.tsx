@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export const Footer = () => {
   return (
-    <footer className="z-10 flex w-full justify-center text-white">
+    <footer className="z-10 flex w-full flex-col items-center gap-8 text-white lg:gap-16">
       <div className="container flex flex-col gap-12 sm:flex-row md:gap-20 lg:gap-28 xl:gap-44">
         <div className="flex flex-col gap-4 sm:gap-6 lg:flex-row lg:items-start lg:gap-16 xl:gap-24 2xl:gap-44">
           <Image
@@ -157,6 +157,24 @@ export const Footer = () => {
             </li>
           </ul>
         </div>
+      </div>
+
+      <div className="border-border/10 w-full border-t py-6 text-center">
+        <p className="text-center text-sm text-white/50">
+          © {new Date().getFullYear()} Power Fit. Wszelkie prawa zastrzeżone.
+        </p>
+
+        <p className="mt-1 text-xs text-white/30">
+          Strona wykonana przez{" "}
+          <a
+            href="https://www.linkedin.com/in/norbert-szorc/"
+            target="_blank"
+            rel="noopener"
+            className="link"
+          >
+            Norbert Szorc
+          </a>
+        </p>
       </div>
     </footer>
   );
