@@ -68,7 +68,10 @@ export default function RootLayout({
       )}
     >
       <body className="antialiased">
-        <GoogleAnalytics gaId="G-CZYSBE6RV5" />
+        <GoogleAnalytics
+          gaId="G-CZYSBE6RV5"
+          debugMode={process.env.NODE_ENV === "development"}
+        />
         <Toaster />
 
         <main>
