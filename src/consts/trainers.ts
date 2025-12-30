@@ -19,13 +19,6 @@ export const TRAINERS = [
     ],
   },
   {
-    img: "trainer-rafal.png",
-    name: "Rafał Kukisz",
-    description:
-      "Mistrz Polski w kulturystyce oraz certyfikowany trener personalny; specjalizuje się w treningu siłowym, pracuje z osobami na różnych poziomach zaawansowania, w tym z osobami po urazach, wykorzystując wiedzę z zakresu biomechaniki, żywienia i regeneracji.",
-    classes: ["-"],
-  },
-  {
     img: "trainer-piotr.jpeg",
     name: "Piotr Sidun",
     description:

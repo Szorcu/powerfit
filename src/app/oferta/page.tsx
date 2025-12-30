@@ -22,6 +22,7 @@ const OfferPage = () => {
                   className="border bg-white shadow-sm"
                   img={item.img}
                   title={item.title}
+                  summary={item.summary}
                   description={item.description}
                   duration={item.duration}
                   intensity={item.intensity}
@@ -42,6 +43,7 @@ const OfferPage = () => {
                   className="max-w-xl border bg-white shadow-sm"
                   img={item.img}
                   title={item.title}
+                  summary={item.summary}
                   description={item.description}
                   duration={item.duration}
                 />

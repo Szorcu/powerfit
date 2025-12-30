@@ -11,16 +11,17 @@ import { OfferColumnProps } from "./OfferColumn.types";
 
 export const OfferColumn = ({ title, items, redirectTo }: OfferColumnProps) => {
   return (
-    <div className="flex max-w-xl flex-col gap-8">
+    <div className="flex flex-col gap-8">
       <h2 className="text-xl">{title}</h2>
 
-      <Carousel className="flex flex-col gap-4" delay={7000}>
-        <CarouselContent>
+      <Carousel className="flex shrink-0 flex-col gap-4" delay={7000}>
+        <CarouselContent className="p-px">
           {items.map((item, index) => (
             <CarouselItem key={index}>
               <OfferCard
                 img={item.img}
                 title={item.title}
+                summary={item.summary}
                 description={item.description}
                 duration={item.duration}
                 intensity={"intensity" in item ? item.intensity : undefined}

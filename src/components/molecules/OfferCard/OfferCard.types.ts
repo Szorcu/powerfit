@@ -1,8 +1,9 @@
 export type OfferCardProps = {
   img: string;
   title: string;
+  summary: string;
   description: string;
-  duration: number;
+  duration: string;
 
   className?: string;
   intensity?: number;

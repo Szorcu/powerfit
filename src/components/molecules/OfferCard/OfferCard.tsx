@@ -1,3 +1,5 @@
+"use client";
+
 import clsx from "clsx";
 import Image from "next/image";
 import {
@@ -8,31 +10,44 @@ import {
 } from "@/components/atoms/Card";
 import { IntensityIndicator } from "@/components/atoms/IntensityIndicator";
 import { OfferCardProps } from "./OfferCard.types";
+import { useState } from "react";
+import { Button } from "@/components/atoms/Button";
 
 export const OfferCard = ({
   img,
   title,
+  summary,
   description,
   duration,
   className,
   intensity,
   withHover = true,
 }: OfferCardProps) => {
+  const [showOverlay, setShowOverlay] = useState(false);
+
   return (
     <Card
       className={clsx(
-        "group border-border/20 h-[512px] overflow-hidden bg-transparent pt-0 text-inherit shadow-none",
+        "group border-border/20 relative min-h-fit overflow-hidden bg-transparent pt-0 text-inherit shadow-none",
         withHover &&
-          "duration-300E transition-all hover:-translate-y-1 hover:shadow-xl",
+          "transition-all duration-300 hover:-translate-y-1 hover:shadow-xl",
         className,
       )}
     >
-      <CardHeader className="relative h-[60%]">
+      <CardHeader className="relative aspect-5/3 shrink-0">
         <Image src={img} alt={title} fill className="object-cover" />
       </CardHeader>
-      <CardContent>
-        <h3 className="mb-2 text-xl">{title}</h3>
-        <p>{description}</p>
+      <CardContent className="flex flex-col gap-2">
+        <h3 className="line-clamp-1 text-xl">{title}</h3>
+        <p className="line-clamp-3 text-sm">{summary}</p>
+
+        <Button
+          className="font-zalando w-fit p-0 text-sm font-semibold text-current underline hover:text-current/80"
+          variant="link"
+          onClick={() => setShowOverlay(true)}
+        >
+          czytaj więcej
+        </Button>
       </CardContent>
       <CardFooter
         className={clsx(
@@ -55,9 +70,32 @@ export const OfferCard = ({
               fill="currentColor"
             />
           </svg>
-          {duration} min
+          {duration}
         </div>
       </CardFooter>
+
+      <div
+        className={clsx(
+          "text-foreground absolute inset-0 flex flex-col justify-between bg-white/90 p-6 text-sm backdrop-blur-sm transition-opacity duration-300",
+          showOverlay
+            ? "pointer-events-auto opacity-100"
+            : "pointer-events-none opacity-0",
+        )}
+      >
+        <div className="overflow-auto pb-4 leading-relaxed whitespace-pre-line">
+          {description}
+        </div>
+
+        <div className="border-t border-black/10 pt-4">
+          <Button
+            className="font-zalando w-fit p-0 text-sm font-semibold text-current underline hover:text-current/80"
+            variant="link"
+            onClick={() => setShowOverlay(false)}
+          >
+            zwiń opis
+          </Button>
+        </div>
+      </div>
     </Card>
   );
 };
