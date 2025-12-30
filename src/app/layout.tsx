@@ -15,7 +15,7 @@ import { GA_TRACKING_ID } from "@/consts/googleAnalytics";
 export const metadata: Metadata = {
   title: "Power Fit | Siłownia i klub fitness Białystok",
   description:
-    "Poznaj Power Fit – nową siłownię z pozytywnym klimatem i trenerami, którzy rozumieją, że forma to proces, nie wyścig.",
+    "Poznaj Power Fit – nową siłownię z Białegostoku z pozytywnym klimatem i trenerami, którzy rozumieją, że forma to proces, nie wyścig.",
 };
 
 const zalandoFont = localFont({
