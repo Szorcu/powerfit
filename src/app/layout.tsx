@@ -8,6 +8,9 @@ import { ContactSection } from "@/components/organisms/ContactSection";
 import Image from "next/image";
 import { Toaster } from "@/components/atoms/Sonner";
 import { TestimonialsSection } from "@/components/organisms/TestimonialsSection";
+import GAPageView from "./ga-pageview";
+import Script from "next/script";
+import { GA_TRACKING_ID } from "@/consts/googleAnalytics";
 
 export const metadata: Metadata = {
   title: "Power Fit | Siłownia i klub fitness Białystok",
@@ -66,7 +69,24 @@ export default function RootLayout({
         "scroll-smooth",
       )}
     >
+      <head>
+        <Script
+          src={`https://www.googletagmanager.com/gtag/js?id=${GA_TRACKING_ID}`}
+          strategy="afterInteractive"
+        />
+        <Script id="ga4-init" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', '${GA_TRACKING_ID}');
+          `}
+        </Script>
+      </head>
       <body className="antialiased">
+        <GAPageView />
+        <Toaster />
+
         <main>
           <Navbar />
 
@@ -83,8 +103,6 @@ export default function RootLayout({
             <Footer />
           </div>
         </main>
-
-        <Toaster />
       </body>
     </html>
   );
