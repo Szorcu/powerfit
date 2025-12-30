@@ -27,6 +27,16 @@ const PrivacyPolicyPage = async () => {
           <ReactMarkdown
             remarkPlugins={[remarkGfm]}
             rehypePlugins={[rehypeSanitize]}
+            components={{
+              a: ({ node, ...props }) => (
+                <a
+                  {...props}
+                  className="link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                />
+              ),
+            }}
           >
             {content}
           </ReactMarkdown>

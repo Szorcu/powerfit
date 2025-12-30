@@ -99,7 +99,16 @@ odbywać się będzie w oparciu o stosowną umowę pomiędzy Nami a tym podmiote
 zawierającą standardowe klauzule ochrony danych przyjęte przez Komisję Europejską, bądź na
 podstawie odpowiedniej decyzji Komisji Europejskiej.
 
-## 8. Twoje prawa związane z przetwarzaniem danych osobowych:
+## 8. Przekazywanie danych do eFitness
+
+Informujemy, że wszelkie dane osobowe, które zbieramy są przekazywane do firmy eFitness,
+która jako zewnętrzny dostawca systemu zajmuje się ich dalszym przetwarzaniem i ochroną.
+Firma eFitness odpowiada za bezpieczeństwo oraz zgodność z przepisami dotyczącymi ochrony
+danych.
+
+Polityka prywatności eFitness: https://efitness.pl/polityka-prywatnosci/
+
+## 9. Twoje prawa związane z przetwarzaniem danych osobowych:
 
 - prawo do wniesienia sprzeciwu wobec przetwarzania danych na podstawie prawnie
   uzasadnionego interesu,
@@ -127,7 +136,7 @@ są w oparciu o Twoją zgodę, to przysługuje Ci prawo do jej wycofania w dowol
 bez negatywnych konsekwencji. Nie wpływa na zgodność z prawem przetwarzania, którego
 dokonano przed jej wycofaniem.
 
-## 9. Obowiązek podania danych
+## 10. Obowiązek podania danych
 
 Podanie danych potrzebnych do zawarcia z nami umowy jest dobrowolne, aczkolwiek
 niepodanie ich uniemożliwi zawarcie (w tym: realizację) umowy. Skorzystanie z aplikacji mobilnej,
