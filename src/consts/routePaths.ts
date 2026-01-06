@@ -1,9 +1,9 @@
 export const ROUTE_PATHS = {
   home: "/",
-  about: "o-nas",
+  aboutUs: "o-nas",
   offer: "oferta",
   trainers: "trenerzy",
-  termsOfService: "regulamin",
+  termsAndConditions: "regulamin",
   privacyPolicy: "polityka-prywatnosci",
   sitemap: "sitemap.xml",
 

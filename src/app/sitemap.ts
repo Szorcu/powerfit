@@ -21,7 +21,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.8,
     },
     {
-      url: buildUrl(ROUTE_PATHS.about),
+      url: buildUrl(ROUTE_PATHS.aboutUs),
       lastModified,
       changeFrequency: "monthly",
       priority: 0.7,
@@ -33,7 +33,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.6,
     },
     {
-      url: buildUrl(ROUTE_PATHS.termsOfService),
+      url: buildUrl(ROUTE_PATHS.termsAndConditions),
       lastModified,
       changeFrequency: "yearly",
       priority: 0.1,

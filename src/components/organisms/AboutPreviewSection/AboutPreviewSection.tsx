@@ -26,7 +26,7 @@ export const AboutPreviewSection = () => {
           </p>
 
           <Button asChild className="w-fit">
-            <Link href={ROUTE_PATHS.about}>Czytaj więcej</Link>
+            <Link href={ROUTE_PATHS.aboutUs}>Czytaj więcej</Link>
           </Button>
         </div>
 

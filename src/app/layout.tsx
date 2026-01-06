@@ -9,11 +9,10 @@ import { ContactSection } from "@/components/organisms/ContactSection";
 import Image from "next/image";
 import { Toaster } from "@/components/atoms/Sonner";
 import { TestimonialsSection } from "@/components/organisms/TestimonialsSection";
+import { BASE_URL } from "@/consts/baseUrl";
 
 export const metadata: Metadata = {
-  title: "Power Fit | Siłownia i klub fitness Białystok",
-  description:
-    "Poznaj Power Fit – nową siłownię z Białegostoku z pozytywnym klimatem i trenerami, którzy rozumieją, że forma to proces, nie wyścig.",
+  metadataBase: new URL(BASE_URL),
 };
 
 const zalandoFont = localFont({

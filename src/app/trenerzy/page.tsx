@@ -1,6 +1,16 @@
+import { Metadata } from "next";
 import { TrainerCard } from "@/components/molecules/TrainerCard";
 import { PageHeader } from "@/components/organisms/PageHeader";
+import { ROUTE_PATHS } from "@/consts/routePaths";
 import { TRAINERS } from "@/consts/trainers";
+import { buildPath } from "@/utils/buildPath";
+
+export const metadata: Metadata = {
+  title: "Trenerzy | Power Fit Białystok",
+  description:
+    "Poznaj Power Fit – nową siłownię z Białegostoku z pozytywnym klimatem i trenerami, którzy rozumieją, że forma to proces, nie wyścig.",
+  alternates: { canonical: buildPath(ROUTE_PATHS.trainers) },
+};
 
 const TrainersPage = () => {
   return (

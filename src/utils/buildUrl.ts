@@ -1,5 +1,5 @@
-export const buildUrl = (path: string) => {
-  const baseUrl = "https://powerfitbialystok.pl";
+import { BASE_URL } from "@/consts/baseUrl";
 
-  return `${baseUrl}${path.startsWith("/") ? "" : "/"}${path}`;
+export const buildUrl = (path: string) => {
+  return `${BASE_URL}${path.startsWith("/") ? "" : "/"}${path}`;
 };

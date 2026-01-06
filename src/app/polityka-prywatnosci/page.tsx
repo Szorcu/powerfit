@@ -4,6 +4,16 @@ import remarkGfm from "remark-gfm";
 import rehypeSanitize from "rehype-sanitize";
 import path from "node:path";
 import { readFile } from "node:fs/promises";
+import { Metadata } from "next";
+import { buildPath } from "@/utils/buildPath";
+import { ROUTE_PATHS } from "@/consts/routePaths";
+
+export const metadata: Metadata = {
+  title: "Polityka prywatności | Power Fit Białystok",
+  description:
+    "Poznaj Power Fit – nową siłownię z Białegostoku z pozytywnym klimatem i trenerami, którzy rozumieją, że forma to proces, nie wyścig.",
+  alternates: { canonical: buildPath(ROUTE_PATHS.privacyPolicy) },
+};
 
 const PrivacyPolicyPage = async () => {
   const filePath = path.join(

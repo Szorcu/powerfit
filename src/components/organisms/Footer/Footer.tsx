@@ -108,7 +108,7 @@ export const Footer = () => {
                 </Link>
               </li>
               <li>
-                <Link className="link" href={ROUTE_PATHS.about}>
+                <Link className="link" href={ROUTE_PATHS.aboutUs}>
                   o nas
                 </Link>
               </li>
@@ -152,7 +152,7 @@ export const Footer = () => {
               </Link>
             </li>
             <li>
-              <Link className="link" href={ROUTE_PATHS.termsOfService}>
+              <Link className="link" href={ROUTE_PATHS.termsAndConditions}>
                 regulamin
               </Link>
             </li>

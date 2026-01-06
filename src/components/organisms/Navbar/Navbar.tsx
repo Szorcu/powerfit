@@ -54,7 +54,7 @@ export const Navbar = () => {
         <nav aria-label="Primary navigation">
           <ul className="hidden xl:flex xl:gap-12 xl:text-sm">
             <li>
-              <Link className="link" href={ROUTE_PATHS.about}>
+              <Link className="link" href={ROUTE_PATHS.aboutUs}>
                 o nas
               </Link>
             </li>
@@ -112,7 +112,7 @@ export const Navbar = () => {
                 <ul className="flex flex-col gap-12 text-sm">
                   <li>
                     <SheetClose asChild>
-                      <Link className="link" href={ROUTE_PATHS.about}>
+                      <Link className="link" href={ROUTE_PATHS.aboutUs}>
                         o nas
                       </Link>
                     </SheetClose>
