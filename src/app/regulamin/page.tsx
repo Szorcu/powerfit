@@ -11,7 +11,7 @@ import { ROUTE_PATHS } from "@/consts/routePaths";
 export const metadata: Metadata = {
   title: "Regulamin | Power Fit Białystok",
   description:
-    "Poznaj Power Fit – nową siłownię z Białegostoku z pozytywnym klimatem i trenerami, którzy rozumieją, że forma to proces, nie wyścig.",
+    "Regulamin korzystania z klubu Power Fit – siłowni na osiedlu Nowe Miasto w Białymstoku. Zasady członkostwa i funkcjonowania klubu.",
   alternates: { canonical: buildPath(ROUTE_PATHS.termsAndConditions) },
 };
 

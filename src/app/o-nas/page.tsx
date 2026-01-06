@@ -10,7 +10,7 @@ import { buildPath } from "@/utils/buildPath";
 export const metadata: Metadata = {
   title: "O nas | Power Fit Białystok",
   description:
-    "Poznaj Power Fit – nową siłownię z Białegostoku z pozytywnym klimatem i trenerami, którzy rozumieją, że forma to proces, nie wyścig.",
+    "Poznaj Power Fit – siłownię na Nowym Mieście w Białymstoku z ludzkim podejściem do treningu. Stawiamy na atmosferę, wsparcie i długofalowe efekty.",
   alternates: { canonical: buildPath(ROUTE_PATHS.aboutUs) },
 };
 

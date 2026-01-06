@@ -11,7 +11,7 @@ import { ROUTE_PATHS } from "@/consts/routePaths";
 export const metadata: Metadata = {
   title: "Polityka prywatności | Power Fit Białystok",
   description:
-    "Poznaj Power Fit – nową siłownię z Białegostoku z pozytywnym klimatem i trenerami, którzy rozumieją, że forma to proces, nie wyścig.",
+    "Polityka prywatności serwisu Power Fit – siłowni na Nowym Mieście w Białymstoku. Informacje o przetwarzaniu danych osobowych.",
   alternates: { canonical: buildPath(ROUTE_PATHS.privacyPolicy) },
 };
 

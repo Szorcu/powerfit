@@ -8,7 +8,7 @@ import { buildPath } from "@/utils/buildPath";
 export const metadata: Metadata = {
   title: "Trenerzy | Power Fit Białystok",
   description:
-    "Poznaj Power Fit – nową siłownię z Białegostoku z pozytywnym klimatem i trenerami, którzy rozumieją, że forma to proces, nie wyścig.",
+    "Poznaj trenerów Power Fit – siłowni na Nowym Mieście w Białymstoku. Indywidualne podejście, doświadczenie i realne wsparcie w treningu.",
   alternates: { canonical: buildPath(ROUTE_PATHS.trainers) },
 };
 
