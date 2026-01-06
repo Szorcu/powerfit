@@ -1,4 +1,5 @@
 import { Button } from "@/components/atoms/Button";
+import { ROUTE_PATHS } from "@/consts/routePaths";
 
 export const AboutIntroSection = () => {
   return (
@@ -14,7 +15,7 @@ export const AboutIntroSection = () => {
 
           <Button className="mt-6 w-fit" asChild>
             <a
-              href="https://powerfit-bialystok.cms.efitness.com.pl/kup-karnet"
+              href={ROUTE_PATHS.pricing}
               target="_blank"
               rel="noopener noreferrer"
             >

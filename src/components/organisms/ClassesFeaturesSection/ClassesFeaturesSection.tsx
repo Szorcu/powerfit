@@ -1,5 +1,6 @@
 import { Button } from "@/components/atoms/Button";
 import { Card, CardContent, CardHeader } from "@/components/atoms/Card";
+import { ROUTE_PATHS } from "@/consts/routePaths";
 import { Award, Calendar, Clock, Users } from "lucide-react";
 
 const FEATURES = [
@@ -69,7 +70,7 @@ export const ClassesFeaturesSection = () => {
 
           <Button asChild>
             <a
-              href="https://powerfit-bialystok.cms.efitness.com.pl/kalendarz-zajec"
+              href={ROUTE_PATHS.classSchedule}
               target="_blank"
               rel="noopener noreferrer"
             >

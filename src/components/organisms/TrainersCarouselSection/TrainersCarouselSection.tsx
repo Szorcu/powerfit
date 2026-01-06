@@ -8,6 +8,7 @@ import {
 import Link from "next/link";
 import { TrainerCard } from "@/components/molecules/TrainerCard";
 import { TRAINERS } from "@/consts/trainers";
+import { ROUTE_PATHS } from "@/consts/routePaths";
 
 export const TrainersCarouselSection = () => {
   return (
@@ -40,7 +41,7 @@ export const TrainersCarouselSection = () => {
             <CarouselButtons />
 
             <Button asChild className="w-fit">
-              <Link href="trenerzy">Wszyscy trenerzy</Link>
+              <Link href={ROUTE_PATHS.trainers}>Wszyscy trenerzy</Link>
             </Button>
           </div>
         </Carousel>

@@ -1,4 +1,5 @@
 import { Button } from "@/components/atoms/Button";
+import { ROUTE_PATHS } from "@/consts/routePaths";
 import Link from "next/link";
 
 export const AboutPreviewSection = () => {
@@ -25,7 +26,7 @@ export const AboutPreviewSection = () => {
           </p>
 
           <Button asChild className="w-fit">
-            <Link href="o-nas">Czytaj więcej</Link>
+            <Link href={ROUTE_PATHS.about}>Czytaj więcej</Link>
           </Button>
         </div>
 

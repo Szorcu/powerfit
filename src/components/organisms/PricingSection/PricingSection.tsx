@@ -1,6 +1,7 @@
 import { Button } from "@/components/atoms/Button";
 import { Card, CardContent, CardHeader } from "@/components/atoms/Card";
 import { PRICING_CARDS } from "./PricingSection.consts";
+import { ROUTE_PATHS } from "@/consts/routePaths";
 
 export const PricingSection = () => {
   return (
@@ -11,7 +12,7 @@ export const PricingSection = () => {
 
           <Button asChild className="w-fit">
             <a
-              href="https://powerfit-bialystok.cms.efitness.com.pl/kup-karnet"
+              href={ROUTE_PATHS.pricing}
               target="_blank"
               rel="noopener noreferrer"
             >

@@ -1,3 +1,4 @@
+import { ROUTE_PATHS } from "@/consts/routePaths";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -102,19 +103,19 @@ export const Footer = () => {
           <nav>
             <ul className="flex flex-col gap-3">
               <li>
-                <Link className="link" href="/">
+                <Link className="link" href={ROUTE_PATHS.home}>
                   strona główna
                 </Link>
               </li>
               <li>
-                <Link className="link" href="o-nas">
+                <Link className="link" href={ROUTE_PATHS.about}>
                   o nas
                 </Link>
               </li>
               <li>
                 <a
                   className="link"
-                  href="https://powerfit-bialystok.cms.efitness.com.pl/kalendarz-zajec"
+                  href={ROUTE_PATHS.classSchedule}
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -122,14 +123,14 @@ export const Footer = () => {
                 </a>
               </li>
               <li>
-                <Link className="link" href="oferta">
+                <Link className="link" href={ROUTE_PATHS.offer}>
                   oferta
                 </Link>
               </li>
               <li>
                 <a
                   className="link"
-                  href="https://powerfit-bialystok.cms.efitness.com.pl/kup-karnet"
+                  href={ROUTE_PATHS.pricing}
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -137,7 +138,7 @@ export const Footer = () => {
                 </a>
               </li>
               <li>
-                <Link className="link" href="trenerzy">
+                <Link className="link" href={ROUTE_PATHS.trainers}>
                   trenerzy
                 </Link>
               </li>
@@ -146,12 +147,12 @@ export const Footer = () => {
 
           <ul className="flex flex-col gap-3">
             <li>
-              <Link className="link" href="polityka-prywatnosci">
+              <Link className="link" href={ROUTE_PATHS.privacyPolicy}>
                 polityka prywatności
               </Link>
             </li>
             <li>
-              <Link className="link" href="regulamin">
+              <Link className="link" href={ROUTE_PATHS.termsOfService}>
                 regulamin
               </Link>
             </li>

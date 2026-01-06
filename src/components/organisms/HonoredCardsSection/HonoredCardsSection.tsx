@@ -1,4 +1,5 @@
 import { Button } from "@/components/atoms/Button";
+import { ROUTE_PATHS } from "@/consts/routePaths";
 import Image from "next/image";
 
 export const HonoredCardsSection = () => {
@@ -23,7 +24,7 @@ export const HonoredCardsSection = () => {
 
           <Button className="w-fit" asChild>
             <a
-              href="https://powerfit-bialystok.cms.efitness.com.pl/kup-karnet"
+              href={ROUTE_PATHS.pricing}
               target="_blank"
               rel="noopener noreferrer"
             >

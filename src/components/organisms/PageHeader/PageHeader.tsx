@@ -9,6 +9,7 @@ import {
   BreadcrumbSeparator,
 } from "@/components/atoms/Breadcrumb";
 import Link from "next/link";
+import { ROUTE_PATHS } from "@/consts/routePaths";
 
 export const PageHeader = ({
   title,
@@ -32,7 +33,7 @@ export const PageHeader = ({
           <BreadcrumbList>
             <BreadcrumbItem>
               <BreadcrumbLink asChild>
-                <Link href="/">Strona główna</Link>
+                <Link href={ROUTE_PATHS.home}>Strona główna</Link>
               </BreadcrumbLink>
             </BreadcrumbItem>
             <BreadcrumbSeparator />

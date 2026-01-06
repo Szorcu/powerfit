@@ -12,6 +12,7 @@ import {
   SheetContent,
   SheetTrigger,
 } from "@/components/atoms/Sheet";
+import { ROUTE_PATHS } from "@/consts/routePaths";
 
 export const Navbar = () => {
   const [isStick, setIsStick] = useState(false);
@@ -40,7 +41,7 @@ export const Navbar = () => {
       )}
     >
       <div className="container flex items-center justify-between">
-        <Link href="/">
+        <Link href={ROUTE_PATHS.home}>
           <Image
             className="h-10 w-auto xl:h-[50px]"
             src="logo-full.svg"
@@ -53,14 +54,14 @@ export const Navbar = () => {
         <nav aria-label="Primary navigation">
           <ul className="hidden xl:flex xl:gap-12 xl:text-sm">
             <li>
-              <Link className="link" href="o-nas">
+              <Link className="link" href={ROUTE_PATHS.about}>
                 o nas
               </Link>
             </li>
             <li>
               <a
                 className="link"
-                href="https://powerfit-bialystok.cms.efitness.com.pl/kalendarz-zajec"
+                href={ROUTE_PATHS.classSchedule}
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -68,14 +69,14 @@ export const Navbar = () => {
               </a>
             </li>
             <li>
-              <Link className="link" href="oferta">
+              <Link className="link" href={ROUTE_PATHS.offer}>
                 oferta
               </Link>
             </li>
             <li>
               <a
                 className="link"
-                href="https://powerfit-bialystok.cms.efitness.com.pl/kup-karnet"
+                href={ROUTE_PATHS.pricing}
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -83,7 +84,7 @@ export const Navbar = () => {
               </a>
             </li>
             <li>
-              <Link className="link" href="trenerzy">
+              <Link className="link" href={ROUTE_PATHS.trainers}>
                 trenerzy
               </Link>
             </li>
@@ -111,7 +112,7 @@ export const Navbar = () => {
                 <ul className="flex flex-col gap-12 text-sm">
                   <li>
                     <SheetClose asChild>
-                      <Link className="link" href="o-nas">
+                      <Link className="link" href={ROUTE_PATHS.about}>
                         o nas
                       </Link>
                     </SheetClose>
@@ -120,7 +121,7 @@ export const Navbar = () => {
                     <SheetClose asChild>
                       <a
                         className="link"
-                        href="https://powerfit-bialystok.cms.efitness.com.pl/kalendarz-zajec"
+                        href={ROUTE_PATHS.classSchedule}
                         target="_blank"
                         rel="noopener noreferrer"
                       >
@@ -130,7 +131,7 @@ export const Navbar = () => {
                   </li>
                   <li>
                     <SheetClose asChild>
-                      <Link className="link" href="oferta">
+                      <Link className="link" href={ROUTE_PATHS.offer}>
                         oferta
                       </Link>
                     </SheetClose>
@@ -139,7 +140,7 @@ export const Navbar = () => {
                     <SheetClose asChild>
                       <a
                         className="link"
-                        href="https://powerfit-bialystok.cms.efitness.com.pl/kup-karnet"
+                        href={ROUTE_PATHS.pricing}
                         target="_blank"
                         rel="noopener noreferrer"
                       >
@@ -149,7 +150,7 @@ export const Navbar = () => {
                   </li>
                   <li>
                     <SheetClose asChild>
-                      <Link className="link" href="trenerzy">
+                      <Link className="link" href={ROUTE_PATHS.trainers}>
                         trenerzy
                       </Link>
                     </SheetClose>

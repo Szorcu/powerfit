@@ -1,6 +1,7 @@
 import { Noise } from "@/components/atoms/Noise";
 import { OfferColumn } from "@/components/molecules/OfferColumn/OfferColumn";
 import { CLASSES } from "@/consts/classes";
+import { ROUTE_PATHS } from "@/consts/routePaths";
 import { SERVICES } from "@/consts/services";
 
 export const OurOfferSection = () => {
@@ -17,12 +18,12 @@ export const OurOfferSection = () => {
           <OfferColumn
             title="Najpopularniejsze zajęcia"
             items={CLASSES.slice(0, 5)}
-            redirectTo="oferta#zajecia"
+            redirectTo={`${ROUTE_PATHS.offer}#zajecia`}
           />
           <OfferColumn
             title="Dodatkowe usługi"
             items={SERVICES}
-            redirectTo="oferta#uslugi"
+            redirectTo={`${ROUTE_PATHS.offer}#uslugi`}
           />
         </div>
       </div>
