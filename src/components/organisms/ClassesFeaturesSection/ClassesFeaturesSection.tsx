@@ -8,7 +8,7 @@ const FEATURES = [
     Icon: Calendar,
     title: "40+",
     subtitle: "zajęć tygodniowo",
-    description: "Joga, crossfit, fitness, pilates i wiele więcej",
+    description: "Joga, fitness, pilates i wiele więcej",
   },
   {
     Icon: Clock,
