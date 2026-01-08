@@ -38,7 +38,7 @@ export const AboutPreviewSection = () => {
             playsInline
             className="rounded-2xl object-cover"
           >
-            <source src="about-preview.mp4" type="video/mp4" />
+            <source src="powerfit-promo.mp4" type="video/mp4" />
           </video>
         </div>
       </div>
