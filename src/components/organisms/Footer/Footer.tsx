@@ -78,7 +78,7 @@ export const Footer = () => {
               </a>
 
               <a
-                href="https://www.tiktok.com/@powerfitbialystok"
+                href="https://www.tiktok.com/@powerfit.bialystok"
                 target="_blank"
                 rel="noopener noreferrer"
               >
