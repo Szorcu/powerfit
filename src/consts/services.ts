@@ -15,7 +15,7 @@ export const SERVICES = [
       ✅ poprawa wyglądu skóry ⛱️
       ✅ lepsze samopoczucie i pewność siebie ✨
     `,
-    duration: "3 zł/min",
+    duration: "4 zł/min • 180 zł/50 min",
   },
   {
     img: "classes-rozciaganie-rollowanie.jpg",
