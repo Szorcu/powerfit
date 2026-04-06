@@ -676,4 +676,42 @@ export const CLASSES = [
     intensity: 3,
     duration: "60 min",
   },
+  {
+    img: "classes-rozciaganie-rollowanie.jpg",
+    title: "Loaded Stretching",
+    summary:
+      "Loaded Stretching to przełomowy trening, który łączy pracę nad elastycznością z wykorzystaniem dodatkowego obciążenia. To nie jest zwykły stretching – to budowanie mobilności, która realnie przekłada się na Twoją sprawność i siłę!",
+    description: `🏋️‍♂️ LOADED STRETCHING – siła spotyka elastyczność! 🏋️‍♂️ 
+
+      Masz wrażenie, że Twoje ciało jest spięte, a klasyczne rozciąganie nie przynosi efektów? Loaded Stretching to przełomowy trening, który łączy pracę nad elastycznością z wykorzystaniem dodatkowego obciążenia. To nie jest zwykły stretching – to budowanie mobilności, która realnie przekłada się na Twoją sprawność i siłę!
+
+      Co zyskasz? 🔥
+      - Głębsze zakresy ruchu – dzięki wykorzystaniu ciężaru, Twoje mięśnie „uczą się” rozluźniać w bezpieczny sposób, co pozwala na osiągnięcie efektów szybciej niż w tradycyjnych metodach.
+      - Wzmocnienie w rozciągnięciu – budujesz siłę tam, gdzie Twoje ciało jest zazwyczaj najsłabsze, co drastycznie zmniejsza ryzyko kontuzji w sporcie i życiu codziennym.
+      - Lepsza stabilizacja stawów – Loaded Stretching aktywuje mięśnie głębokie, stabilizując Twoje ciało i poprawiając kontrolę nad każdym ruchem. 
+      - Uwolnienie napięć powięziowych – pożegnaj uczucie sztywności „po treningu” lub po całym dniu siedzenia przy biurku. Twoje ciało stanie się bardziej responsywne i sprężyste.
+
+      Loaded Stretching to idealne zajęcia dla osób aktywnych, sportowców oraz każdego, kto chce poczuć się silnym w każdym centymetrze swojego ciała. Nie ograniczaj się – odblokuj swój pełny potencjał ruchowy i poczuj różnicę już po pierwszym treningu! 🌟
+    `,
+    intensity: 2,
+    duration: "60 min",
+  },
+  {
+    img: "classes-trening-ze-sztanga.jpg",
+    title: "Trening ze sztangami",
+    summary:
+      "To dynamiczne zajęcia siłowe, które angażują najważniejsze partie mięśni – nogi, pośladki, plecy, klatkę piersiową oraz ramiona.",
+    description: `🔥 LOADED STRETCHING – siła, dynamika, rezultaty 🔥
+
+      Odkryj energię treningu ze sztangą i poczuj, jak Twoje ciało staje się silniejsze z każdym powtórzeniem. To dynamiczne zajęcia siłowe, które angażują najważniejsze partie mięśni – nogi, pośladki, plecy, klatkę piersiową oraz ramiona.
+
+      Podczas treningu wykonujemy zestaw skutecznych ćwiczeń ze sztangą w rytm motywującej muzyki, dzięki czemu wzmacniasz całe ciało, poprawiasz wytrzymałość i modelujesz sylwetkę. Intensywność zajęć możesz dopasować do siebie poprzez dobór odpowiedniego obciążenia, dlatego trening sprawdzi się zarówno dla osób początkujących, jak i bardziej zaawansowanych.
+    
+      Regularne zajęcia pomogą Ci zwiększyć siłę, spalić kalorie i zbudować mocne, jędrne ciało.
+
+      Dołącz do treningu i poczuj satysfakcję z każdej podniesionej sztangi! 💪🔥
+    `,
+    intensity: 3,
+    duration: "60 min",
+  },
 ];
