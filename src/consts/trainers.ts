@@ -33,13 +33,6 @@ export const TRAINERS = [
     classes: ["Chudnij z Patrycją"],
   },
   {
-    img: "trainer-pawel.jpeg",
-    name: "Paweł Gołębiewski",
-    description:
-      "Magister wychowania fizycznego, trener personalny i trener medyczny, instruktor kulturystyki i pływania; od 2016 roku prowadzi treningi personalne i grupowe, specjalizuje się w treningu siłowym i medycznym, zajmuje się również szkoleniem przyszłych trenerów personalnych oraz organizacją obozów sportowych.",
-    classes: ["Trening obwodowy"],
-  },
-  {
     img: "trainer-ela.png",
     name: "Elżbieta Łabejsza",
     description:
