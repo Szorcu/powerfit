@@ -14,7 +14,7 @@ export const TestimonialsSection = () => {
       <Noise />
 
       <div className="z-1 container py-7 sm:py-20 xl:max-w-7xl">
-        <Carousel className="flex flex-col gap-6">
+        <Carousel className="flex flex-col gap-6" delay={5000}>
           <svg
             width="61"
             height="46"
