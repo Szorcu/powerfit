@@ -14,6 +14,12 @@ const randomInRange = (min: number, max: number) =>
 
 export const BirthdayBalloons = () => {
   useEffect(() => {
+    if (sessionStorage.getItem("birthdayShown")) {
+      return;
+    }
+
+    sessionStorage.setItem("birthdayShown", "1");
+
     const animationEnd = Date.now() + FIREWORKS_DURATION;
 
     const interval = setInterval(() => {
@@ -24,9 +30,18 @@ export const BirthdayBalloons = () => {
         return;
       }
 
-      const particleCount = FIREWORKS_PARTICLE_COUNT * (timeLeft / FIREWORKS_DURATION);
-      confetti({ ...FIREWORKS_DEFAULTS, particleCount, origin: { x: randomInRange(0.1, 0.3), y: Math.random() - 0.2 } });
-      confetti({ ...FIREWORKS_DEFAULTS, particleCount, origin: { x: randomInRange(0.7, 0.9), y: Math.random() - 0.2 } });
+      const particleCount =
+        FIREWORKS_PARTICLE_COUNT * (timeLeft / FIREWORKS_DURATION);
+      confetti({
+        ...FIREWORKS_DEFAULTS,
+        particleCount,
+        origin: { x: randomInRange(0.1, 0.3), y: Math.random() - 0.2 },
+      });
+      confetti({
+        ...FIREWORKS_DEFAULTS,
+        particleCount,
+        origin: { x: randomInRange(0.7, 0.9), y: Math.random() - 0.2 },
+      });
     }, FIREWORKS_INTERVAL);
 
     return () => clearInterval(interval);

@@ -7,7 +7,6 @@ import { Footer } from "@/components/organisms/Footer";
 import { ContactSection } from "@/components/organisms/ContactSection";
 import Image from "next/image";
 import { Toaster } from "@/components/atoms/Sonner";
-import { BirthdayBalloons } from "@/components/atoms/BirthdayBalloons";
 import { TestimonialsSection } from "@/components/organisms/TestimonialsSection";
 import { BASE_URL } from "@/consts/baseUrl";
 import "./globals.css";
@@ -73,7 +72,6 @@ export default function RootLayout({
           debugMode={process.env.NODE_ENV === "development"}
         />
         <Toaster />
-        <BirthdayBalloons />
 
         <main>
           <Navbar />
