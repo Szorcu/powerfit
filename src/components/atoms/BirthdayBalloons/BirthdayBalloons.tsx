@@ -14,12 +14,6 @@ const randomInRange = (min: number, max: number) =>
 
 export const BirthdayBalloons = () => {
   useEffect(() => {
-    if (sessionStorage.getItem("birthdayShown")) {
-      return;
-    }
-
-    sessionStorage.setItem("birthdayShown", "1");
-
     const animationEnd = Date.now() + FIREWORKS_DURATION;
 
     const interval = setInterval(() => {
