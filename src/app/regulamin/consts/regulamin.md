@@ -23,7 +23,7 @@
 6. **3.6.** Zabrania się korzystania ze sprzętu w sposób niezgodny z jego przeznaczeniem.
 7. **3.7.** Na terenie siłowni obowiązuje bezwzględny zakaz spożywania alkoholu, palenia tytoniu, używania e-papierosów oraz wszelkich środków odurzających i substancji psychoaktywnych. Osoby będące pod wpływem alkoholu, narkotyków lub innych środków zmieniających świadomość nie będą dopuszczane do korzystania z obiektu i mogą zostać poproszone o jego natychmiastowe opuszczenie. W przypadku naruszenia niniejszego zakazu siłownia Power Fit zastrzega sobie prawo do cofnięcia karnetu, rozwiązania umowy członkowskiej oraz odmowy ponownego przyjęcia do obiektu.
 8. **3.8.** Zabrania się używania urządzeń elektronicznych w sposób zakłócający pracę siłowni lub komfort innych użytkowników. Słuchawki należy używać w sposób nie przeszkadzający otoczeniu.
-9. **3.9.** Wchodząc na teren siłowni, użytkownik wyraża zgodę na rejestrację obrazu za pomocą systemu monitoringu oraz na wykonanie zdjęcia w celu identyfikacji klubowicza w systemie eFitness, które będzie wykorzystywane wyłącznie przez siłownię Power Fit.
+9. **3.9.** Wchodząc na teren siłowni, użytkownik wyraża zgodę na rejestrację obrazu za pomocą systemu monitoringu oraz na wykonanie zdjęcia w celu identyfikacji klubowicza w systemie eFitness, które będzie wykorzystywane wyłącznie przez siłownię Power Fit w celach bezpieczeństwa.
 
 ## 4. Bezpieczeństwo
 
@@ -43,8 +43,10 @@
 5. **5.5.** Cennik usług dostępny jest w recepcji oraz na social media siłowni.
 6. **5.6.** Karnety nie podlegają zwrotowi, z wyjątkiem przypadków przewidzianych w regulaminie sprzedaży.
 7. **5.7.** Osoba wprowadzająca do siłowni osobę nieposiadającą ważnego karnetu lub próbującą korzystać z obiektu poza godzinami obowiązywania swojego karnetu, traci możliwość korzystania z obiektu. Siłownia zastrzega sobie prawo do czasowego lub stałego zawieszenia karnetu do momentu wyjaśnienia sprawy.
-8. **5.8.** **W przypadku wcześniejszego rozwiązania umowy na czas określony (np. umowa promocyjna podpisywana na 12 miesięcy w cenie 99 zł/miesiąc), klubowicz zobowiązuje się do dopłaty wyrównującej koszt członkostwa do standardowej stawki miesięcznej (zgodnie z aktualnym cennikiem) za każdy miesiąc, z którego skorzystał w ramach umowy. Przykład: Klubowicz podpisał umowę na 12 miesięcy, jednak wypowiedział ją po 3 miesiącach. W takiej sytuacji zobowiązany jest do dopłaty różnicy między ceną promocyjną a standardową ceną karnetu 3-miesięcznego, zgodnie z obowiązującym cennikiem.**
-9. **5.9.** Zasady zawieszenia karnetów:
+8. **5.8.** **W przypadku wcześniejszego rozwiązania Umowy zawartej na czas określony z przyczyn leżących po stronie Klubowicza przed upływem okresu jej obowiązywania, Klubowicz zobowiązany jest do zapłaty kary umownej w wysokości 300 zł w przypadku Umowy 6-miesięcznej oraz 500 zł w przypadku Umowy 12-miesięcznej.**
+9. **5.9.** W przypadku umowy z wydłużonym okresem zobowiązania, w przypadku której upłynął Minimalny Okres Zobowiązania i nastąpiło jej przedłużenie na Czas Nieokreślony zgodnie z paragrafem 2 ust. 3 i 4 Ogólnych warunków Członkostwa Power Fit Spółka z.o.o oraz Klubowicz mogą rozwiązać ją za jednomiesięcznym okresem wypowiedzenia, ze skutkiem na koniec miesiąca.
+10. **5.10.** **W momencie złożenia przez Klubowicza pisemnego oświadczenia woli w zakresie rezygnacji, Klubowicz jest zobowiązany do uregulowania wszelkich zaległych Opłat oraz Opłaty Członkowskiej za Okres Wypowiedzenia.**
+11. **5.11.** Zasady zawieszenia karnetów:
    - **minimalny okres trwania karnetu, który może zostać zawieszony, wynosi 6 miesięcy**
    - pierwsze zawieszenie karnetu o minimalnym okresie trwania jest bezpłatne i może trwać nie więcej niż 30 dni
    - każde kolejne zawieszenie karnetu o minimalnym okresie trwania jest każdorazowo płatne w wysokości 20 zł
@@ -64,7 +66,7 @@
 3. **7.3.** Obowiązuje kultura osobista i szacunek wobec innych użytkowników i personelu.
 4. **7.4.** Zabrania się pozostawiania rzeczy osobistych w szafkach po zakończeniu treningu. Szafki przeznaczone są wyłącznie do użytku w trakcie pobytu na siłowni. W przypadku naruszenia tego zakazu, siłownia zastrzega sobie prawo do opróżnienia szafki oraz nałożenia kary umownej w wysokości 100 zł.
 5. **7.5.** Siłownia nie ponosi odpowiedzialności za przedmioty pozostawione na terenie obiektu, w tym w szafkach
-6. **7.6.** Rzeczy osobiste nie mogą być pozostawiane na podłodze ani w innych miejscach ogólnodostępnych, z wyjątkiem szafek i wyznaczonych miejsc do przechowywania. W razie naruszenia siłownia może je usunąć bez możliwości roszczeń.
+6. **7.6.** Rzeczy osobiste nie mogą być pozostawiane na podłodze ani w innych miejscach ogólnodostępnych, z wyjątkiem zamkniętych szafek i wyznaczonych miejsc do przechowywania. W razie naruszenia siłownia może je usunąć bez możliwości roszczeń.
 7. **7.7.** Użytkownicy są zobowiązani do dbania o całe wyposażenie siłowni, w tym lustra, sprzęt do treningów (np. hantle, sztangi, maszyny), maty, akcesoria treningowe, stacje do ćwiczeń funkcjonalnych oraz pozostałe elementy wyposażenia, a także o ściany i inne elementy wnętrza obiektu. Użytkownik ponosi pełną odpowiedzialność za wszelkie szkody wyrządzone na terenie siłowni, w tym w wyniku niewłaściwego użycia sprzętu lub wyposażenia. Wszelkie szkody będą skutkowały obowiązkiem naprawy lub pokrycia kosztów wymiany przez sprawcę. W przypadku rażącego zniszczenia sprzętu lub wyposażenia siłowni, użytkownik może zostać natychmiast wyproszony z obiektu, a siłownia zastrzega sobie prawo do obciążenia sprawcy kosztami naprawy lub wymiany uszkodzonych elementów.
 
 ## 8. Postanowienia końcowe
