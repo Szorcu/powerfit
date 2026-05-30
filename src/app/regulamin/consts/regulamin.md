@@ -47,10 +47,10 @@
 9. **5.9.** W przypadku umowy z wydłużonym okresem zobowiązania, w przypadku której upłynął Minimalny Okres Zobowiązania i nastąpiło jej przedłużenie na Czas Nieokreślony zgodnie z paragrafem 2 ust. 3 i 4 Ogólnych warunków Członkostwa Power Fit Spółka z.o.o oraz Klubowicz mogą rozwiązać ją za jednomiesięcznym okresem wypowiedzenia, ze skutkiem na koniec miesiąca.
 10. **5.10.** **W momencie złożenia przez Klubowicza pisemnego oświadczenia woli w zakresie rezygnacji, Klubowicz jest zobowiązany do uregulowania wszelkich zaległych Opłat oraz Opłaty Członkowskiej za Okres Wypowiedzenia.**
 11. **5.11.** Zasady zawieszenia karnetów:
-   - **minimalny okres trwania karnetu, który może zostać zawieszony, wynosi 6 miesięcy**
-   - pierwsze zawieszenie karnetu o minimalnym okresie trwania jest bezpłatne i może trwać nie więcej niż 30 dni
-   - każde kolejne zawieszenie karnetu o minimalnym okresie trwania jest każdorazowo płatne w wysokości 20 zł
-   - W przypadku niezdolności do ćwiczeń potwierdzonej zaświadczeniem lekarskim,istnieje możliwość bezpłatnego zawieszenia karnetu na okres wskazany w tej dokumentacji.
+    - **minimalny okres trwania karnetu, który może zostać zawieszony, wynosi 6 miesięcy**
+    - pierwsze zawieszenie karnetu o minimalnym okresie trwania jest bezpłatne i może trwać nie więcej niż 30 dni
+    - każde kolejne zawieszenie karnetu o minimalnym okresie trwania jest każdorazowo płatne w wysokości 20 zł
+    - W przypadku niezdolności do ćwiczeń potwierdzonej zaświadczeniem lekarskim,istnieje możliwość bezpłatnego zawieszenia karnetu na okres wskazany w tej dokumentacji.
 
 ## 6. Zajęcia grupowe i treningi personalne
 
@@ -65,7 +65,7 @@
 2. **7.2.** Zabrania się wynoszenia sprzętu i wyposażenia siłowni poza jej teren. Naruszenie tego zakazu może skutkować konsekwencjami, w tym nałożeniem kary lub cofnięciem karnetu członkowskiego.
 3. **7.3.** Obowiązuje kultura osobista i szacunek wobec innych użytkowników i personelu.
 4. **7.4.** Zabrania się pozostawiania rzeczy osobistych w szafkach po zakończeniu treningu. Szafki przeznaczone są wyłącznie do użytku w trakcie pobytu na siłowni. W przypadku naruszenia tego zakazu, siłownia zastrzega sobie prawo do opróżnienia szafki oraz nałożenia kary umownej w wysokości 100 zł.
-5. **7.5.** Siłownia nie ponosi odpowiedzialności za przedmioty pozostawione na terenie obiektu, w tym w szafkach
+5. **7.5.** Siłownia nie ponosi odpowiedzialności za przedmioty pozostawione na terenie obiektu, w tym w szafkach.
 6. **7.6.** Rzeczy osobiste nie mogą być pozostawiane na podłodze ani w innych miejscach ogólnodostępnych, z wyjątkiem zamkniętych szafek i wyznaczonych miejsc do przechowywania. W razie naruszenia siłownia może je usunąć bez możliwości roszczeń.
 7. **7.7.** Użytkownicy są zobowiązani do dbania o całe wyposażenie siłowni, w tym lustra, sprzęt do treningów (np. hantle, sztangi, maszyny), maty, akcesoria treningowe, stacje do ćwiczeń funkcjonalnych oraz pozostałe elementy wyposażenia, a także o ściany i inne elementy wnętrza obiektu. Użytkownik ponosi pełną odpowiedzialność za wszelkie szkody wyrządzone na terenie siłowni, w tym w wyniku niewłaściwego użycia sprzętu lub wyposażenia. Wszelkie szkody będą skutkowały obowiązkiem naprawy lub pokrycia kosztów wymiany przez sprawcę. W przypadku rażącego zniszczenia sprzętu lub wyposażenia siłowni, użytkownik może zostać natychmiast wyproszony z obiektu, a siłownia zastrzega sobie prawo do obciążenia sprawcy kosztami naprawy lub wymiany uszkodzonych elementów.
 
