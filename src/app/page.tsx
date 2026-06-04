@@ -1,7 +1,5 @@
 import { Metadata } from "next";
-import { BirthdayBalloons } from "@/components/atoms/BirthdayBalloons";
 import { AboutPreviewSection } from "@/components/organisms/AboutPreviewSection";
-import { BirthdaySection } from "@/components/organisms/BirthdaySection";
 import { ClassesFeaturesSection } from "@/components/organisms/ClassesFeaturesSection";
 import { HeroSection } from "@/components/organisms/HeroSection";
 import { HonoredCardsSection } from "@/components/organisms/HonoredCardsSection";
@@ -21,10 +19,8 @@ export const metadata: Metadata = {
 const HomePage = () => {
   return (
     <>
-      <BirthdayBalloons />
       <HeroSection />
       <AboutPreviewSection />
-      <BirthdaySection />
       <ClassesFeaturesSection />
       <HonoredCardsSection />
       <OurOfferSection />
