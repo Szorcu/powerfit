@@ -34,23 +34,34 @@
 5. **4.5.** Dla bezpieczeństwa i komfortu innych użytkowników zabrania się rzucania sprzętem, krzyczenia oraz wszelkich przejawów agresywnego lub nieodpowiedniego zachowania.
 6. **4.6.** W strefie siłowni zlokalizowanej w piwnicy może przebywać jednocześnie maksymalnie 10 osób.
 
-## 5. Karnety, opłaty, rezygnacja z umowy i członkostwo
+## 5. Karnety, opłaty, rezygnacja z umowy, członkostwo, cesje
 
 1. **5.1.** Wstęp na siłownię możliwy jest po okazaniu karty członkowskiej z ważnym karnetem lub opłaceniu wejścia jednorazowego.
-2. **5.2.** Cena wyrobienia karty członkowskiej wynosi 39 złotych w przypadku karnetów wykupionych na siłowni Power Fit , 29 zł w przypadku karnetów typu BENEFIT, czyt. Multisport, Medicover, Fit Sport, Fit Profit, PZU.
-3. **5.3.** Karnet oraz karta członkowska jest imienna i nie może być przekazywana innym osobom.
+2. **5.2.** Cena wyrobienia karty członkowskiej wynosi 39 złotych w przypadku karnetów wykupionych na siłowni Power Fit, 29 zł w przypadku karnetów typu BENEFIT, czyt. Multisport, Medicover, Fit Sport, Fit Profit, PZU.
+3. **5.3.** Karnet oraz karta członkowska jest imienna i nie może być przekazywana innym osobom. **Dopuszcza się przeniesienie praw i obowiązków wynikających z umowy członkowskiej (cesję karnetu) wyłącznie za zgodą Power Fit oraz po spełnieniu warunków określonych w niniejszym regulaminie:**
+   - **I.** Klubowicz może dokonać cesji aktywnego karnetu na inną osobę po uzyskaniu zgody Power Fit. Warunkiem dokonania cesji jest brak jakichkolwiek zaległości finansowych wobec Power Fit. Opłata za dokonanie cesji wynosi 49 zł i jest płatna przed jej realizacją. Osoba przejmująca karnet zobowiązana jest do zaakceptowania obowiązującego regulaminu oraz wypełnienia i podpisania formularza cesji dostępnego w recepcji Power Fit. Cesja nie powoduje zmiany okresu obowiązywania karnetu ani jego warunków.
+   - **II.** Cesja jest możliwa tylko i wyłącznie w przypadku umów o minimalnym czasie trwania - tj. 6 miesięcy.
+   - **III.** Power Fit może odmówić dokonania cesji w przypadku zaległości płatniczych Klubowicza, naruszenia regulaminu lub innych ważnych przyczyn organizacyjnych.
+   - **IV.** W przypadku, gdy osoba przejmująca karnet w drodze cesji nie posiada karty członkowskiej Power Fit, zobowiązana jest do jej wyrobienia zgodnie z obowiązującym cennikiem.
+   - **V.** Warunkiem dokonania cesji jest:
+     - a) brak jakichkolwiek zaległości finansowych po stronie dotychczasowego Klubowicza wobec Power Fit Spółka z o.o.;
+     - b) osobista obecność dotychczasowego Klubowicza oraz osoby przejmującej karnet w Klubie;
+     - c) podpisanie przez obie strony dokumentu cesji;
+     - d) podanie przez cesjonariusza wymaganych danych oraz założenie przez niego konta Klubowicza;
+     - e) zapoznanie się i akceptacja przez cesjonariusza aktualnego Regulaminu Klubu oraz warunków korzystania z usług;
+     - f) uiszczenie opłaty za dokonanie cesji w wysokości 49 zł.
+   - **VI.** Cesja danego karnetu może zostać dokonana wyłącznie jeden raz w okresie obowiązywania danej umowy.
 4. **5.4.** Utrata karty członkowskiej wiąże się z koniecznością opłaty za wydanie duplikatu. Cena wydania duplikatu to 20 zł.
 5. **5.5.** Cennik usług dostępny jest w recepcji oraz na social media siłowni.
 6. **5.6.** Karnety nie podlegają zwrotowi, z wyjątkiem przypadków przewidzianych w regulaminie sprzedaży.
 7. **5.7.** Osoba wprowadzająca do siłowni osobę nieposiadającą ważnego karnetu lub próbującą korzystać z obiektu poza godzinami obowiązywania swojego karnetu, traci możliwość korzystania z obiektu. Siłownia zastrzega sobie prawo do czasowego lub stałego zawieszenia karnetu do momentu wyjaśnienia sprawy.
-8. **5.8.** **W przypadku wcześniejszego rozwiązania Umowy zawartej na czas określony z przyczyn leżących po stronie Klubowicza przed upływem okresu jej obowiązywania, Klubowicz zobowiązany jest do zapłaty kary umownej w wysokości 300 zł w przypadku Umowy 6-miesięcznej oraz 500 zł w przypadku Umowy 12-miesięcznej.**
+8. **5.8.** W przypadku wcześniejszego rozwiązania Umowy zawartej na czas określony z przyczyn leżących po stronie Klubowicza przed upływem okresu jej obowiązywania, Klubowicz zobowiązany jest do zapłaty kary umownej w wysokości 300 zł w przypadku Umowy 6-miesięcznej oraz 500 zł w przypadku Umowy 12-miesięcznej.
 9. **5.9.** W przypadku umowy z wydłużonym okresem zobowiązania, w przypadku której upłynął Minimalny Okres Zobowiązania i nastąpiło jej przedłużenie na Czas Nieokreślony zgodnie z paragrafem 2 ust. 3 i 4 Ogólnych warunków Członkostwa Power Fit Spółka z.o.o oraz Klubowicz mogą rozwiązać ją za jednomiesięcznym okresem wypowiedzenia, ze skutkiem na koniec miesiąca.
-10. **5.10.** **W momencie złożenia przez Klubowicza pisemnego oświadczenia woli w zakresie rezygnacji, Klubowicz jest zobowiązany do uregulowania wszelkich zaległych Opłat oraz Opłaty Członkowskiej za Okres Wypowiedzenia.**
-11. **5.11.** Zasady zawieszenia karnetów:
-    - **minimalny okres trwania karnetu, który może zostać zawieszony, wynosi 6 miesięcy**
-    - pierwsze zawieszenie karnetu o minimalnym okresie trwania jest bezpłatne i może trwać nie więcej niż 30 dni
-    - każde kolejne zawieszenie karnetu o minimalnym okresie trwania jest każdorazowo płatne w wysokości 20 zł
-    - W przypadku niezdolności do ćwiczeń potwierdzonej zaświadczeniem lekarskim,istnieje możliwość bezpłatnego zawieszenia karnetu na okres wskazany w tej dokumentacji.
+10. **5.10.** W momencie złożenia przez Klubowicza pisemnego oświadczenia woli w zakresie rezygnacji, Klubowicz jest zobowiązany do uregulowania wszelkich zaległych Opłat oraz Opłaty Członkowskiej za Okres Wypowiedzenia.
+11. **5.11.** Zasady zawieszenia karnetów i umów:
+    - **I.** Zawieszenie karnetu lub umowy jest dostępne dla umów zawartych na minimalny okres 6 miesięcy.
+    - **II.** Pierwsze zawieszenie karnetu o minimalnym okresie trwania jest bezpłatne i może trwać nie więcej niż 30 dni.
+    - **III.** Każde kolejne zawieszenie karnetu, **niezależnie od przyczyny zawieszenia**, na minimalny okres określony w regulaminie, podlega każdorazowo opłacie w wysokości 20 zł.
 
 ## 6. Zajęcia grupowe i treningi personalne
 
@@ -71,7 +82,7 @@
 
 ## 8. Postanowienia końcowe
 
-1. **8.1.** Siłownia Power Fit zastrzega sobie prawo do wprowadzania zmian w regulaminie.
-2. **8.2.** W przypadku notorycznego lub rażącego naruszania postanowień niniejszego regulaminu, siłownia zastrzega sobie prawo do natychmiastowego wyproszenia użytkownika z obiektu oraz jednostronnego rozwiązania umowy/karnetu członkowskiego bez prawa do zwrotu kosztów i bez możliwości ponownego zawarcia umowy. Decyzja w tym zakresie należy wyłącznie do zarządu siłowni i jest ostateczna, nie podlega procedurze odwoławczej.
+1. **8.1.** Power Fit może dokonywać zmian Regulaminu z ważnych przyczyn, w szczególności w przypadku zmiany obowiązujących przepisów prawa, zmiany zakresu lub sposobu świadczenia usług, względów bezpieczeństwa lub konieczności dostosowania Regulaminu do funkcjonowania Klubu.
+2. **8.2.** W przypadku notorycznego lub rażącego naruszania postanowień niniejszego regulaminu, siłownia zastrzega sobie prawo do natychmiastowego wyproszenia użytkownika z obiektu oraz jednostronnego rozwiązania umowy/karnetu członkowskiego bez prawa do zwrotu kosztów i bez możliwości ponownego zawarcia umowy. Decyzja w tym zakresie należy wyłącznie do zarządu siłowni i jest ostateczna.
 3. **8.3.** Reklamacje można zgłaszać pisemnie w recepcji lub mailowo na adres kontaktowy recepcja.powerfit@gmail.com lub powerfit.kontakt@gmail.com.
 4. **8.4.** W sprawach nieuregulowanych niniejszym regulaminem mają zastosowanie przepisy Kodeksu Cywilnego.
