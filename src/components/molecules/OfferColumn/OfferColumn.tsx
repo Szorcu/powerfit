@@ -35,7 +35,8 @@ export const OfferColumn = ({ title, items, redirectTo }: OfferColumnProps) => {
           <Button className="w-fit" asChild>
             <Link href={redirectTo}>Zobacz wszystkie</Link>
           </Button>
-          <CarouselButtons />
+
+          {items.length > 1 && <CarouselButtons />}
         </div>
       </Carousel>
     </div>

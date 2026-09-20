@@ -1,23 +1,5 @@
 export const SERVICES = [
   {
-    img: "services-solarium.jpg",
-    title: "Solarium",
-    summary:
-      "Solarium to sprawdzony sposób na piękną, równomierną opaleniznę przez cały rok. Kilka minut wystarczy, aby nadać skórze zdrowy, złocisty odcień i poczuć się lepiej we własnym ciele.",
-    description: `☀️ SOLARIUM – słońce, kolor, pewność siebie ☀️
-
-      Solarium to sprawdzony sposób na piękną, równomierną opaleniznę przez cały rok. Kilka minut wystarczy, aby nadać skórze zdrowy, złocisty odcień i poczuć się lepiej we własnym ciele. 😎
-
-      Nowoczesne lampy zapewniają komfort, bezpieczeństwo i efekt, który widać już po pierwszych sesjach. Idealne rozwiązanie przed wakacjami, ważnym wyjściem lub po prostu wtedy, gdy chcesz wyglądać świeżo i promiennie.
-
-      ☀️ Efekt?
-      ✅ naturalna opalenizna, tańsza niż wakacje na Malediwach 🏝️
-      ✅ poprawa wyglądu skóry ⛱️
-      ✅ lepsze samopoczucie i pewność siebie ✨
-    `,
-    duration: "4 zł/min • 180 zł/50 min",
-  },
-  {
     img: "classes-rozciaganie-rollowanie.jpg",
     title: "Rollmasaż",
     summary:
