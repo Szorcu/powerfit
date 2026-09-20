@@ -349,26 +349,6 @@ export const CLASSES = [
     duration: "60 min",
   },
   {
-    img: "classes-turbo-spalanie.jpg",
-    title: "Turbo spalanie",
-    summary:
-      "Turbo Spalanie to trening, który wyciśnie z Ciebie maksimum energii i przyspieszy proces odchudzania! Intensywne ćwiczenia interwałowe w połączeniu z dynamicznymi ruchami sprawią, że Twoje ciało stanie się maszyną do spalania tłuszczu.",
-    description: `🔥 TURBO SPALANIE – pokonaj tłuszcz i zwiększ swoją moc! 🔥
-
-      Chcesz rozpalić metabolizm, spalić kalorie i uzyskać formę, o jakiej marzysz? Turbo Spalanie to trening, który wyciśnie z Ciebie maksimum energii i przyspieszy proces odchudzania! Intensywne ćwiczenia interwałowe w połączeniu z dynamicznymi ruchami sprawią, że Twoje ciało stanie się maszyną do spalania tłuszczu. To trening dla osób, które chcą szybko zobaczyć efekty, poprawić kondycję i poczuć się silniejsze!
-
-      💥 Co zyskasz?
-      ✅ Ekstremalne spalanie kalorii – turbo intensywność i szybkie interwały sprawiają, że każda minuta to prawdziwy kaloryczny pogromca! 🔥
-      ✅ Redukcję tkanki tłuszczowej – skuteczne połączenie ćwiczeń angażujących całe ciało przyspieszy proces odchudzania, dając Ci smukłą sylwetkę! 💪
-      ✅ Wzrost wydolności i siły – po każdym treningu poczujesz, jak Twoje ciało staje się silniejsze, bardziej sprawne i gotowe na nowe wyzwania! 💥
-      ✅ Zastrzyk energii – po tych zajęciach poczujesz się pełna energii, gotowa do podjęcia każdego wyzwania, które staje na Twojej drodze! ⚡
-      
-      Turbo Spalanie to trening, który zmienia grę. Przekroczysz granice swojej wytrzymałości, spalisz tłuszcz i osiągniesz niesamowite efekty, których nigdy wcześniej nie doświadczałaś! Z każdym krokiem będziesz czuć, jak zbliżasz się do swojej wymarzonej sylwetki. Przyszedł czas na prawdziwą transformację – dołącz do nas i sprawdź, jak zmienia się Twoje ciało! 🌟
-    `,
-    intensity: 4,
-    duration: "60 min",
-  },
-  {
     img: "classes-rozciaganie-rollowanie.jpg",
     title: "Rollowanie - Rozciąganie",
     summary:
@@ -470,27 +450,6 @@ export const CLASSES = [
     duration: "60 min",
   },
   {
-    img: "classes-chudnij-z-patrycja.jpg",
-    title: "Power Training",
-    summary:
-      "Power Training to intensywny trening funkcjonalny, który aktywizuje całe ciało i stawia na maksymalną efektywność. To połączenie ćwiczeń siłowych, wytrzymałościowych i ogólnorozwojowych, wykonywanych na wysokiej intensywności — z wykorzystaniem zarówno masy własnego ciała, jak i różnorodnych przyborów (hantle, kettlebells, taśmy, piłki, stepy i wiele więcej). ",
-    description: `🔥 POWER TRAINING - maksimum mocy, zero nudy, efekt murowany 🔥      
-
-      Power Training to intensywny trening funkcjonalny, który aktywizuje całe ciało i stawia na maksymalną efektywność. To połączenie ćwiczeń siłowych, wytrzymałościowych i ogólnorozwojowych, wykonywanych na wysokiej intensywności — z wykorzystaniem zarówno masy własnego ciała, jak i różnorodnych przyborów (hantle, kettlebells, taśmy, piłki, stepy i wiele więcej).
-
-      💥 Spalaj kalorie jeszcze długo po treningu
-      💪 Buduj siłę, popraw kondycję i wytrzymałość
-      ⚡ Poczuj przypływ energii i pewności siebie
-      🔥 Idealny dla tych, którzy lubią wyzwania i nie uznają półśrodków
-
-      Nie ważne, czy trenujesz od lat, czy dopiero zaczynasz — Power Training dostosowuje się do Twojego poziomu. Jedno jest pewne: będzie intensywnie, różnorodnie i… zajebiście skutecznie.
-
-      Gotowy na Power? Wejdź na wyższy poziom!
-    `,
-    intensity: 3,
-    duration: "60 min",
-  },
-  {
     img: "classes-joga-slow-flow.jpg",
     title: "Joga",
     summary:
@@ -572,33 +531,6 @@ export const CLASSES = [
     duration: "60 min",
   },
   {
-    img: "classes-full-body-workout.jpg",
-    title: "Obwodowy Power",
-    summary:
-      "Szukasz zajęć, które dadzą Ci energię na cały dzień, podkręcą metabolizm, wycisną pot, ale jednocześnie zostawią Cię z uśmiechem? Wskakuj na Obwodowy Power – to trening dla KAŻDEGO, kto chce poczuć, że naprawdę pracuje nad sobą. ",
-    description: `🔥 OBWODOWY POWER Z KRYSTIANEM – trening, który robi robotę! 🔥
-
-      Szukasz zajęć, które dadzą Ci energię na cały dzień, podkręcą metabolizm, wycisną pot, ale jednocześnie zostawią Cię z uśmiechem? Wskakuj na Obwodowy Power – to trening dla KAŻDEGO, kto chce poczuć, że naprawdę pracuje nad sobą.
-
-      Tu nie ma nudy, nie ma monotonii i nie ma „nie dam rady”.
-      Tu jest moc, tempo, zabawa i prawdziwa satysfakcja.
-
-      💥 Trening dla każdego poziomu – dopiero zaczynasz? Wejdź w swoje tempo. Ćwiczysz regularnie? Przygotuj się na ogień.
-      💥 Stacje treningowe, które angażują całe ciało – ramiona, nogi, brzuch, kondycję… wszystko zrobione!
-      💥 Różnorodny sprzęt i pełno trików od Krystiana, które sprawią, że poczujesz mięśnie, o których istnieniu zapomniałeś.
-      💥 Atmosfera Power Fit Białystok, w której nawet najbardziej wymagający trening staje się czystą przyjemnością.
-      💥 Prowadzący, który motywuje lepiej niż poranna kawa – Krystian zadba, żebyś dał z siebie dokładnie tyle, ile możesz.
-
-      To trening, po którym wychodzisz zmęczony…
-      …ale dumny, nabuzowany i gotowy podbić cały tydzień.
-
-      ⚡ Obwodowy Power – jeśli szukasz zajęć, które naprawdę działają, właśnie je znalazłeś.
-      Widzimy się na sali 💪🔥
-    `,
-    intensity: 3,
-    duration: "60 min",
-  },
-  {
     img: "classes-joga-slow-flow.jpg",
     title: "Somatic Joga",
     summary:
@@ -651,34 +583,8 @@ export const CLASSES = [
     duration: "60 min",
   },
   {
-    img: "classes-trening-funkcjonalny.jpg",
-    title: "Trening funkcjonalny",
-    summary:
-      "To trening, który łączy siłę, dynamikę i funkcjonalny ruch. Wymachy, wykroki, przysiady, elementy mobilności i wzmacniania całego ciała — wszystko w rytmie, który daje kopa do działania.",
-    description: `🔥 TRENING FUNKCJONALNY – moc, sprawność i pełna kontrola nad ciałem 🔥
-
-      Trening funkcjonalny to zajęcia, które rozwijają siłę, stabilizację, mobilność i kondycję w najbardziej naturalny i praktyczny sposób. Tu każde ćwiczenie ma znaczenie — pracujesz tak, jak porusza się Twoje ciało na co dzień, dzięki czemu stajesz się sprawniejszy, bardziej skoordynowany i silniejszy w realnych sytuacjach.
-      
-      Na zajęciach czeka Cię:
-      - praca całego ciała w różnych płaszczyznach ruchu,
-      - ćwiczenia poprawiające równowagę i kontrolę nad mięśniami,
-      - elementy siłowe, kondycyjne i stabilizacyjne,
-      - wykorzystanie hantli, kettli, gum, piłek oraz ciężaru własnego ciała.
-
-      To intensywny, ale bezpieczny trening, który:
-      - wzmacnia core i poprawia postawę,
-      - zwiększa wydolność i wytrzymałość,
-      - pomaga spalać kalorie,
-      - buduje sprawność, którą czuć na co dzień — przy pracy, treningu i zwykłych czynnościach.
-
-      Jeśli chcesz ruchu, który naprawdę działa, czujesz energię od początku do końca i wychodzisz z sali mocniejszy — trening funkcjonalny jest dla Ciebie. 🔥💪
-    `,
-    intensity: 3,
-    duration: "60 min",
-  },
-  {
     img: "classes-rozciaganie-rollowanie.jpg",
-    title: "Loaded Stretching",
+    title: "Rozciąganie z obciążeniem",
     summary:
       "Loaded Stretching to przełomowy trening, który łączy pracę nad elastycznością z wykorzystaniem dodatkowego obciążenia. To nie jest zwykły stretching – to budowanie mobilności, która realnie przekłada się na Twoją sprawność i siłę!",
     description: `🏋️‍♂️ LOADED STRETCHING – siła spotyka elastyczność! 🏋️‍♂️ 
