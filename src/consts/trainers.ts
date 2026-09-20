@@ -19,7 +19,7 @@ export const TRAINERS = [
     ],
   },
   {
-    img: "trainer-piotr.jpeg",
+    img: "trainer-piotr.png",
     name: "Piotr Sidun",
     description:
       "Fizjoterapeuta oraz trener medyczny z międzynarodowym certyfikatem MTT; prowadzi medyczne treningi personalne, zajęcia fitness, masaże, terapię manualną oraz akupunkturę, zajmuje się także analizą wyników badań diagnostycznych i laboratoryjnych.",
@@ -57,28 +57,28 @@ export const TRAINERS = [
     classes: ["Step cardio"],
   },
   {
-    img: "trainer-alan.jpeg",
+    img: "trainer-alan.png",
     name: "Alan Ahmad",
     description:
       "Trener personalny z wieloletnim doświadczeniem; specjalizuje się w treningach siłowych, eksplozywnościowych i wytrzymałościowych, prowadzi treningi ukierunkowane na kompleksowy rozwój sprawności fizycznej, z naciskiem na poprawną technikę, bezpieczeństwo oraz progres, pracując z osobami o zróżnicowanych celach i poziomie zaawansowania.",
     classes: ["Superhero training"],
   },
   {
-    img: "trainer-asia.jpeg",
+    img: "trainer-asia.png",
     name: "Joanna Przydacz",
     description:
       "Instruktorka pilatesu z 2-letnim doświadczeniem; prowadzi zajęcia pilates, łącząc elementy kontroli ruchu, stabilizacji i płynności, pracuje z grupami o zróżnicowanym poziomie zaawansowania.",
     classes: ["Pilates"],
   },
   {
-    img: "trainer-lukasz.jpeg",
+    img: "trainer-lukasz.png",
     name: "Łukasz Grodzki",
     description:
       "Trener specjalizujący się w treningu siłowym i wytrzymałościowym; posiada wieloletnie doświadczenie w pracy trenerskiej, prowadzi zajęcia grupowe i treningi personalne, a wcześniej trenował judo i bierze udział w zawodach biegowych.",
     classes: ["Full body workout", "Power Training"],
   },
   {
-    img: "trainer-dominika.jpeg",
+    img: "trainer-dominika.png",
     name: "Dominika Olszewska",
     description:
       "Instruktorka fitness, trener personalny z 5-letnim doświadczeniem oraz dyplomowany trener medyczny; prowadzi treningi wytrzymałościowo-wydolnościowe z elementami mobilności i rozciągania.",
