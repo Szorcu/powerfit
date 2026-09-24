@@ -7,20 +7,6 @@ export const TRAINERS = [
     classes: ["Stretching zdrowego kręgosłupa"],
   },
   {
-    img: "trainer-anna.png",
-    name: "Anna Sulewska",
-    description:
-      "Instruktorka fitness oraz trenerka personalna; prowadzi zajęcia ukierunkowane na redukcję tkanki tłuszczowej i poprawę kondycji, oraz treningi personalne z naciskiem na naukę prawidłowych wzorców ruchowych.",
-    classes: ["Step cardio"],
-  },
-  {
-    img: "trainer-lukasz.png",
-    name: "Łukasz Grodzki",
-    description:
-      "Trener specjalizujący się w treningu siłowym i wytrzymałościowym; posiada wieloletnie doświadczenie w pracy trenerskiej, prowadzi zajęcia grupowe i treningi personalne, a wcześniej trenował judo i bierze udział w zawodach biegowych.",
-    classes: ["Full body workout", "Power Training"],
-  },
-  {
     img: "trainer-dominika.png",
     name: "Dominika Olszewska",
     description:
@@ -34,6 +20,13 @@ export const TRAINERS = [
       "Siła i progres",
       "Turbo spalanie",
     ],
+  },
+  {
+    img: "trainer-lukasz.png",
+    name: "Łukasz Grodzki",
+    description:
+      "Trener specjalizujący się w treningu siłowym i wytrzymałościowym; posiada wieloletnie doświadczenie w pracy trenerskiej, prowadzi zajęcia grupowe i treningi personalne, a wcześniej trenował judo i bierze udział w zawodach biegowych.",
+    classes: ["Full body workout", "Power Training"],
   },
   {
     img: "trainer-patrycja.png",
@@ -64,6 +57,13 @@ export const TRAINERS = [
     ],
   },
   {
+    img: "trainer-krystian.png",
+    name: "Krystian Krupiński",
+    description:
+      "Trener personalny oraz trener dyżurny odpowiedzialny za pomoc ćwiczącym i nadzór nad porządkiem na siłowni; magister wychowania fizycznego, certyfikowany trener personalny, specjalizuje się w trójboju siłowym, treningach siłowych, zajęciach fitness oraz treningach obwodowych, posiada doświadczenie jako zawodnik i medalista sportów sylwetkowych oraz prowadzi treningi ukierunkowane na rozwój siły, poprawę sylwetki i redukcję tkanki tłuszczowej.",
+    classes: ["Obwodowy Power"],
+  },
+  {
     img: "trainer-asia.png",
     name: "Joanna Przydacz",
     description:
@@ -71,11 +71,11 @@ export const TRAINERS = [
     classes: ["Pilates"],
   },
   {
-    img: "trainer-krystian.png",
-    name: "Krystian Krupiński",
+    img: "trainer-alan.png",
+    name: "Alan Ahmad",
     description:
-      "Trener personalny oraz trener dyżurny odpowiedzialny za pomoc ćwiczącym i nadzór nad porządkiem na siłowni; magister wychowania fizycznego, certyfikowany trener personalny, specjalizuje się w trójboju siłowym, treningach siłowych, zajęciach fitness oraz treningach obwodowych, posiada doświadczenie jako zawodnik i medalista sportów sylwetkowych oraz prowadzi treningi ukierunkowane na rozwój siły, poprawę sylwetki i redukcję tkanki tłuszczowej.",
-    classes: ["Obwodowy Power"],
+      "Trener personalny z wieloletnim doświadczeniem; specjalizuje się w treningach siłowych, eksplozywnościowych i wytrzymałościowych, prowadzi treningi ukierunkowane na kompleksowy rozwój sprawności fizycznej, z naciskiem na poprawną technikę, bezpieczeństwo oraz progres, pracując z osobami o zróżnicowanych celach i poziomie zaawansowania.",
+    classes: ["Superhero training"],
   },
   {
     img: "trainer-ela.png",
@@ -93,12 +93,5 @@ export const TRAINERS = [
       "Yin joga",
       "Zdrowy kręgosłup",
     ],
-  },
-  {
-    img: "trainer-alan.png",
-    name: "Alan Ahmad",
-    description:
-      "Trener personalny z wieloletnim doświadczeniem; specjalizuje się w treningach siłowych, eksplozywnościowych i wytrzymałościowych, prowadzi treningi ukierunkowane na kompleksowy rozwój sprawności fizycznej, z naciskiem na poprawną technikę, bezpieczeństwo oraz progres, pracując z osobami o zróżnicowanych celach i poziomie zaawansowania.",
-    classes: ["Superhero training"],
   },
 ];
