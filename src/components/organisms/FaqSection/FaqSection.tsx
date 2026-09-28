@@ -16,7 +16,19 @@ export const FaqSection = () => {
           {FAQ.map((item) => (
             <AccordionItem key={item.id} value={item.id}>
               <AccordionTrigger>{item.question}</AccordionTrigger>
-              <AccordionContent>{item.answer}</AccordionContent>
+              <AccordionContent className="text-muted-foreground flex flex-col gap-3">
+                {item.answer.map((block, index) =>
+                  Array.isArray(block) ? (
+                    <ul key={index} className="list-disc pl-5">
+                      {block.map((listItem) => (
+                        <li key={listItem}>{listItem}</li>
+                      ))}
+                    </ul>
+                  ) : (
+                    <p key={index}>{block}</p>
+                  ),
+                )}
+              </AccordionContent>
             </AccordionItem>
           ))}
         </Accordion>
