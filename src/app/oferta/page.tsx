@@ -29,7 +29,7 @@ const OfferPage = () => {
             {CLASSES.map((item, index) => (
               <li key={index}>
                 <OfferCard
-                  className="border bg-white shadow-sm"
+                  className="h-full border bg-white shadow-sm"
                   img={item.img}
                   title={item.title}
                   summary={item.summary}

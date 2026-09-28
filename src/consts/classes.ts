@@ -45,26 +45,6 @@ export const CLASSES = [
     duration: "60 min",
   },
   {
-    img: "classes-total-fitness-sila-i-wytrzymalosc.jpg",
-    title: "Total fitness siła i wytrzymałość",
-    summary:
-      "To trening, który wyciągnie z Ciebie maksimum możliwości, zmotywuje Cię do przełamywania barier i pozwoli poczuć, że możesz wszystko. Wysokiej intensywności ćwiczenia oparte na różnych technikach dają Ci efekty, które naprawdę widać i czujesz. ",
-    description: `💥 TOTAL FITNESS: SIŁA I WYTRZYMAŁOŚĆ – nie ma granic, jestem mocny 💥
-
-      Jeśli chcesz poczuć prawdziwą siłę, zmienić swoje ciało i wyjść z treningu z poczuciem, że pokonałeś samego siebie, Total Fitness: Siła i Wytrzymałość jest dla Ciebie. To trening, który wyciągnie z Ciebie maksimum możliwości, zmotywuje Cię do przełamywania barier i pozwoli poczuć, że możesz wszystko. Wysokiej intensywności ćwiczenia oparte na różnych technikach dają Ci efekty, które naprawdę widać i czujesz.
-
-      🔥 Co zyskasz?
-      ✅ Niesamowitą siłę – każda seria to wyzwanie dla Twojego ciała, które z każdym ruchem staje się silniejsze 💪
-      ✅ Wytrzymałość, która nie ma sobie równych – poznasz, co to znaczy iść dalej, mimo że wydaje się, że nie dasz już rady 🏋️‍♀️
-      ✅ Formę, o której marzysz – spalaj tłuszcz, buduj mięśnie, rzeźbij sylwetkę, która będzie mówić sama za siebie 🌟
-      ✅ Potężną motywację – osiągniesz więcej, niż kiedykolwiek sobie wyobrażałeś, a każde pokonanie siebie będzie Twoim zwycięstwem 🚀
-
-      Total Fitness: Siła i Wytrzymałość to coś, czego nie znajdziesz w zwykłych treningach. To test Twojej siły, woli i determinacji, który sprawi, że przekroczysz granice tego, co uważasz za możliwe. Gotowy, by stać się wersją siebie, o której zawsze marzyłeś? Przyjdź i poczuj, jak z każdą minutą stajesz się silniejszy!
-    `,
-    intensity: 4,
-    duration: "60 min",
-  },
-  {
     img: "classes-pilates.jpg",
     title: "Pilates",
     summary:
@@ -101,29 +81,6 @@ export const CLASSES = [
     duration: "60 min",
   },
   {
-    img: "classes-trening-obwodowy.jpg",
-    title: "Trening obwodowy",
-    summary:
-      "Chcesz poczuć, że Twoje ciało może więcej? Trening obwodowy to połączenie siły, szybkości i wytrzymałości, które sprawi, że będziesz czuł się silniejszy, pełen energii i gotowy na wszystko! ",
-    description: `🔥 TRENING OBWODOWY – przełam granice, pokaż swoją moc! 🔥
-
-      Chcesz poczuć, że Twoje ciało może więcej? Trening obwodowy to połączenie siły, szybkości i wytrzymałości, które sprawi, że będziesz czuł się silniejszy, pełen energii i gotowy na wszystko! To intensywny program, w którym wykonujesz serię różnorodnych ćwiczeń, angażujących całe ciało. Każdy obwód to zestaw ćwiczeń siłowych, kardio i wytrzymałościowych, które prowadzą Cię do najlepszej formy i do wymarzonych rezultatów.
-
-      💥 O czym są te zajęcia?
-      Te zajęcia to dynamiczna mieszanka ćwiczeń siłowych i kardio, które przeplatane są krótkimi przerwami. Trening wykonujesz w obwodach, czyli przechodzisz od jednego ćwiczenia do drugiego, angażując wszystkie partie ciała. Dzięki temu nie ma czasu na nudę, a efekty są szybkie i spektakularne! Obwody są zmieniane, dostosowane do poziomu zaawansowania i pozwalają na stały rozwój w każdym zakresie.
-
-      ✅ Co Ci to da?
-      • Wzrost siły i wytrzymałości – nie tylko zyskasz siłę mięśni, ale również wytrzymałość, która pozwoli Ci radzić sobie w każdych warunkach!
-      • Szybka poprawa kondycji – wzmocnisz układ sercowo-naczyniowy i poprawisz ogólną wydolność organizmu.
-      • Redukcja tkanki tłuszczowej – dzięki intensywnym interwałom, spalisz tłuszcz i poprawisz swoją sylwetkę.
-      • Zwiększenie energii i motywacji – treningi, które dosłownie dają Ci kopa i sprawiają, że czujesz się pełen energii!
-
-      Trening obwodowy to prawdziwa maszyna do zmian! Intensywność ćwiczeń sprawia, że nie ma czasu na nudę. Z każdym powtórzeniem przekraczasz granice swoich możliwości, a Twoje ciało zaczyna się przekształcać. Przyszedł czas na maksymalne wyzwanie, które poprowadzi Cię do lepszej formy, lepszej energii i lepszej wersji siebie! 🔥
-    `,
-    intensity: 4,
-    duration: "60 min",
-  },
-  {
     img: "classes-sexy-body.jpg",
     title: "Sexy body",
     summary:
@@ -140,7 +97,7 @@ export const CLASSES = [
 
       Roksana poprowadzi Cię przez trening, który wzmocni Twoje ciało i pewność siebie. Przyjdź, daj z siebie wszystko i zobacz efekty! 💪🔥
     `,
-    intensity: 4,
+    intensity: 3,
     duration: "60 min",
   },
   {
@@ -329,26 +286,6 @@ export const CLASSES = [
     duration: "60 min",
   },
   {
-    img: "classes-step-cardio.jpg",
-    title: "Step Cardio",
-    summary:
-      "To intensywny program, który opiera się na rytmicznych krokach na stepie, które nie tylko poprawią Twoją kondycję, ale także wzmocnią nogi, pośladki i core. Każdy krok to nowa porcja energii, spalonych kalorii i uśmiechów na Twojej twarzy!",
-    description: `🔥 STEP CARDIO – rusz się, poczuj rytm i spalaj kalorie! 🔥
-
-      Jeśli chcesz połączyć dynamiczny ruch, świetną zabawę i efektywny trening cardio – Step Cardio to zajęcia stworzone specjalnie dla Ciebie! To intensywny program, który opiera się na rytmicznych krokach na stepie, które nie tylko poprawią Twoją kondycję, ale także wzmocnią nogi, pośladki i core. Każdy krok to nowa porcja energii, spalonych kalorii i uśmiechów na Twojej twarzy! Gotowa na prawdziwą przygodę fitnessową, która daje efekty?
-
-      💥 Co zyskasz?
-      ✅ Poprawę kondycji i wydolności – dzięki intensywnym interwałom cardio, Twoje serce i układ oddechowy będą pracować na najwyższych obrotach! 💓
-      ✅ Spalanie kalorii i redukcję tkanki tłuszczowej – dynamiczne kroki na stepie skutecznie przyspieszają metabolizm, spalając tłuszcz i poprawiając sylwetkę! 🔥
-      ✅ Wzmocnienie nóg, pośladków i core – krok po kroku Twoje nogi staną się mocniejsze, a pośladki uniesione i jędrne! 🍑
-      ✅ Endorfiny na maxa – te zajęcia to nie tylko trening, to także doskonała zabawa, która sprawi, że zakochasz się w ruchu i poczujesz się fantastycznie!
-      
-      Step Cardio to idealne połączenie efektywności, rytmu i motywacji. Każdy ruch to nowe wyzwanie, ale i ogromna satysfakcja z osiąganych wyników. Połączenie fitnessu z muzyką sprawi, że treningi będą nie tylko skuteczne, ale także pełne energii i radości! Przyszedł czas na to, by wprowadzić swój trening na wyższy poziom i zobaczyć, jak świetnie może wyglądać Twoje ciało! 🌟
-    `,
-    intensity: 3,
-    duration: "60 min",
-  },
-  {
     img: "classes-rozciaganie-rollowanie.jpg",
     title: "Rollowanie - Rozciąganie",
     summary:
@@ -410,9 +347,9 @@ export const CLASSES = [
   },
   {
     img: "classes-full-body-workout.jpg",
-    title: "Full Body Workout",
+    title: "Full body workout",
     summary:
-      "Full Body Workout to trening, który angażuje każdą partię ciała, dostarczając Ci potężnej dawki energii, siły i wytrzymałości! To intensywny, pełny zestaw ćwiczeń, który pozwoli Ci spalić kalorie, wyrzeźbić mięśnie i poprawić kondycję w jednym!",
+      "Full body workout to trening, który angażuje każdą partię ciała, dostarczając Ci potężnej dawki energii, siły i wytrzymałości! To intensywny, pełny zestaw ćwiczeń, który pozwoli Ci spalić kalorie, wyrzeźbić mięśnie i poprawić kondycję w jednym!",
     description: `🔥 FULL BODY WORKOUT – kompleksowy trening, który zmieni Twoje ciało! 🔥
 
       Chcesz maksymalnych efektów w krótkim czasie? Full Body Workout to trening, który angażuje każdą partię ciała, dostarczając Ci potężnej dawki energii, siły i wytrzymałości! To intensywny, pełny zestaw ćwiczeń, który pozwoli Ci spalić kalorie, wyrzeźbić mięśnie i poprawić kondycję w jednym! Jeśli szukasz treningu, który zapewni Ci szybkie efekty i pełną aktywację ciała – to zajęcia stworzone właśnie dla Ciebie!
@@ -424,9 +361,9 @@ export const CLASSES = [
       ✅ Rzeźbienie sylwetki – dzięki angażującym ćwiczeniom na każdą partię ciała, wyrzeźbisz swoje mięśnie, nadając im jędrność i kształt. 🍑
       ✅ Bez nudy i monotonii – zmieniające się ćwiczenia sprawiają, że każdy trening jest pełen wyzwań, motywacji i radości! 🎉
       
-      Full Body Workout to najlepszy sposób, by maksymalnie wykorzystać swój czas i osiągnąć efekty, o jakich marzysz. Angażując wszystkie grupy mięśniowe, ten trening sprawi, że Twoje ciało stanie się silniejsze, bardziej elastyczne i gotowe na każde wyzwanie! Przyszedł czas na trening, który da Ci wszystko – sprawdź, jak szybkie rezultaty mogą być osiągalne! 🌟
+      Full body workout to najlepszy sposób, by maksymalnie wykorzystać swój czas i osiągnąć efekty, o jakich marzysz. Angażując wszystkie grupy mięśniowe, ten trening sprawi, że Twoje ciało stanie się silniejsze, bardziej elastyczne i gotowe na każde wyzwanie! Przyszedł czas na trening, który da Ci wszystko – sprawdź, jak szybkie rezultaty mogą być osiągalne! 🌟
     `,
-    intensity: 4,
+    intensity: 3,
     duration: "60 min",
   },
   {
@@ -599,7 +536,7 @@ export const CLASSES = [
 
       Loaded Stretching to idealne zajęcia dla osób aktywnych, sportowców oraz każdego, kto chce poczuć się silnym w każdym centymetrze swojego ciała. Nie ograniczaj się – odblokuj swój pełny potencjał ruchowy i poczuj różnicę już po pierwszym treningu! 🌟
     `,
-    intensity: 2,
+    intensity: 1,
     duration: "60 min",
   },
   {
@@ -619,5 +556,171 @@ export const CLASSES = [
     `,
     intensity: 3,
     duration: "60 min",
+  },
+  {
+    img: "classes-sexy-body.jpg",
+    title: "Brzuch, uda, pośladki",
+    summary:
+      "To zajęcia, które połączą maksymalną skuteczność z prawdziwą przyjemnością! Skierowane na te trzy kluczowe partie ciała, nasze ćwiczenia sprawią, że Twoje pośladki staną się zaokrąglone, uda smukłe, a brzuch płaski i jędrny.",
+    description: `🔥 BRZUCH, UDA, POŚLADKI – odkryj swój potencjał i zrób to z ogniem! 🔥
+
+      Masz dość nudnych treningów, które nie dają efektów? Brzuch, Uda, Pośladki to zajęcia, które połączą maksymalną skuteczność z prawdziwą przyjemnością! Skierowane na te trzy kluczowe partie ciała, nasze ćwiczenia sprawią, że Twoje pośladki staną się zaokrąglone, uda smukłe, a brzuch płaski i jędrny. To intensywny trening, który nie tylko modeluje sylwetkę, ale i angażuje całe ciało, dając Ci energię do działania i sprawiając, że poczujesz się pewna siebie jak nigdy wcześniej.
+
+      💥 Co zyskasz?
+      ✅ Kształtne pośladki – wyrzeźbisz i uniesiesz swoje pośladki, tak, jak zawsze marzyłaś – jędrne, zaokrąglone i pełne energii! 🍑
+      ✅ Smukłe nogi i biodra – trening, który skutecznie modeluje uda, pomagając spalić tłuszcz i budować mięśnie, dzięki czemu Twoje nogi będą wyglądać jak z okładki!
+      ✅ Płaski i silny brzuch – nie tylko spalisz tłuszcz, ale także wzmocnisz mięśnie core, co pomoże Ci lepiej kontrolować swoje ciało i poprawić postawę 💪
+      ✅ Większa pewność siebie – każda seria to krok do wymarzonej sylwetki, a efekty wkrótce sprawią, że poczujesz się silniejsza, pewniejsza siebie i gotowa na nowe wyzwania! ✨
+
+      Brzuch, Uda, Pośladki to coś więcej niż zwykły trening – to prawdziwa transformacja Twojego ciała i umysłu. Dzięki intensywnym, skutecznym ćwiczeniom już po kilku sesjach zobaczysz realne efekty – jędrne, zaokrąglone pośladki, smukłe nogi i wymodelowany brzuch. Czas wziąć sprawy w swoje ręce i osiągnąć sylwetkę, o której marzysz! Gotowa na zmianę? 🌟
+    `,
+    intensity: 3,
+    duration: "60 min",
+  },
+  {
+    img: "classes-brazylijskie-posladki.jpg",
+    title: "Fitness bikini",
+    summary:
+      "To energiczne i motywujące zajęcia stworzone z myślą o każdym, kto chce poprawić swoją sylwetkę, kondycję i samopoczucie.",
+    description: `🩱 FITNESS BIKINI Z ROKSANĄ 🩱
+
+      Zajęcia dla każdego – bez względu na poziom zaawansowania. Fitness Bikini to energiczne i motywujące zajęcia stworzone z myślą o każdym, kto chce poprawić swoją sylwetkę, kondycję i samopoczucie. Trening prowadzony przez Roksanę łączy ćwiczenia wzmacniające, modelujące i spalające, z naciskiem na pośladki, uda, brzuch i ramiona.
+      
+      Ćwiczenia są dostosowane do różnych poziomów, dlatego zarówno osoby początkujące, jak i bardziej zaawansowane bez problemu odnajdą się na zajęciach. Roksana pokazuje łatwiejsze i trudniejsze warianty, dzięki czemu każdy trenuje w swoim tempie.
+      
+      Dlaczego warto?
+      - zajęcia odpowiednie dla każdego
+      - modelowanie i ujędrnianie sylwetki
+      - spalanie kalorii i poprawa kondycji
+      - wzmacnianie całego ciała
+      - świetna atmosfera i motywacja 💪✨
+      - muzyka, która dodaje energii 💥
+
+      Dołącz do Power Fit i przekonaj się, że Fitness Bikini to trening, w którym każdy może poczuć się dobrze i pewnie 💖
+    `,
+    intensity: 3,
+    duration: "60 min",
+  },
+  {
+    img: "classes-trening-hiit-grupa-zaawansowana.jpg",
+    title: "Full body workout - grupa zaawansowana",
+    summary:
+      "To wysokointensywny program treningowy stworzony z myślą o osobach, które chcą przesunąć granice swoich możliwości. Łączymy tu najskuteczniejsze ćwiczenia siłowe na całe ciało z bezwzględnym, metabolicznym zakończeniem w postaci Tabaty.",
+    description: `🔥 FULL BODY WORKOUT - GRUPA ZAAWANSOWANA 🔥
+
+      Full body workout to wysokointensywny program treningowy stworzony z myślą o osobach, które chcą przesunąć granice swoich możliwości. Łączymy tu najskuteczniejsze ćwiczenia siłowe na całe ciało z bezwzględnym, metabolicznym zakończeniem w postaci Tabaty.
+      
+      Pracujemy na wolnych ciężarach (sztangi, hantle, kettlebells) oraz z masą własnego ciała, zmuszając do maksymalnej pracy każdą taśmę mięśniową.
+    `,
+    intensity: 4,
+    duration: "60 min",
+  },
+  {
+    img: "classes-turbo-spalanie.jpg",
+    title: "Trening interwałowy",
+    summary:
+      "To intensywna forma ruchu, która łączy krótkie okresy maksymalnego wysiłku z chwilami aktywnego odpoczynku. To idealny wybór dla osób, które lubią dynamiczne zajęcia i chcą maksymalnie wykorzystać każdą minutę treningu.",
+    description: `🔥 TRENING INTERWAŁOWY Z DOMINIKĄ 🔥
+
+      Chcesz poprawić kondycję, spalić tłuszcz i poczuć prawdziwy przypływ mocy? Trening interwałowy to intensywna forma ruchu, która łączy krótkie okresy maksymalnego wysiłku z chwilami aktywnego odpoczynku. Dzięki temu Twoje ciało pracuje na najwyższych obrotach, a efekty pojawiają się szybciej, niż się spodziewasz! To idealny wybór dla osób, które lubią dynamiczne zajęcia i chcą maksymalnie wykorzystać każdą minutę treningu.
+
+      💥 Co zyskasz?
+      ✅ Maksymalne spalanie kalorii – krótkie, intensywne interwały sprawiają, że organizm spala kalorie jeszcze długo po zakończeniu treningu! 🔥
+      ✅ Skuteczną redukcję tkanki tłuszczowej – połączenie tempa i różnorodnych ćwiczeń angażuje całe ciało, pomagając wyrzeźbić sylwetkę! 💪
+      ✅ Lepszą kondycję i wydolność – regularne treningi poprawiają pracę serca i płuc, dzięki czemu z dnia na dzień czujesz się coraz silniejsza/y! ⚡
+      ✅ Więcej energii i motywacji – intensywność zajęć daje ogromny zastrzyk endorfin i pozytywnej energii na cały dzień! 💥
+
+      Trening interwałowy to sposób na przełamanie rutyny i wejście na wyższy poziom sprawności. Każda sesja to nowe wyzwanie, które przybliża Cię do lepszej formy i większej pewności siebie. Podejmij wyzwanie i zobacz, jak szybko Twoje ciało zacznie się zmieniać! 🚀
+    `,
+    intensity: 3,
+    duration: "60 min",
+  },
+  {
+    img: "classes-trening-obwodowy.jpg",
+    title: "Trening obwodowy z Patrycją",
+    summary:
+      "To połączenie siły, szybkości i wytrzymałości, które sprawi, że będziesz czuł się silniejszy, pełen energii i gotowy na wszystko! To intensywny program, w którym wykonujesz serię różnorodnych ćwiczeń, angażujących całe ciało.",
+    description: `🔥 TRENING OBWODOWY Z PATRYCJĄ – przełam granice, pokaż swoją moc! 🔥
+
+      Chcesz poczuć, że Twoje ciało może więcej? Trening Obwodowy to połączenie siły, szybkości i wytrzymałości, które sprawi, że będziesz czuł się silniejszy, pełen energii i gotowy na wszystko! To intensywny program, w którym wykonujesz serię różnorodnych ćwiczeń, angażujących całe ciało. Każdy obwód to zestaw ćwiczeń siłowych, kardio i wytrzymałościowych, które prowadzą Cię do najlepszej formy i do wymarzonych rezultatów.
+
+      💥 O czym są te zajęcia?
+      Te zajęcia to dynamiczna mieszanka ćwiczeń siłowych i kardio, które przeplatane są krótkimi przerwami. Trening wykonujesz w obwodach, czyli przechodzisz od jednego ćwiczenia do drugiego, angażując wszystkie partie ciała. Dzięki temu nie ma czasu na nudę, a efekty są szybkie i spektakularne! Obwody są zmieniane, dostosowane do poziomu zaawansowania i pozwalają na stały rozwój w każdym zakresie.
+
+      ✅ Co Ci to da?
+      • Wzrost siły i wytrzymałości – nie tylko zyskasz siłę mięśni, ale również wytrzymałość, która pozwoli Ci radzić sobie w każdych warunkach!
+      • Szybka poprawa kondycji – wzmocnisz układ sercowo-naczyniowy i poprawisz ogólną wydolność organizmu.
+      • Redukcja tkanki tłuszczowej – dzięki intensywnym interwałom, spalisz tłuszcz i poprawisz swoją sylwetkę.
+      • Zwiększenie energii i motywacji – treningi, które dosłownie dają Ci kopa i sprawiają, że czujesz się pełen energii!
+
+      Trening Obwodowy to prawdziwa maszyna do zmian! Intensywność ćwiczeń sprawia, że nie ma czasu na nudę. Z każdym powtórzeniem przekraczasz granice swoich możliwości, a Twoje ciało zaczyna się przekształcać. Przyszedł czas na maksymalne wyzwanie, które poprowadzi Cię do lepszej formy, lepszej energii i lepszej wersji siebie! 🔥
+    `,
+    intensity: 4,
+    duration: "60 min",
+  },
+  {
+    img: "classes-full-body-workout.jpg",
+    title: "Trening ogólnorozwojowy",
+    summary:
+      "Podczas zajęć połączymy ćwiczenia siłowe z elementami cardio, dzięki czemu skutecznie spalisz kalorie, wzmocnisz mięśnie, poprawisz wytrzymałość i zadbasz o swoją sylwetkę.",
+    description: `🔥 TRENING OGÓLNOROZWOJOWY - siła i cardio! 🔥
+
+      Szukasz treningu, który wzmocni całe ciało, poprawi kondycję i doda Ci energii? Ten trening jest właśnie dla Ciebie!
+
+      Podczas zajęć połączymy ćwiczenia siłowe z elementami cardio, dzięki czemu skutecznie spalisz kalorie, wzmocnisz mięśnie, poprawisz wytrzymałość i zadbasz o swoją sylwetkę. Każdy trening angażuje całe ciało, a ćwiczenia są dobierane tak, aby były odpowiednie zarówno dla osób początkujących, jak i bardziej zaawansowanych.
+
+      Z Dominiką czeka Cię:
+      🔥 efektywne spalanie tkanki tłuszczowej,
+      💪 wzmocnienie całego ciała,
+      ❤️ poprawa kondycji i wydolności,
+      ⚡ solidna dawka motywacji i pozytywnej energii,
+      😊 świetna atmosfera i trening, na który będziesz wracać z uśmiechem.
+
+      Nie musisz być w świetnej formie, żeby zacząć – wystarczy chęć do działania! Każde zajęcia to krok bliżej lepszego samopoczucia, większej siły i pewności siebie.
+
+      Dołącz do treningów z Dominiką i przekonaj się, że ruch może być przyjemnością! Razem zadbamy o Twoją formę i dobrą energię. 💥
+    `,
+    intensity: 3,
+    duration: "60 min",
+  },
+  {
+    img: "classes-total-fitness-sila-i-wytrzymalosc.jpg",
+    title: "Trening siłowy",
+    summary:
+      "To zorganizowane zajęcia grupowe ukierunkowane na kształtowanie sylwetki, budowanie siły oraz wzmacnianie całego ciała. Głównymi narzędziami pracy są tutaj sztangi oraz hantle, które pozwalają na idealne dopasowanie obciążenia do Twoich indywidualnych możliwości.",
+    description: `🔥 TRENING SIŁOWY 🔥
+
+      To zorganizowane zajęcia grupowe ukierunkowane na kształtowanie sylwetki, budowanie siły oraz wzmacnianie całego ciała. Głównymi narzędziami pracy są tutaj sztangi oraz hantle, które pozwalają na idealne dopasowanie obciążenia do Twoich indywidualnych możliwości.
+      
+      Podczas treningu skupiamy się na wielostawowych, naturalnych dla ludzkiego ciała ruchach (takich jak przysiady, martwe ciągi, wyciskania czy wiosłowanie). Każde ćwiczenie jest dokładnie tłumaczone przez trenera, który dba o Twoją technikę i bezpieczeństwo.
+      
+      💥 Co zyskasz dzięki tym zajęciom?
+      ✅ jędrne i wyrzeźbione ciało – trening z ciężarami to najlepszy sposób na tzw. rekompozycję sylwetki (spalanie tłuszczu przy jednoczesnym budowaniu mięśni),
+      ✅ podkręcony metabolizm – Twoje ciało spala kalorie jeszcze przez wiele godzin po zakończeniu treningu,
+      ✅ mocne kości i stawy – regularny opór poprawia gęstość kości i wzmacnia aparat ruchu,
+      ✅ więcej siły w życiu codziennym – wnoszenie zakupów na trzecie piętro przestanie być wyzwaniem.
+    `,
+    intensity: 4,
+    duration: "60 min",
+  },
+  {
+    img: "classes-step-cardio.jpg",
+    title: "Zumba",
+    summary:
+      "To nie tylko trening – to impreza, która spala kalorie, poprawia kondycję i wywołuje uśmiech od ucha do ucha! Nie musisz być tancerzem – wystarczy, że dasz się ponieść muzyce i dobrej zabawie!",
+    description: `🔥 ZUMBA – energia, ruch, eksplozja endorfin! 🔥
+
+      Przygotuj się na prawdziwą taneczną petardę! 💃🎶 ZUMBA to nie tylko trening – to impreza, która spala kalorie, poprawia kondycję i wywołuje uśmiech od ucha do ucha! 😍
+
+      🌟 Co zyskasz?
+      ✅ Spalisz setki kalorii, bawiąc się jak na parkiecie 🎉
+      ✅ Wzmocnisz całe ciało i poprawisz kondycję 💪
+      ✅ Poczujesz falę endorfin i pozbędziesz się stresu 😍
+      ✅ Zarazisz się pozytywną energią i latynoskimi rytmami 🔥
+
+      Nie musisz być tancerzem – wystarczy, że dasz się ponieść muzyce i dobrej zabawie! Wskakuj na parkiet i poczuj tę moc! 🚀💃🕺
+    `,
+    intensity: 2,
+    duration: "50 min",
   },
 ];
