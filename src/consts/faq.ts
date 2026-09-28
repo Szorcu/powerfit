@@ -42,7 +42,7 @@ export const FAQ: {
     question: "Jakie są godziny otwarcia siłowni?",
     answer: [
       "Nasz klub jest dostępny dla klubowiczów w godzinach od 4:00 do 00:30, zapewniając możliwość korzystania z infrastruktury w dogodnym dla siebie czasie.",
-      "Osoby korzystające z kart sportowych mogą wejść do klubu wyłącznie w godzinach pracy recepcji, tj. od poniedziałku do piątku w godzinach 7:00–22:00 oraz w weekendy w godzinach 8:00–18:00.",
+      "Osoby korzystające z kart sportowych mogą wejść do klubu wyłącznie w godzinach pracy recepcji, tj. od poniedziałku do piątku w godzinach 7:00–22:00 oraz w weekendy w godzinach 8:00–20:00.",
     ],
   },
   {
