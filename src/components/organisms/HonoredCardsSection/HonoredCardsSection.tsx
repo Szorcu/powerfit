@@ -12,7 +12,7 @@ export const HonoredCardsSection = () => {
           jeszcze więcej możliwości dla Ciebie!
         </h3>
 
-        <div className="relative flex flex-col gap-6 rounded-2xl bg-[#F1F1F1] p-7 pb-0 xl:w-4/6 xl:px-12 xl:py-10 2xl:px-20">
+        <div className="relative flex flex-col gap-6 rounded-2xl bg-gray-100 p-7 pb-0 xl:w-4/6 xl:px-12 xl:py-10 2xl:px-20">
           <p className="xl:max-w-[636px]">
             Honorujemy karty{" "}
             <b>Multisport, PZU, FitProfit, FitSport oraz Medicover Sport</b> -

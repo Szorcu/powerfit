@@ -1,6 +1,7 @@
 import { Metadata } from "next";
 import { AboutPreviewSection } from "@/components/organisms/AboutPreviewSection";
 import { ClassesFeaturesSection } from "@/components/organisms/ClassesFeaturesSection";
+import { FaqSection } from "@/components/organisms/FaqSection";
 import { HeroSection } from "@/components/organisms/HeroSection";
 import { HonoredCardsSection } from "@/components/organisms/HonoredCardsSection";
 import { OurOfferSection } from "@/components/organisms/OurOfferSection";
@@ -26,6 +27,7 @@ const HomePage = () => {
       <OurOfferSection />
       <PricingSection />
       <TrainersCarouselSection />
+      <FaqSection />
     </>
   );
 };
