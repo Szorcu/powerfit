@@ -80,6 +80,20 @@ export const FAQ: {
   },
   {
     id: "item-8",
+    question:
+      "Jakie są zasady rezerwacji, odwoływania i uczestnictwa w zajęciach?",
+    answer: [
+      "Zapisując się na zajęcia grupowe, pamiętaj o kilku zasadach:",
+      [
+        "zapisz się na wybrane zajęcia maksymalnie 6 dni przed ich rozpoczęciem",
+        "jeśli chcesz zrezygnować, wypisz się najpóźniej 2 godziny przed rozpoczęciem zajęć",
+        "możesz być jednocześnie zapisany maksymalnie na 4 zajęcia",
+        "jeśli nie pojawisz się na zajęciach i nie wypiszesz się w wyznaczonym terminie, otrzymasz blokadę zapisów na kolejny tydzień",
+      ],
+    ],
+  },
+  {
+    id: "item-9",
     question: "Jak mogę się z wami skontaktować?",
     answer: [
       "Zapraszamy do kontaktu z naszym klubem! Jesteśmy dostępni dla Was pod numerem telefonu 690 818 690, a także za pośrednictwem naszych kanałów w mediach społecznościowych:",
