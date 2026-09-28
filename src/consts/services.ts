@@ -1,6 +1,6 @@
 export const SERVICES = [
   {
-    img: "classes-rozciaganie-rollowanie.jpg",
+    img: "services-rollmasaz.png",
     title: "Rollmasaż",
     summary:
       "Rollmasaż to nowoczesna forma regeneracji, która realnie wspiera Twoje ciało po treningach i w codziennym funkcjonowaniu. Specjalne rolki masujące w połączeniu z podczerwienią głęboko rozluźniają mięśnie, poprawiają krążenie i przyspieszają regenerację.",
