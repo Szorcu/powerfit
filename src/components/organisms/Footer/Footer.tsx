@@ -113,14 +113,9 @@ export const Footer = () => {
                 </Link>
               </li>
               <li>
-                <a
-                  className="link"
-                  href={ROUTE_PATHS.classSchedule}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
+                <Link className="link" href={ROUTE_PATHS.classSchedule}>
                   grafik zajęć
-                </a>
+                </Link>
               </li>
               <li>
                 <Link className="link" href={ROUTE_PATHS.offer}>
@@ -128,14 +123,9 @@ export const Footer = () => {
                 </Link>
               </li>
               <li>
-                <a
-                  className="link"
-                  href={ROUTE_PATHS.pricing}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
+                <Link className="link" href={ROUTE_PATHS.pricing}>
                   cennik
-                </a>
+                </Link>
               </li>
               <li>
                 <Link className="link" href={ROUTE_PATHS.trainers}>

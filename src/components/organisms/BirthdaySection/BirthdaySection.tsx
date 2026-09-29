@@ -5,6 +5,7 @@ import {
   BIRTHDAY_CONFETTI_DOTS,
   BIRTHDAY_PROMOTIONS,
 } from "./BirthdaySection.consts";
+import Link from "next/link";
 
 export const BirthdaySection = () => {
   return (
@@ -83,13 +84,7 @@ export const BirthdaySection = () => {
           </ul>
 
           <Button asChild className="w-fit">
-            <a
-              href={ROUTE_PATHS.pricing}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Kup karnet
-            </a>
+            <Link href={ROUTE_PATHS.pricing}>Kup karnet</Link>
           </Button>
         </div>
       </div>

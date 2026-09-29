@@ -43,7 +43,7 @@ export const Navbar = () => {
       <div className="container flex items-center justify-between">
         <Link href={ROUTE_PATHS.home}>
           <Image
-            className="h-10 w-auto xl:h-[50px]"
+            className="h-10 w-auto xl:h-12.5"
             src="logo-full.svg"
             alt="Power Fit logo"
             width={170}
@@ -59,14 +59,9 @@ export const Navbar = () => {
               </Link>
             </li>
             <li>
-              <a
-                className="link"
-                href={ROUTE_PATHS.classSchedule}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
+              <Link className="link" href={ROUTE_PATHS.classSchedule}>
                 grafik zajęć
-              </a>
+              </Link>
             </li>
             <li>
               <Link className="link" href={ROUTE_PATHS.offer}>
@@ -74,14 +69,9 @@ export const Navbar = () => {
               </Link>
             </li>
             <li>
-              <a
-                className="link"
-                href={ROUTE_PATHS.pricing}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
+              <Link className="link" href={ROUTE_PATHS.pricing}>
                 cennik
-              </a>
+              </Link>
             </li>
             <li>
               <Link className="link" href={ROUTE_PATHS.trainers}>
@@ -119,14 +109,9 @@ export const Navbar = () => {
                   </li>
                   <li>
                     <SheetClose asChild>
-                      <a
-                        className="link"
-                        href={ROUTE_PATHS.classSchedule}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
+                      <Link className="link" href={ROUTE_PATHS.classSchedule}>
                         grafik zajęć
-                      </a>
+                      </Link>
                     </SheetClose>
                   </li>
                   <li>
@@ -138,14 +123,9 @@ export const Navbar = () => {
                   </li>
                   <li>
                     <SheetClose asChild>
-                      <a
-                        className="link"
-                        href={ROUTE_PATHS.pricing}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
+                      <Link className="link" href={ROUTE_PATHS.pricing}>
                         cennik
-                      </a>
+                      </Link>
                     </SheetClose>
                   </li>
                   <li>

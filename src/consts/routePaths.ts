@@ -5,9 +5,7 @@ export const ROUTE_PATHS = {
   trainers: "trenerzy",
   termsAndConditions: "regulamin",
   privacyPolicy: "polityka-prywatnosci",
+  classSchedule: "grafik",
+  pricing: "cennik",
   sitemap: "sitemap.xml",
-
-  classSchedule:
-    "https://powerfit-bialystok.cms.efitness.com.pl/kalendarz-zajec",
-  pricing: "https://powerfit-bialystok.cms.efitness.com.pl/kup-karnet",
 } as const;

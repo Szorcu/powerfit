@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { Button } from "@/components/atoms/Button";
 import { Card, CardContent, CardHeader } from "@/components/atoms/Card";
 import { PRICING_CARDS } from "./PricingSection.consts";
@@ -11,13 +12,7 @@ export const PricingSection = () => {
           <h2 className="max-w-80">Sprawdź nasze karnety</h2>
 
           <Button asChild className="w-fit">
-            <a
-              href={ROUTE_PATHS.pricing}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Zobacz cennik
-            </a>
+            <Link href={ROUTE_PATHS.pricing}>Zobacz cennik</Link>
           </Button>
         </div>
         <div className="flex flex-col gap-4">

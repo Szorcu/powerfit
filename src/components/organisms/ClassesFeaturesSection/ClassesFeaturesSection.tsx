@@ -2,6 +2,7 @@ import { Button } from "@/components/atoms/Button";
 import { Card, CardContent, CardHeader } from "@/components/atoms/Card";
 import { ROUTE_PATHS } from "@/consts/routePaths";
 import { Award, Calendar, Clock, Users } from "lucide-react";
+import Link from "next/link";
 
 const FEATURES = [
   {
@@ -69,13 +70,7 @@ export const ClassesFeaturesSection = () => {
           </div>
 
           <Button asChild>
-            <a
-              href={ROUTE_PATHS.classSchedule}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Zapisz się na zajęcia
-            </a>
+            <Link href={ROUTE_PATHS.classSchedule}>Zapisz się na zajęcia</Link>
           </Button>
         </div>
       </div>

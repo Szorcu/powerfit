@@ -1,6 +1,7 @@
 import { Button } from "@/components/atoms/Button";
 import { ROUTE_PATHS } from "@/consts/routePaths";
 import Image from "next/image";
+import Link from "next/link";
 
 export const HonoredCardsSection = () => {
   return (
@@ -13,7 +14,7 @@ export const HonoredCardsSection = () => {
         </h3>
 
         <div className="relative flex flex-col gap-6 rounded-2xl bg-gray-100 p-7 pb-0 xl:w-4/6 xl:px-12 xl:py-10 2xl:px-20">
-          <p className="xl:max-w-[636px]">
+          <p className="xl:max-w-159">
             Honorujemy karty{" "}
             <b>Multisport, PZU, FitProfit, FitSport oraz Medicover Sport</b> -
             ale wyłącznie w połączeniu z naszą kartą członkowską. Dzięki temu
@@ -23,13 +24,7 @@ export const HonoredCardsSection = () => {
           </p>
 
           <Button className="w-fit" asChild>
-            <a
-              href={ROUTE_PATHS.pricing}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Kup karnet
-            </a>
+            <Link href={ROUTE_PATHS.pricing}>Kup karnet</Link>
           </Button>
 
           <div className="mt-12 xl:absolute xl:-right-32 xl:bottom-0 2xl:-right-36">

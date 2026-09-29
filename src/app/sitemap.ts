@@ -21,6 +21,18 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.8,
     },
     {
+      url: buildUrl(ROUTE_PATHS.classSchedule),
+      lastModified,
+      changeFrequency: "weekly",
+      priority: 0.8,
+    },
+    {
+      url: buildUrl(ROUTE_PATHS.pricing),
+      lastModified,
+      changeFrequency: "monthly",
+      priority: 0.8,
+    },
+    {
       url: buildUrl(ROUTE_PATHS.aboutUs),
       lastModified,
       changeFrequency: "monthly",

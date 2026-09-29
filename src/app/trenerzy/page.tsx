@@ -15,7 +15,12 @@ export const metadata: Metadata = {
 const TrainersPage = () => {
   return (
     <>
-      <PageHeader title="Nasi trenerzy" crumbLabel="Trenerzy" />
+      <PageHeader
+        title="Nasi trenerzy"
+        crumbLabel="Trenerzy"
+        bgImageSrc="page-header-2.jpg"
+      />
+
       <section className="flex w-full justify-center">
         <div className="container py-7 sm:py-20">
           <ul className="grid gap-6 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">

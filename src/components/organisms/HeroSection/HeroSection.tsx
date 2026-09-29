@@ -1,5 +1,6 @@
 import { Button } from "@/components/atoms/Button";
 import { ROUTE_PATHS } from "@/consts/routePaths";
+import Link from "next/link";
 
 export const HeroSection = () => {
   return (
@@ -22,13 +23,7 @@ export const HeroSection = () => {
           </h1>
 
           <Button className="w-fit" asChild>
-            <a
-              href={ROUTE_PATHS.pricing}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Kup karnet
-            </a>
+            <Link href={ROUTE_PATHS.pricing}>Kup karnet</Link>
           </Button>
         </div>
       </div>
