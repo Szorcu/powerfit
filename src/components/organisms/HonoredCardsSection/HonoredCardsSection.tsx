@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import { Button } from "@/components/atoms/Button";
 import { ROUTE_PATHS } from "@/consts/routePaths";
 
@@ -23,13 +24,9 @@ export const HonoredCardsSection = () => {
           </p>
 
           <Button className="w-fit" asChild>
-            <a
-              href={ROUTE_PATHS.buyMembership}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Kup karnet
-            </a>
+            <Link href={`${ROUTE_PATHS.pricing}#karty-partnerskie`}>
+              Zobacz szczegóły
+            </Link>
           </Button>
 
           <div className="mt-12 xl:absolute xl:-right-32 xl:bottom-0 2xl:-right-36">

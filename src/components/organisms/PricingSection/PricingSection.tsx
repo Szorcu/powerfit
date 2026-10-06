@@ -19,12 +19,12 @@ export const PricingSection = () => {
           <ul className="grid gap-5 lg:grid-cols-2">
             {PRICING_CARDS.map((card, index) => (
               <li key={index}>
-                <Card className="group border-border/50 hover:bg-primary/5 hover:border-primary/50 h-full gap-8 shadow-none transition-all duration-500">
+                <Card className="border-border/50 hover:bg-primary/5 hover:border-primary/50 h-full gap-8 shadow-none transition-all duration-500">
                   <CardHeader>
                     <h3 className="text-xl">{card.title}</h3>
                   </CardHeader>
                   <CardContent className="flex flex-col gap-8">
-                    <p className="font-zalando group-hover:text-primary text-4xl font-semibold text-[#C3C3C3] transition-all duration-300">
+                    <p className="font-zalando text-secondary text-4xl font-semibold">
                       {card.price}
                     </p>
                     <div>
