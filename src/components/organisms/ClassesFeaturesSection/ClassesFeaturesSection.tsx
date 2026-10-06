@@ -6,16 +6,16 @@ import Link from "next/link";
 
 const FEATURES = [
   {
-    Icon: Calendar,
-    title: "40+",
-    subtitle: "zajęć tygodniowo",
-    description: "Joga, fitness, pilates i wiele więcej",
-  },
-  {
     Icon: Clock,
     title: "Codziennie",
     subtitle: "elastyczne godziny",
     description: "Każdy znajdzie czas, który mu odpowiada",
+  },
+  {
+    Icon: Calendar,
+    title: "Różnorodnie",
+    subtitle: "Ponad 40 zajęć tygodniowo",
+    description: "Joga, fitness, pilates i wiele więcej",
   },
   {
     Icon: Users,
