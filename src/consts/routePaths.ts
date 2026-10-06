@@ -8,4 +8,6 @@ export const ROUTE_PATHS = {
   classSchedule: "grafik",
   pricing: "cennik",
   sitemap: "sitemap.xml",
+
+  buyMembership: "https://powerfit-bialystok.cms.efitness.com.pl/kup-karnet",
 } as const;
