@@ -26,7 +26,7 @@ const PricingPage = () => {
   return (
     <>
       <PageHeader
-        title="Cennik karnetów"
+        title="Cennik klubu"
         crumbLabel="Cennik"
         bgImageSrc="page-header-1.jpg"
       />
