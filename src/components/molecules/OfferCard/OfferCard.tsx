@@ -35,7 +35,13 @@ export const OfferCard = ({
       )}
     >
       <CardHeader className="relative aspect-5/3 shrink-0">
-        <ExportedImage src={img} alt={title} fill className="object-cover" />
+        <ExportedImage
+          src={img}
+          alt={title}
+          fill
+          sizes="(min-width: 1280px) 33vw, (min-width: 1024px) 50vw, 100vw"
+          className="object-cover"
+        />
       </CardHeader>
       <CardContent className="flex flex-col gap-2">
         <h3 className="line-clamp-1 text-xl">{title}</h3>

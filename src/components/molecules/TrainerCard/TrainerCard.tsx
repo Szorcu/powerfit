@@ -33,6 +33,7 @@ export const TrainerCard = ({
           src={img}
           alt={name}
           fill
+          sizes="(min-width: 1280px) 25vw, (min-width: 1024px) 33vw, (min-width: 768px) 50vw, 100vw"
           itemProp="image"
         />
         <div className="absolute inset-0 bg-linear-to-t from-black/60 via-black/20 to-transparent" />
