@@ -1,6 +1,6 @@
 "use client";
 
-import Image from "next/image";
+import ExportedImage from "next-image-export-optimizer";
 import { TrainerCardProps } from "./TrainerCard.types";
 import { useMediaQuery } from "@/hooks/useMediaQuery";
 import { useState } from "react";
@@ -28,7 +28,7 @@ export const TrainerCard = ({
       onMouseLeave={() => !isTouchLike && setShowOverlay(false)}
     >
       <div className="absolute inset-0">
-        <Image
+        <ExportedImage
           className="object-cover"
           src={img}
           alt={name}

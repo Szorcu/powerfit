@@ -1,7 +1,7 @@
 "use client";
 
 import clsx from "clsx";
-import Image from "next/image";
+import ExportedImage from "next-image-export-optimizer";
 import {
   Card,
   CardContent,
@@ -35,7 +35,7 @@ export const OfferCard = ({
       )}
     >
       <CardHeader className="relative aspect-5/3 shrink-0">
-        <Image src={img} alt={title} fill className="object-cover" />
+        <ExportedImage src={img} alt={title} fill className="object-cover" />
       </CardHeader>
       <CardContent className="flex flex-col gap-2">
         <h3 className="line-clamp-1 text-xl">{title}</h3>

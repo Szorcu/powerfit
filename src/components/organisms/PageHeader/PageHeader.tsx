@@ -1,4 +1,4 @@
-import Image from "next/image";
+import ExportedImage from "next-image-export-optimizer";
 import { PageHeaderProps } from "./PageHeader.types";
 import {
   BreadcrumbItem,
@@ -19,7 +19,7 @@ export const PageHeader = ({
   return (
     <section className="relative h-[40svh] min-h-96">
       <div className="absolute right-0 h-full w-[60%]">
-        <Image
+        <ExportedImage
           className="object-cover object-top"
           src={bgImageSrc ?? "page-header-1.jpg"}
           alt=""

@@ -1,4 +1,4 @@
-import Image from "next/image";
+import ExportedImage from "next-image-export-optimizer";
 import Link from "next/link";
 import { Button } from "@/components/atoms/Button";
 import { ROUTE_PATHS } from "@/consts/routePaths";
@@ -31,14 +31,14 @@ export const HonoredCardsSection = () => {
 
           <div className="mt-12 xl:absolute xl:-right-32 xl:bottom-0 2xl:-right-36">
             <div className="relative z-10">
-              <Image
+              <ExportedImage
                 className="h-auto max-w-1/2 sm:max-w-none"
                 src="girl.png"
                 alt=""
                 width={250}
                 height={300}
               />
-              <Image
+              <ExportedImage
                 className="absolute -top-10 left-8 z-[-1] max-w-5/6 xl:-right-[110%] xl:max-w-none"
                 src="logo-mark-1.svg"
                 alt=""

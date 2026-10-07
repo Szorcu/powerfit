@@ -1,5 +1,5 @@
 import { Noise } from "@/components/atoms/Noise";
-import Image from "next/image";
+import ExportedImage from "next-image-export-optimizer";
 
 export const OurHistorySection = () => {
   return (
@@ -17,11 +17,12 @@ export const OurHistorySection = () => {
 
         <div className="isolate z-1 grid justify-items-center lg:grid-cols-[1fr_1fr] lg:justify-items-normal xl:grid-cols-[3fr_2fr]">
           <div className="relative container -mt-8 aspect-video max-w-none lg:-mt-16 lg:aspect-auto lg:p-0">
-            <Image
+            <ExportedImage
               src="our-history.jpg"
               alt=""
-              width={100}
-              height={100}
+              width={4096}
+              height={2734}
+              sizes="(min-width: 1280px) 60vw, (min-width: 1024px) 50vw, 100vw"
               className="h-full w-full rounded-2xl object-cover lg:rounded-tl-none lg:rounded-bl-none"
             />
           </div>

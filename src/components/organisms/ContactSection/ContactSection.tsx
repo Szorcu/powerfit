@@ -1,5 +1,5 @@
 import { ContactForm } from "@/components/molecules/ContactForm";
-import Image from "next/image";
+import ExportedImage from "next-image-export-optimizer";
 
 export const ContactSection = () => {
   return (
@@ -24,12 +24,13 @@ export const ContactSection = () => {
             >
               ul. Harcerska 7, 15-345 Białystok
             </a>
-            <Image
+            <ExportedImage
               className="mt-2 w-full rounded-sm"
               src="location.png"
               alt="Zdjęcie budynku Power Fit"
-              width={300}
-              height={200}
+              width={1360}
+              height={1020}
+              sizes="(min-width: 1024px) 40vw, 100vw"
             />
           </div>
           <div className="flex flex-col gap-1">

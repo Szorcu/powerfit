@@ -1,5 +1,5 @@
 import { ROUTE_PATHS } from "@/consts/routePaths";
-import Image from "next/image";
+import ExportedImage from "next-image-export-optimizer";
 import Link from "next/link";
 
 export const Footer = () => {
@@ -7,7 +7,7 @@ export const Footer = () => {
     <footer className="z-10 flex w-full flex-col items-center gap-8 text-white lg:gap-16">
       <div className="container flex flex-col gap-12 sm:flex-row md:gap-20 lg:gap-28 xl:gap-44">
         <div className="flex flex-col gap-4 sm:gap-6 lg:flex-row lg:items-start lg:gap-16 xl:gap-24 2xl:gap-44">
-          <Image
+          <ExportedImage
             className="w-full max-w-56 shrink-0 2xl:max-w-72"
             src="logo-full.svg"
             alt="Power Fit logo"

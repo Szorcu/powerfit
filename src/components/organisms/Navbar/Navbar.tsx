@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from "react";
 import { Button } from "@/components/atoms/Button";
-import Image from "next/image";
+import ExportedImage from "next-image-export-optimizer";
 import Link from "next/link";
 import { cn } from "@/lib/utils";
 import { Menu } from "lucide-react";
@@ -42,7 +42,7 @@ export const Navbar = () => {
     >
       <div className="container flex items-center justify-between">
         <Link href={ROUTE_PATHS.home}>
-          <Image
+          <ExportedImage
             className="h-10 w-auto xl:h-12.5"
             src="logo-full.svg"
             alt="Power Fit logo"

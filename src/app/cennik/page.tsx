@@ -1,5 +1,5 @@
 import { Metadata } from "next";
-import Image from "next/image";
+import ExportedImage from "next-image-export-optimizer";
 import { Snowflake } from "lucide-react";
 import { Button } from "@/components/atoms/Button";
 import { Card, CardContent, CardHeader } from "@/components/atoms/Card";
@@ -38,7 +38,7 @@ const PricingPage = () => {
         <Noise />
 
         <div className="relative z-1 container py-7 sm:py-20">
-          <Image
+          <ExportedImage
             className="pointer-events-none absolute top-8 right-0 hidden h-[100%] w-auto brightness-0 invert xl:block 2xl:right-20 2xl:h-[110%]"
             src="logo-mark-1.svg"
             alt=""
